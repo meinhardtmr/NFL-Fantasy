@@ -1,12 +1,9 @@
 Attribute VB_Name = "NFLButtons"
 Private conn As New Connection
 Sub getConnection()
-Dim wb As Workbook
-
-Set wb = Workbooks("Tier.xlsm")
 
 conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-          "Data Source=" & wb.FullName & ";" & _
+          "Data Source=" & ActiveWorkbook.FullName & ";" & _
           "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
 
 End Sub
@@ -41,13 +38,13 @@ Dim r
 Dim d As New Scripting.Dictionary
 Dim rs As New Recordset
 Dim cmd As New Command
-Dim param As parameter
+Dim param As ADODB.parameter
 Dim MVP As String
 Dim include As String
 Dim exclude As String
 Dim includeNum As Long
 Dim excludeNum As Long
-Dim recCount As Long
+'Dim recCount As Long
 Dim arr
 
 Set wb = ActiveWorkbook
@@ -55,6 +52,20 @@ Set ws = Worksheets("Search")
 ws.Range("F2").Activate
 
 Call getConnection
+
+'Create Dictionary
+SQL = "SELECT [PPTS], [Position] " & _
+      "FROM [Search$] " & _
+      "WHERE [PPTS] IS NOT NULL"
+
+rs.Open SQL, conn
+
+Do While Not rs.EOF
+    d(rs.fields("Position").Value) = Round(rs.fields("PPTS").Value, 1)
+    rs.MoveNext
+Loop
+
+rs.Close
 
 SQL = "SELECT [Position], [MVP], [Include], [Exclude] " & _
       "FROM [Search$]"
@@ -123,7 +134,7 @@ If Len(include) > 0 Then
                      "iif(instr(?,p3_pos)>0,1,0) + " & _
                      "iif(instr(?,p4_pos)>0,1,0) + " & _
                      "iif(instr(?,p5_pos)>0,1,0) + " & _
-                     "iif(instr(?,p6_pos)>0,1,0) = " & flexNum
+                     "iif(instr(?,p6_pos)>0,1,0) = " & includeNum
     Set param = cmd.CreateParameter("", adVarChar, adParamInput, 50, include)
     cmd.Parameters.Append param
     Set param = cmd.CreateParameter("", adVarChar, adParamInput, 50, include)
@@ -163,46 +174,33 @@ cmd.CommandText = SQL
 rs.CursorLocation = adUseClient
 
 rs.Open cmd
-recCount = rs.RecordCount
 arr = rs.GetRows
-ReDim arrPrint(recCount + 1, rs.fields.Count - 1)
+ReDim arrPrint(UBound(arr, 2), UBound(arr))
 
-For i = 0 To recCount
-    For j = 0 To UBound(arrPrint, 2)
+For i = 0 To UBound(arr, 2)
+    For j = 0 To UBound(arr)
         arrPrint(i, j) = arr(j, i)
     Next
+    arrPrint(i, 15) = d(arrPrint(i, 5)) * 1.5 + d(arrPrint(i, 6)) + d(arrPrint(i, 7)) + d(arrPrint(i, 8)) + d(arrPrint(i, 9)) + d(arrPrint(i, 10))
 Next
 
-'If collPrint.Count = 0 Then
-'    Sheets("Search").Range("E2:AA" & Sheets("Search").Cells(Rows.Count, 1).End(xlDown).row).Clear
-'Else
-'    ReDim arrPrint(1 To collPrint.Count, 22)
-'    For i = 1 To collPrint.Count
-'        strArr = Split(collPrint(i), "_")
-'
-'        For j = 0 To UBound(strArr)
-'            arrPrint(i, j) = strArr(j)
-'        Next j
-'
-'    Next i
-'
-'    If Sheets("Search").FilterMode Then Sheets("Search").ShowAllData
-'    Sheets("Search").Range("E2:AA" & Sheets("Search").Cells(Rows.Count, 1).End(xlDown).row).Clear
-'    'Sheets("Search").Range("E2:AA" & UBound(arrPrint) + 1).Value = arrPrint
+If UBound(arrPrint) > 0 Then
+    If Sheets("Search").FilterMode Then Sheets("Search").ShowAllData
+    Sheets("Search").Range("F2:AA" & Sheets("Search").Cells(Rows.Count, 1).End(xlDown).row).Clear
     Sheets("Search").Range("F2").Resize(UBound(arrPrint), UBound(arrPrint, 2) + 1).Value = arrPrint
-'
-'    Sheets("Search").Range("A1").CurrentRegion.EntireColumn.AutoFit
-'    freezeTopPane activeWindow
-'    If Worksheets("Search").AutoFilterMode = False Then Sheets("Search").Range("C1").AutoFilter
-'
+
+    Sheets("Search").Range("A1").CurrentRegion.EntireColumn.AutoFit
+    freezeTopPane activeWindow
+    If Worksheets("Search").AutoFilterMode = False Then Sheets("Search").Range("C1").AutoFilter
+
     'Sort Worksheet
-'    With Worksheets("Search")
-'        .Sort.SortFields.Clear
-'        .Range("E2:AA" & UBound(arrPrint)).Sort Key1:=.Cells(1, 20), _
-'                                                Order1:=xlDescending, _'
-'                                                header:=xlNo'
-'    End With
-'End If
+    With Worksheets("Search")
+        .Sort.SortFields.Clear
+        .Range("F2:AA" & UBound(arrPrint)).Sort Key1:=.Cells(1, 21), _
+                                                Order1:=xlDescending, _
+                                                header:=xlNo '
+    End With
+End If
 
 'ActiveWorkbook.Save
 conn.Close
