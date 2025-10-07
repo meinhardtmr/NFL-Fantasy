@@ -1093,7 +1093,7 @@ For i = 1 To 5
     If arr(i, 11) = team Then teamCnt(0) = teamCnt(0) + 1
                 
     For j = i + 1 To UBound(arr)
-        key(1) = arr(i, 18)
+        key(1) = arr(j, 18)
         teamCnt(1) = 0
         id(1) = arr(j, 1) & ":" & arr(j, 4)
         salary(1) = arr(j, 8)
