@@ -1,5 +1,13 @@
 Attribute VB_Name = "NFL"
 Option Explicit
+Private conn As New Connection
+Sub getConnection()
+
+conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
+          "Data Source=" & ActiveWorkbook.FullName & ";" & _
+          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
+
+End Sub
 Private Sub freezeTopPane(activeWindow As Window)
     With activeWindow 'ActiveWindow
         .FreezePanes = False
@@ -77,13 +85,13 @@ Else
     Set wb = Workbooks.Open(ActiveWorkbook.path & "\" & fileName)
 End If
 
-'createFanduel wb
-'createStats wb
-'createTier wb
+createFanduel wb
+createStats wb
+createTier wb
 createSearch wb
-'createMatrix wb
-'createRandomLineup wb
-'createEventProcedure wb
+createMatrix
+createRandomLineup wb
+createEventProcedure wb
 
 With Worksheets("Search")
     .Activate
@@ -137,7 +145,7 @@ With ws
 End With
 
 ws.Range("A1:W" & ws.Cells(Rows.Count, 1).End(xlDown).row).Clear
-createHeaders wb, ws.Name
+createHeaders ws.Name
 
 'getPlayerArray
 SQL = "SELECT * " & _
@@ -209,11 +217,14 @@ Set rs = Nothing
 Set conn = Nothing
 
 End Sub
-Private Sub createMatrix(wb As Workbook)
+Private Sub createMatrix()
 'Dim wb As Workbook
 Dim ws As Worksheet
+Dim rs As New Recordset
+Dim SQL As String
 Dim arr
 Dim i As Long
+Dim j As Long
 
 Set ws = Worksheets(2)
 With ws
@@ -221,42 +232,55 @@ With ws
     .Name = "Matrix"
 End With
 
-createHeaders wb, ws.Name
-ws.Range("A2:K" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
+createHeaders ws.Name
+ws.Range("A2:L" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
-arr = wb.Worksheets("Search").Range("B1:B" & wb.Worksheets("Search").Cells(Rows.Count, 1).End(xlUp).row).Value
+getConnection
+
+SQL = "SELECT [Nickname], [Position]&':'&[Team] " & _
+      "FROM [FanDuel$] " & _
+      "WHERE [Tier] = 1 " & _
+      "ORDER BY [Salary] DESC"
+
+rs.Open SQL, conn
+'arr = wb.Worksheets("Search").Range("B1:B" & wb.Worksheets("Search").Cells(Rows.Count, 1).End(xlUp).row).Value
+arr = Application.Transpose(rs.GetRows)
+ReDim Preserve arr(1 To 18, 1 To 9)
 
 With ws
     'Set player matrix
     'createHeaders wb, ws.Name
-    For i = 2 To UBound(arr)
-        .Cells(i, 1).Value = arr(i, 1)
-        .Cells(i, 2).Formula = "=COUNTIFS(Tier!F:F,$A$" & i & ",Tier!$L:$L,1)"
-        .Cells(i, 3).Formula = "=COUNTIFS(Tier!G:G,$A$" & i & ",Tier!$L:$L,1)"
-        .Cells(i, 4).Formula = "=COUNTIFS(Tier!H:H,$A$" & i & ",Tier!$L:$L,1)"
-        .Cells(i, 5).Formula = "=COUNTIFS(Tier!I:I,$A$" & i & ",Tier!$L:$L,1)"
-        .Cells(i, 6).Formula = "=COUNTIFS(Tier!J:J,$A$" & i & ",Tier!$L:$L,1)"
-        .Cells(i, 7).Formula = "=COUNTIFS(Tier!K:K,$A$" & i & ",Tier!$L:$L,1)"
-        .Cells(i, 8).Formula = "=SUM(B" & i & ":G" & i & ")"
+    For i = 1 To UBound(arr)
+        arr(i, 3) = "=COUNTIFS(Tier!F:F,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
+        arr(i, 4) = "=COUNTIFS(Tier!G:G,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
+        arr(i, 5) = "=COUNTIFS(Tier!H:H,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
+        arr(i, 6) = "=COUNTIFS(Tier!I:I,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
+        arr(i, 7) = "=COUNTIFS(Tier!J:J,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
+        arr(i, 8) = "=COUNTIFS(Tier!K:K,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
+        arr(i, 9) = "=SUM(C" & i + 1 & ":H" & i + 1 & ")"
     Next i
-    .Cells(i, 1).Value = "Totals"
-    .Cells(i, 8).Formula = "=SUM(H2:H" & i - 1 & ")"
+
+    .Range("A2").Resize(UBound(arr), UBound(arr, 2)).Value = arr
+    .Cells(i + 1, 1).Value = "Totals"
+    .Cells(i + 1, 9).Formula = "=SUM(I2:I" & i & ")"
     
     'Set key matrix
-    .Cells(2, 10).Value = 12
-    .Cells(3, 10).Value = 13
-    .Cells(4, 10).Value = 14
-    .Cells(5, 10).Value = 23
-    .Cells(6, 10).Value = 24
-    .Cells(2, 11).FormulaArray = "=COUNTIFS(Tier!C:C,$J$2" & ",Tier!$L:$L,1)"
-    .Cells(3, 11).FormulaArray = "=COUNTIFS(Tier!C:C,$J$3" & ",Tier!$L:$L,1)"
-    .Cells(4, 11).FormulaArray = "=COUNTIFS(Tier!C:C,$J$4" & ",Tier!$L:$L,1)"
-    .Cells(5, 11).FormulaArray = "=COUNTIFS(Tier!C:C,$J$5" & ",Tier!$L:$L,1)"
-    .Cells(6, 11).FormulaArray = "=COUNTIFS(Tier!C:C,$J$6" & ",Tier!$L:$L,1)"
+    .Cells(2, 11).Value = 12
+    .Cells(3, 11).Value = 13
+    .Cells(4, 11).Value = 14
+    .Cells(5, 11).Value = 23
+    .Cells(6, 11).Value = 24
+    .Cells(2, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$2" & ",Tier!$L:$L,1)"
+    .Cells(3, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$3" & ",Tier!$L:$L,1)"
+    .Cells(4, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$4" & ",Tier!$L:$L,1)"
+    .Cells(5, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$5" & ",Tier!$L:$L,1)"
+    .Cells(6, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$6" & ",Tier!$L:$L,1)"
 End With
 
 freezeTopPane activeWindow
-wb.Save
+rs.Close
+conn.Close
+
 
 End Sub
 Private Sub createStats(wb As Workbook)
@@ -383,7 +407,7 @@ With ws
     .Name = "Tier"
 End With
 
-createHeaders wb, ws.Name
+createHeaders ws.Name
 ws.Range("A2:S" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
 'getPlayerArray
@@ -463,7 +487,7 @@ With ws
     .Name = "Search"
 End With
 
-createHeaders wb, ws.Name
+createHeaders ws.Name
 ws.Range("A2:AA" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
 'getPlayerArray
@@ -576,7 +600,7 @@ With ws
     .Name = "Random Lineup"
 End With
 
-createHeaders wb, ws.Name
+createHeaders ws.Name
 
 'getPlayerArray
 SQL = "SELECT [Nickname], [Position] & ':' & [Team] " & _
@@ -774,7 +798,7 @@ Workbooks.Open ActiveWorkbook.path & "\my_picks.csv", ReadOnly:=False
 Set xl = Nothing
 
 End Sub
-Private Sub createHeaders(wb As Workbook, psheetName As String)
+Private Sub createHeaders(psheetName As String)
 'Dim fileName As String: fileName = pfileName
 Dim btn As Button
 Dim cell As Range
@@ -813,7 +837,7 @@ Select Case psheetName 'If psheetName = "Tier" Or psheetName = "Retro" Then
     Case "Search"
         ReDim strArr(1 To 28)
         strArr(1) = "PPTS"
-        strArr(2) = "Search"
+        strArr(2) = "Position"
         strArr(3) = "MVP"
         strArr(4) = "Include"
         strArr(5) = "Exclude"
@@ -841,18 +865,19 @@ Select Case psheetName 'If psheetName = "Tier" Or psheetName = "Retro" Then
         strArr(27) = "p5_name"
         strArr(28) = "p6_name"
     Case "Matrix"
-        ReDim strArr(1 To 11)
-        strArr(1) = "Position"
-        strArr(2) = "MVP"
-        strArr(3) = "p2_pos"
-        strArr(4) = "p3_pos"
-        strArr(5) = "p4_pos"
-        strArr(6) = "p5_pos"
-        strArr(7) = "p6_pos"
-        strArr(8) = "Total"
-        strArr(9) = ""
-        strArr(10) = "key"
-        strArr(11) = "Total"
+        ReDim strArr(1 To 12)
+        strArr(1) = "Nickname"
+        strArr(2) = "Position"
+        strArr(3) = "MVP"
+        strArr(4) = "p2_pos"
+        strArr(5) = "p3_pos"
+        strArr(6) = "p4_pos"
+        strArr(7) = "p5_pos"
+        strArr(8) = "p6_pos"
+        strArr(9) = "Total"
+        strArr(10) = ""
+        strArr(11) = "key"
+        strArr(12) = "Total"
     Case "Random Lineup"
         ReDim strArr(1 To 19)
         strArr(1) = "Nickname"
@@ -876,7 +901,7 @@ Select Case psheetName 'If psheetName = "Tier" Or psheetName = "Retro" Then
         strArr(19) = "p6_name"
     End Select
 
-wb.Sheets(psheetName).Range(Cells(1, 1), Cells(1, UBound(strArr))).Value = strArr
+Sheets(psheetName).Range(Cells(1, 1), Cells(1, UBound(strArr))).Value = strArr
    
 End Sub
 Sub createWSProjections(pfileName, psheetName, pPosition)
@@ -1011,9 +1036,9 @@ If CodeMod.CountOfLines = 0 Then
     With CodeMod
         LineNum = .CreateEventProc("Change", "Worksheet")
         LineNum = LineNum + 1
-        .InsertLines LineNum, "If Target.Column = 16 Then"
+        .InsertLines LineNum, "If Target.Column = 17 Then"
         .InsertLines LineNum + 1, "For Each cell In Target"
-        .InsertLines LineNum + 2, "If cell.Column = 16 Then"
+        .InsertLines LineNum + 2, "If cell.Column = 17 Then"
         .InsertLines LineNum + 3, "Worksheets(3).Cells(Worksheets(3).Range(""$A:$A"").Find(What:=cell.Offset(, -11), LookAt:=xlWhole).row, 12) = Target.Value"
         .InsertLines LineNum + 4, "End If"
         .InsertLines LineNum + 5, "Next"
@@ -1052,8 +1077,8 @@ Dim coll As New Collection
 Dim maxRows As Long: maxRows = 100000
 
 For i = 1 To 5
-    key(0) = key(0) + 1
-    key(1) = key(0)
+    key(0) = arr(i, 18)
+    'key(1) = key(0)
     team = arr(i, 11)
     teamCnt(0) = 0
     id(0) = arr(i, 1) & ":" & arr(i, 4)
@@ -1068,7 +1093,7 @@ For i = 1 To 5
     If arr(i, 11) = team Then teamCnt(0) = teamCnt(0) + 1
                 
     For j = i + 1 To UBound(arr)
-        key(1) = key(1) + 1
+        key(1) = arr(i, 18)
         teamCnt(1) = 0
         id(1) = arr(j, 1) & ":" & arr(j, 4)
         salary(1) = arr(j, 8)
@@ -1077,7 +1102,7 @@ For i = 1 To 5
         points(1) = arr(j, 16)
         ppts(1) = arr(j, 17)
         pos(1) = arr(j, 2) & ":" & arr(j, 11)
-        sKey(1) = arr(j, 18)
+        sKey(1) = arr(i, 18)
         fKey(1) = arr(j, 19)
         If arr(j, 11) = team Then teamCnt(1) = teamCnt(1) + 1
 

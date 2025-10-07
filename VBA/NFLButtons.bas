@@ -210,7 +210,7 @@ End Sub
 Sub getRandomLineup()
 Dim wb As Workbook
 Dim ws As Worksheet
-Dim conn As New ADODB.Connection
+'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim arr(0, 1 To 14)
@@ -281,7 +281,7 @@ SQL = "SELECT F1" & _
              ",p5_name" & _
              ",p6_name " & _
       "FROM [Tier$] " & _
-      "WHERE ([select] IS NULL Or [select] <> 0) " & _
+      "WHERE ([select] IS NULL Or [select] <> '0') " & _
       " AND mvp_pos = "
 
 If Len(MVP) > 0 Then
