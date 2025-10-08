@@ -69,36 +69,29 @@ errorHandler:
 
 End Sub
 Sub createTierWB()
-Dim wb As Workbook
-Dim SheetName As String: SheetName = "Tier"
 Dim fileName As String: fileName = "Tier.xlsm"
-Dim fileExists As Boolean: fileExists = True
     
 If Dir(ActiveWorkbook.path & "\" & fileName) = "" Then
-    fileExists = False
     Workbooks.Add.SaveAs fileName:=ActiveWorkbook.path & "\" & fileName, FileFormat:=xlOpenXMLWorkbookMacroEnabled
-    Set wb = ActiveWorkbook
     If Worksheets.Count < 9 Then Worksheets.Add Count:=9 - Worksheets.Count
-    
     ActiveWorkbook.Save
 Else
-    Set wb = Workbooks.Open(ActiveWorkbook.path & "\" & fileName)
+    Workbooks.Open (ActiveWorkbook.path & "\" & fileName)
 End If
 
-createFanduel wb
-createStats wb
-createTier wb
-createSearch wb
+attachModule
+createFanduel
+createStats
+createTier
+createSearch
 createMatrix
-createRandomLineup wb
-createEventProcedure wb
+createRandomLineup
+createEventProcedure
 
 With Worksheets("Search")
     .Activate
     .Range("C2").Activate
 End With
-
-wb.Save
 
 End Sub
 Sub createScoreProjections()
@@ -212,8 +205,9 @@ End With
 
 ActiveWorkbook.Save
 
-rs.Close: conn.Close
+rs.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 
 End Sub
@@ -237,7 +231,7 @@ ws.Range("A2:L" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
 getConnection
 
-SQL = "SELECT [Nickname], [Position]&':'&[Team] " & _
+SQL = "SELECT [Nickname], [Position]&':'&[Team] &' '&[Injury Indicator] " & _
       "FROM [FanDuel$] " & _
       "WHERE [Tier] = 1 " & _
       "ORDER BY [Salary] DESC"
@@ -245,7 +239,7 @@ SQL = "SELECT [Nickname], [Position]&':'&[Team] " & _
 rs.Open SQL, conn
 'arr = wb.Worksheets("Search").Range("B1:B" & wb.Worksheets("Search").Cells(Rows.Count, 1).End(xlUp).row).Value
 arr = Application.Transpose(rs.GetRows)
-ReDim Preserve arr(1 To 18, 1 To 9)
+ReDim Preserve arr(1 To UBound(arr), 1 To 9)
 
 With ws
     'Set player matrix
@@ -278,15 +272,19 @@ With ws
 End With
 
 freezeTopPane activeWindow
+Range("A1:L1").CurrentRegion.EntireColumn.AutoFit
+
 rs.Close
+Set rs = Nothing
 conn.Close
+Set conn = Nothing
 
 
 End Sub
-Private Sub createStats(wb As Workbook)
+Private Sub createStats()
 'Dim wb As Workbook
 Dim ws As Worksheet
-Dim conn As New ADODB.Connection '
+'Dim conn As New ADODB.Connection '
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim dict As New Scripting.Dictionary
@@ -305,14 +303,14 @@ With ws
 End With
 
 'Import Player Positions for Dictionary
-SQL = "SELECT [Nickname], [Position] & ':' & [Team] " & _
-      "FROM [FanDuel$]" & _
+SQL = "SELECT [Nickname], [Position] & ':' & [Team] & ' ' & [Injury Indicator] " & _
+      "FROM [FanDuel$] " & _
       "WHERE [Tier] = 1"
 
-conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-          "Data Source=" & wb.FullName & ";" & _
-          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
-          
+'conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
+'          "Data Source=" & wb.FullName & ";" & _
+'          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
+getConnection
 rs.Open SQL, conn
 
 'Create Player/Position Dictionary
@@ -344,11 +342,11 @@ Set cmd.ActiveConnection = conn
 cmd.CommandText = "SELECT * " & _
                   "FROM FantasyPros_Fantasy_Football_Points_HALF.csv " & _
                   "WHERE team IN (?,?) " & _
-                  "ORDER BY 4, 3, cint([#])"
+                  "ORDER BY 4, cint([#])"
       
-Set param = cmd.CreateParameter("", adVarChar, adParamInput, 50, team(0, 0))
+Set param = cmd.CreateParameter("", adVarchar, adParamInput, 50, team(0, 0))
 cmd.Parameters.Append param
-Set param = cmd.CreateParameter("", adVarChar, adParamInput, 50, team(0, 1))
+Set param = cmd.CreateParameter("", adVarchar, adParamInput, 50, team(0, 1))
 cmd.Parameters.Append param
       
 'Set rs = cmd.Execute
@@ -380,18 +378,19 @@ With Sheets("Stats")
 End With
 
 freezeTopPane activeWindow
-wb.Save
+'ActiveWorkbook.Save
 
-rs.Close: conn.Close
+rs.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 Set dict = Nothing
 
 End Sub
-Private Sub createTier(wb As Workbook)
+Private Sub createTier()
 'Dim wb As Workbook
 Dim ws As Worksheet
-Dim conn As New ADODB.Connection
+'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim arr
@@ -410,10 +409,7 @@ End With
 createHeaders ws.Name
 ws.Range("A2:S" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
-'getPlayerArray
-conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-          "Data Source=" & wb.FullName & ";" & _
-          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
+getConnection
 
 SQL = "SELECT * " & _
       "FROM [FanDuel$]" & _
@@ -464,17 +460,18 @@ With ws
     End With
 End With
 
-ActiveWorkbook.Save
+'ActiveWorkbook.Save
 
-rs.Close: conn.Close
+rs.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 
 End Sub
-Private Sub createSearch(wb As Workbook)
+Private Sub createSearch()
 'Dim wb As Workbook
 Dim ws As Worksheet
-Dim conn As New ADODB.Connection
+'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim arr
@@ -496,10 +493,10 @@ SQL = "SELECT * " & _
       "WHERE [Tier] = 1 " & _
       "ORDER BY [Salary] DESC"
 
-conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-          "Data Source=" & wb.FullName & ";" & _
-          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
-          
+'conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
+'          "Data Source=" & wb.FullName & ";" & _
+'          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
+getConnection
 rs.Open SQL, conn
 
 ws.Range("A2").CopyFromRecordset rs
@@ -513,7 +510,7 @@ With ws
         For i = 1 To UBound(arr)
             .Range("A" & i + 1).Value = arr(i, 17) 'Projected Points
             .Range("A" & i + 1).NumberFormat = "##.0"
-            .Range("B" & i + 1).Value = arr(i, 2) & ":" & arr(i, 11) 'id:Nickname
+            .Range("B" & i + 1).Value = arr(i, 2) & ":" & arr(i, 11) & " " & arr(i, 13) 'Position:Team inj ind
             '.Range("F" & i + 1).Value = arr(i, 8) 'Salary
             With .Cells(i + 1, 3).Validation
                 .Delete
@@ -560,7 +557,7 @@ With ws
         Set btn = ActiveSheet.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr) + 3).Top, Range("A1").Width, Range("A18").Height * 1.5)
         With btn
             .Caption = "Search"
-            .OnAction = "NFL.xlsm!search"
+            .OnAction = "Tier.xlsm!search"
             .Placement = xlFreeFloating
         End With
     
@@ -577,17 +574,18 @@ With ws
         
     End With
 
-wb.Save
+'ActiveWorkbook.Save
 
-rs.Close: conn.Close
+rs.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 
 End Sub
-Sub createRandomLineup(wb As Workbook)
+Sub createRandomLineup()
 'Dim wb As Workbook
 Dim ws As Worksheet
-Dim conn As New ADODB.Connection
+'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim arr
@@ -603,15 +601,15 @@ End With
 createHeaders ws.Name
 
 'getPlayerArray
-SQL = "SELECT [Nickname], [Position] & ':' & [Team] " & _
+SQL = "SELECT [Nickname], [Position] & ':' & [Team] &' '&[Injury Indicator]" & _
       "FROM [FanDuel$]" & _
       "WHERE [Tier] = 1 " & _
       "ORDER BY [Salary] DESC"
           
-conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-          "Data Source=" & wb.FullName & ";" & _
-          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
-
+'conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
+'          "Data Source=" & wb.FullName & ";" & _
+'          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
+getConnection
 rs.Open SQL, conn
 
 'Workaround since Transpose doesn't work with rs.getrows when null cells are present
@@ -620,7 +618,7 @@ ws.Range("A2").CopyFromRecordset rs
 arr = ws.Range("A2:AA" & ws.Cells(Rows.Count, 1).End(xlUp).row)
 'ws.Range("A2:AA" & ws.Cells(Rows.Count, 1).End(xlUp).row).ClearContents
 
-conn.Close
+'conn.Close
 
 For i = 2 To Application.CountA(Range("A:A"))
     With ws.Cells(i, 3).Validation
@@ -666,14 +664,14 @@ If .Buttons.Count > 0 Then .Buttons.Delete
         Set btn = .Buttons.Add(0.5 * .Range("A1").Width, .Range("A" & UBound(arr) + 3).Top, 0.75 * .Range("A1").Width, .Range("A18").Height * 1.5)
         With btn
             .Caption = "Create"
-            .OnAction = "NFL.xlsm!getRandomLineup"
+            .OnAction = "Tier.xlsm!getRandomLineup"
             .Placement = xlFreeFloating
         End With
     
         Set btn = .Buttons.Add(0.5 * .Range("A1").Width, .Range("A" & UBound(arr) + 5).Top, 0.75 * .Range("A1").Width, .Range("A18").Height * 1.5)
         With btn
             .Caption = "Clear"
-            .OnAction = "NFL.xlsm!removeRandomLineup"
+            .OnAction = "Tier.xlsm!removeRandomLineup"
             .Placement = xlFreeFloating
         End With
 End With
@@ -685,13 +683,15 @@ Range("L:Q").ColumnWidth = Columns("A").ColumnWidth
 
 Range("C2").Activate
 
-wb.Save
+'ActiveWorkbook.Save
 
+rs.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 
 End Sub
-Private Sub createFanduel(wb As Workbook)
+Private Sub createFanduel()
 Dim ws As Worksheet
 Dim path As String
 Dim fileName As String
@@ -769,11 +769,11 @@ With ws
 End With
 
 freezeTopPane activeWindow
-wb.Save
+'ActiveWorkbook.Save
 
 rs.Close
-conn.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 
 End Sub
@@ -1020,7 +1020,7 @@ With Workbooks(pfileName)
 End With
 
 End Sub
-Private Sub createEventProcedure(wb As Workbook)
+Private Sub createEventProcedure()
 Dim ws As Worksheet
 Dim VBProj As VBIDE.VBProject
 Dim VBComp As VBIDE.VBComponent
@@ -1028,7 +1028,7 @@ Dim CodeMod As VBIDE.CodeModule
 Dim LineNum As Long
 Dim LineCnt As Long
 
-Set VBProj = wb.VBProject
+Set VBProj = ActiveWorkbook.VBProject
 Set VBComp = VBProj.VBComponents(Worksheets("Search").codename)
 Set CodeMod = VBComp.CodeModule
 
@@ -1045,7 +1045,7 @@ If CodeMod.CountOfLines = 0 Then
         .InsertLines LineNum + 6, "End If"
     End With
 End If
-'ActiveWorkbook.VBProject.VBE.MainWindow.Visible = False
+ActiveWorkbook.VBProject.VBE.MainWindow.Visible = False
 
 End Sub
 Private Function getCollection(ByRef arr, pnum As Integer) As Collection
@@ -1087,7 +1087,7 @@ For i = 1 To 5
     fppg(0) = arr(i, 6)
     points(0) = arr(i, 16)
     ppts(0) = arr(i, 17)
-    pos(0) = arr(i, 2) & ":" & arr(i, 11)
+    pos(0) = arr(i, 2) & ":" & arr(i, 11) & " " & arr(i, 13)
     sKey(0) = arr(i, 18)
     fKey(0) = arr(i, 19)
     If arr(i, 11) = team Then teamCnt(0) = teamCnt(0) + 1
@@ -1101,7 +1101,7 @@ For i = 1 To 5
         fppg(1) = arr(j, 6)
         points(1) = arr(j, 16)
         ppts(1) = arr(j, 17)
-        pos(1) = arr(j, 2) & ":" & arr(j, 11)
+        pos(1) = arr(j, 2) & ":" & arr(j, 11) & " " & arr(j, 13)
         sKey(1) = arr(i, 18)
         fKey(1) = arr(j, 19)
         If arr(j, 11) = team Then teamCnt(1) = teamCnt(1) + 1
@@ -1114,7 +1114,7 @@ For i = 1 To 5
             fppg(2) = arr(k, 6)
             points(2) = arr(k, 16)
             ppts(2) = arr(k, 17)
-            pos(2) = arr(k, 2) & ":" & arr(k, 11)
+            pos(2) = arr(k, 2) & ":" & arr(k, 11) & " " & arr(k, 13)
             sKey(2) = arr(k, 18)
             fKey(2) = arr(k, 19)
             If arr(k, 11) = team Then teamCnt(2) = teamCnt(2) + 1
@@ -1127,7 +1127,7 @@ For i = 1 To 5
                 fppg(3) = arr(l, 6)
                 points(3) = arr(l, 16)
                 ppts(3) = arr(l, 17)
-                pos(3) = arr(l, 2) & ":" & arr(l, 11)
+                pos(3) = arr(l, 2) & ":" & arr(l, 11) & " " & arr(l, 13)
                 sKey(3) = arr(l, 18)
                 fKey(3) = arr(l, 19)
                 If arr(l, 11) = team Then teamCnt(3) = teamCnt(3) + 1
@@ -1140,7 +1140,7 @@ For i = 1 To 5
                     fppg(4) = arr(m, 6)
                     points(4) = arr(m, 16)
                     ppts(4) = arr(m, 17)
-                    pos(4) = arr(m, 2) & ":" & arr(m, 11)
+                    pos(4) = arr(m, 2) & ":" & arr(m, 11) & " " & arr(m, 13)
                     sKey(4) = arr(m, 18)
                     fKey(4) = arr(m, 19)
                     If arr(m, 11) = team Then teamCnt(4) = teamCnt(4) + 1
@@ -1153,7 +1153,7 @@ For i = 1 To 5
                         fppg(5) = arr(o, 6)
                         points(5) = arr(o, 16)
                         ppts(5) = arr(o, 17)
-                        pos(5) = arr(o, 2) & ":" & arr(o, 11)
+                        pos(5) = arr(o, 2) & ":" & arr(o, 11) & " " & arr(o, 13)
                         sKey(5) = arr(o, 18)
                         fKey(5) = arr(o, 19)
                         If arr(o, 11) = team Then teamCnt(5) = teamCnt(5) + 1
@@ -1288,4 +1288,19 @@ Sub AddCodeToThisWorkbook()
         MsgBox "Code added to ThisWorkbook module successfully!", vbInformation
 
     End Sub
+Sub attachModule()
+Dim ModulePath As String
+Dim VBProj As Object
+Dim VBComp As Object
 
+Set VBProj = ActiveWorkbook.VBProject
+
+For Each VBComp In ActiveWorkbook.VBProject.VBComponents
+    If VBComp.Name = "NFLButtons" Then Exit Sub
+Next VBComp
+
+Set VBProj = ActiveWorkbook.VBProject
+ModulePath = ActiveWorkbook.path & "\VBA\NFLButtons.bas"
+VBProj.VBComponents.Import ModulePath
+
+End Sub
