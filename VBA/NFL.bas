@@ -93,6 +93,8 @@ With Worksheets("Search")
     .Range("C2").Activate
 End With
 
+ActiveWorkbook.Save
+
 End Sub
 Sub createScoreProjections()
 Dim SheetName As String: SheetName = "Projections"
@@ -388,11 +390,10 @@ Set dict = Nothing
 
 End Sub
 Private Sub createTier()
-'Dim wb As Workbook
 Dim ws As Worksheet
-'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
+Dim data
 Dim arr
 Dim coll As New Collection
 Dim printArr
@@ -407,7 +408,7 @@ With ws
 End With
 
 createHeaders ws.Name
-ws.Range("A2:S" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
+ws.Range("A2:W" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
 getConnection
 
@@ -418,9 +419,19 @@ SQL = "SELECT * " & _
           
 rs.Open SQL, conn
 
-ws.Range("A2").CopyFromRecordset rs
-arr = ws.Range("A2:S" & ws.Cells(Rows.Count, 1).End(xlUp).row)
-ws.Range("A2:S" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
+If Not rs.EOF Then
+    
+    data = rs.GetRows
+    ReDim arr(1 To UBound(data, 2) + 1, 1 To UBound(data, 1) + 1)
+    
+    For i = LBound(data, 2) To UBound(data, 2)
+        For j = LBound(data, 1) To UBound(data, 1)
+            If Not IsNull(data(j, 1)) Then
+                arr(i + 1, j + 1) = data(j, i)
+            End If
+        Next j
+    Next i
+End If
 
 'Process Data
 Set coll = getCollection(arr, 6)
@@ -460,8 +471,6 @@ With ws
     End With
 End With
 
-'ActiveWorkbook.Save
-
 rs.Close
 Set rs = Nothing
 conn.Close
@@ -469,13 +478,12 @@ Set conn = Nothing
 
 End Sub
 Private Sub createSearch()
-'Dim wb As Workbook
 Dim ws As Worksheet
-'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim arr
 Dim i As Long
+Dim j As Integer
 Dim btn As Button
 
 Set ws = Worksheets(1)
@@ -493,88 +501,45 @@ SQL = "SELECT * " & _
       "WHERE [Tier] = 1 " & _
       "ORDER BY [Salary] DESC"
 
-'conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-'          "Data Source=" & wb.FullName & ";" & _
-'          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
 getConnection
 rs.Open SQL, conn
 
-ws.Range("A2").CopyFromRecordset rs
-arr = ws.Range("A2:AB" & ws.Cells(Rows.Count, 1).End(xlUp).row)
-ws.Range("A2:AB" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
-
-'Process Array
-With ws
-        'createHeaders wb, .Name
-        If ActiveSheet.FilterMode Then ActiveSheet.ShowAllData
-        For i = 1 To UBound(arr)
-            .Range("A" & i + 1).Value = arr(i, 17) 'Projected Points
-            .Range("A" & i + 1).NumberFormat = "##.0"
-            .Range("B" & i + 1).Value = arr(i, 2) & ":" & arr(i, 11) & " " & arr(i, 13) 'Position:Team inj ind
-            '.Range("F" & i + 1).Value = arr(i, 8) 'Salary
-            With .Cells(i + 1, 3).Validation
+If Not rs.EOF Then
+    arr = rs.GetRows
+    If ActiveSheet.FilterMode Then ActiveSheet.ShowAllData
+    For i = 0 To UBound(arr, 2)
+        Range("A" & i + 2).Value = arr(16, i) 'Projected Points
+        Range("A" & i + 2).NumberFormat = "##.0"
+        Range("B" & i + 2).Value = arr(1, i) & ":" & arr(10, i) & " " & arr(12, i) 'Position:Team inj ind
+        
+        For j = 3 To 5
+            With Cells(i + 2, j).Validation
                 .Delete
                 .Add Type:=xlValidateList, _
                            AlertStyle:=xlValidAlertStop, _
                            Operator:=xlBetween, _
-                           Formula1:="=$B$" & i + 1
+                           Formula1:="=$B$" & i + 2
                 .IgnoreBlank = True
                 .InCellDropdown = True
                 .ShowInput = True
                 .ShowError = True
             End With
-            With .Cells(i + 1, 4).Validation
-                .Delete
-                .Add Type:=xlValidateList, _
-                           AlertStyle:=xlValidAlertStop, _
-                           Operator:=xlBetween, _
-                           Formula1:="=$B$" & i + 1
-                .IgnoreBlank = True
-                .InCellDropdown = True
-                .ShowInput = True
-                .ShowError = True
-            End With
-            With .Cells(i + 1, 5).Validation
-                .Delete
-                .Add Type:=xlValidateList, _
-                           AlertStyle:=xlValidAlertStop, _
-                           Operator:=xlBetween, _
-                           Formula1:="=$B$" & i + 1
-                .IgnoreBlank = True
-                .InCellDropdown = True
-                .ShowInput = True
-                .ShowError = True
-            End With
-        Next i
+        Next j
+    Next i
     
-        '.Range("A2:E" & i).Sort Key1:=.Range("E2:E" & i), _
-        '                        Order1:=xlDescending, _
-        '                        header:=xlNo
-        '.Range("F:F").ClearContents
+    If ws.Buttons.Count > 0 Then ws.Buttons.Delete
         
-        If .Buttons.Count > 0 Then .Buttons.Delete
-        
-        Set btn = ActiveSheet.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr) + 3).Top, Range("A1").Width, Range("A18").Height * 1.5)
-        With btn
-            .Caption = "Search"
-            .OnAction = "Tier.xlsm!search"
-            .Placement = xlFreeFloating
-        End With
-    
-        'Set btn = ActiveSheet.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr) + 5).Top, Range("A1").Width, Range("A18").Height * 1.5)
-        'With btn
-        '    .Caption = "Copy"
-        '    .OnAction = "NFL.xlsm!copy"
-        '    .Placement = xlFreeFloating
-        'End With
-        '
-        'Call search
-        If ActiveSheet.AutoFilterMode = False Then Range("A1:AB1").AutoFilter
-        Range("A1:AB1").CurrentRegion.EntireColumn.AutoFit
-        
+    Set btn = ActiveSheet.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr, 2) + 4).Top, Range("A1").Width, Range("A18").Height * 1.5)
+    With btn
+        .Caption = "Search"
+        .OnAction = "Tier.xlsm!search"
+        .Placement = xlFreeFloating
     End With
-
-'ActiveWorkbook.Save
+    
+    If ActiveSheet.AutoFilterMode = False Then Range("A1:AB1").AutoFilter
+    Range("A1:AB1").CurrentRegion.EntireColumn.AutoFit
+        
+End If
 
 rs.Close
 Set rs = Nothing
@@ -583,13 +548,12 @@ Set conn = Nothing
 
 End Sub
 Sub createRandomLineup()
-'Dim wb As Workbook
 Dim ws As Worksheet
-'Dim conn As New ADODB.Connection
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim arr
 Dim i As Long
+Dim j As Integer
 Dim btn As Button
 
 Set ws = Worksheets(6)
@@ -606,84 +570,53 @@ SQL = "SELECT [Nickname], [Position] & ':' & [Team] &' '&[Injury Indicator]" & _
       "WHERE [Tier] = 1 " & _
       "ORDER BY [Salary] DESC"
           
-'conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-'          "Data Source=" & wb.FullName & ";" & _
-'          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
 getConnection
 rs.Open SQL, conn
 
-'Workaround since Transpose doesn't work with rs.getrows when null cells are present
-ws.Range("A2:O" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
-ws.Range("A2").CopyFromRecordset rs
-arr = ws.Range("A2:AA" & ws.Cells(Rows.Count, 1).End(xlUp).row)
-'ws.Range("A2:AA" & ws.Cells(Rows.Count, 1).End(xlUp).row).ClearContents
-
-'conn.Close
-
-For i = 2 To Application.CountA(Range("A:A"))
-    With ws.Cells(i, 3).Validation
-         .Delete
-        .Add Type:=xlValidateList, _
-                     AlertStyle:=xlValidAlertStop, _
-                     Operator:=xlBetween, _
-                    Formula1:="=$B$" & i
-        .IgnoreBlank = True
-        .InCellDropdown = True
-        .ShowInput = True
-        .ShowError = True
-    End With
-    With ws.Cells(i, 4).Validation
-        .Delete
-        .Add Type:=xlValidateList, _
-                     AlertStyle:=xlValidAlertStop, _
-                     Operator:=xlBetween, _
-                    Formula1:="=$B$" & i
-        .IgnoreBlank = True
-        .InCellDropdown = True
-        .ShowInput = True
-        .ShowError = True
-    End With
-    With ws.Cells(i, 5).Validation
-        .Delete
-        .Add Type:=xlValidateList, _
-                     AlertStyle:=xlValidAlertStop, _
-                     Operator:=xlBetween, _
-                    Formula1:="=$B$" & i
-        .IgnoreBlank = True
-        .InCellDropdown = True
-        .ShowInput = True
-        .ShowError = True
-    End With
-Next
-
-Range("A1").CurrentRegion.EntireColumn.AutoFit
-
-With ws
-If .Buttons.Count > 0 Then .Buttons.Delete
+If Not rs.EOF Then
+    arr = rs.GetRows
+    For i = 0 To UBound(arr, 2)
+        Range("A" & i + 2).Value = arr(0, i)
+        Range("B" & i + 2).Value = arr(1, i)
         
-        Set btn = .Buttons.Add(0.5 * .Range("A1").Width, .Range("A" & UBound(arr) + 3).Top, 0.75 * .Range("A1").Width, .Range("A18").Height * 1.5)
-        With btn
-            .Caption = "Create"
-            .OnAction = "Tier.xlsm!getRandomLineup"
-            .Placement = xlFreeFloating
-        End With
-    
-        Set btn = .Buttons.Add(0.5 * .Range("A1").Width, .Range("A" & UBound(arr) + 5).Top, 0.75 * .Range("A1").Width, .Range("A18").Height * 1.5)
-        With btn
-            .Caption = "Clear"
-            .OnAction = "Tier.xlsm!removeRandomLineup"
-            .Placement = xlFreeFloating
-        End With
-End With
+        For j = 3 To 5
+            With Cells(i + 2, j).Validation
+                .Delete
+                .Add Type:=xlValidateList, _
+                           AlertStyle:=xlValidAlertStop, _
+                           Operator:=xlBetween, _
+                           Formula1:="=$B$" & i + 2
+                .IgnoreBlank = True
+                .InCellDropdown = True
+                .ShowInput = True
+                .ShowError = True
+            End With
+        Next j
+    Next i
 
-'If ActiveSheet.AutoFilterMode = False Then Range("A1:AA1").AutoFilter
+    Range("A1").CurrentRegion.EntireColumn.AutoFit
+
+    If ws.Buttons.Count > 0 Then ws.Buttons.Delete
+        
+    Set btn = ws.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr, 2) + 4).Top, 0.75 * Range("A1").Width, Range("A18").Height * 1.5)
+    With btn
+        .Caption = "Create"
+        .OnAction = "Tier.xlsm!getRandomLineup"
+        .Placement = xlFreeFloating
+    End With
+    
+    Set btn = ws.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr, 2) + 6).Top, 0.75 * Range("A1").Width, Range("A18").Height * 1.5)
+    With btn
+        .Caption = "Clear"
+        .OnAction = "Tier.xlsm!removeRandomLineup"
+        .Placement = xlFreeFloating
+    End With
+End If
 
 Range("C:K").ColumnWidth = Columns("B").ColumnWidth
 Range("L:Q").ColumnWidth = Columns("A").ColumnWidth
 
 Range("C2").Activate
-
-'ActiveWorkbook.Save
 
 rs.Close
 Set rs = Nothing
@@ -881,7 +814,7 @@ Select Case psheetName 'If psheetName = "Tier" Or psheetName = "Retro" Then
     Case "Random Lineup"
         ReDim strArr(1 To 19)
         strArr(1) = "Nickname"
-        strArr(2) = "Player"
+        strArr(2) = "Position"
         strArr(3) = "MVP"
         strArr(4) = "Flex"
         strArr(5) = "Exclude"
@@ -1045,7 +978,7 @@ If CodeMod.CountOfLines = 0 Then
         .InsertLines LineNum + 6, "End If"
     End With
 End If
-ActiveWorkbook.VBProject.VBE.MainWindow.Visible = False
+'ActiveWorkbook.VBProject.VBE.MainWindow.Visible = False
 
 End Sub
 Private Function getCollection(ByRef arr, pnum As Integer) As Collection

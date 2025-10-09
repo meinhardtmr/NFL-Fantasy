@@ -140,11 +140,11 @@ If Not rs.EOF Then
         arrPrint(i, 15) = d(arrPrint(i, 5)) * 1.5 + d(arrPrint(i, 6)) + d(arrPrint(i, 7)) + d(arrPrint(i, 8)) + d(arrPrint(i, 9)) + d(arrPrint(i, 10))
     Next
 
-    If UBound(arrPrint) > 0 Then
+    If UBound(arrPrint) >= 0 Then
         With ws
             If .FilterMode Then Sheets("Search").ShowAllData
-            .Range("F2:AA" & Sheets("Search").Cells(Rows.Count, 1).End(xlDown).row).Clear
-            .Range("F2").Resize(UBound(arrPrint), UBound(arrPrint, 2) + 1).Value = arrPrint
+            .Range("F2:AB" & Sheets("Search").Cells(Rows.Count, 6).End(xlDown).row).Clear
+            .Range("F2").Resize(UBound(arrPrint) + 1, UBound(arrPrint, 2) + 1).Value = arrPrint
 
             .Range("A1").CurrentRegion.EntireColumn.AutoFit
             freezeTopPane activeWindow
@@ -152,13 +152,13 @@ If Not rs.EOF Then
                 
             'Sort Worksheet
             .Sort.SortFields.Clear
-            .Range("F2:AA" & UBound(arrPrint)).Sort Key1:=.Cells(1, 21), _
+            .Range("F2:AB" & UBound(arrPrint) + 2).Sort Key1:=.Cells(1, 21), _
                                                     Order1:=xlDescending, _
                                                     header:=xlNo '
         End With
     End If
 Else
-    Sheets("Search").Range("F2:AA" & Sheets("Search").Cells(Rows.Count, 1).End(xlDown).row).Clear
+    Sheets("Search").Range("F2:AB" & Sheets("Search").Cells(Rows.Count, 1).End(xlDown).row).Clear
     MsgBox "No Lineups Found"
 End If
 
@@ -183,8 +183,6 @@ Dim param As Object
 Dim random As Double
 Dim flexNum As Integer: flexNum = 0
 Dim dict As Object
-'Dim recCount As Long
-Dim strWhat As String
 
 Const adParamInput = 1
 Const adVarchar = 200
@@ -247,8 +245,8 @@ SQL = "SELECT [F1]" & _
              ",[p5_name]" & _
              ",[p6_name] " & _
       "FROM [Tier$] " & _
-      "WHERE ([select] IS NULL Or [select] <> '0') " & _
-      " AND mvp_pos = "
+      "WHERE [select] IS NULL AND [F1] NOT IN (SELECT [F6] FROM [Random Lineup$] WHERE [F6] IS NOT NULL) " & _
+      "AND mvp_pos = "
 
 If Len(MVP) > 0 Then
     SQL = SQL & "?"
@@ -303,21 +301,19 @@ cmd.CommandText = SQL
 rs.CursorLocation = adUseClient
 
 rs.Open cmd
-recCount = rs.RecordCount
+'recCount = rs.RecordCount
 
-If Not rs.EOF Then
-    data = Application.WorksheetFunction.Transpose(rs.GetRows)
-    If recCount > 1 Then
+If rs.RecordCount > 0 Then
+    data = Application.Transpose(rs.GetRows(65000))
+    If rs.RecordCount > 1 Then
         random = WorksheetFunction.RandBetween(1, (UBound(data)))
         For i = 1 To UBound(arr, 2)
             arr(0, i) = data(random, i)
         Next
-        strWhat = data(random, 1)
     Else
         For i = 1 To UBound(arr, 2)
             arr(0, i) = data(i)
         Next
-        strWhat = data(1)
     End If
     
     Range("F" & Cells(Rows.Count, 6).End(xlUp).row + 1 & ":S" & Cells(Rows.Count, 6).End(xlUp).row + 1).Value = arr
@@ -330,6 +326,7 @@ Range("G" & ws.Cells(Rows.Count, 6).End(xlUp).row).Activate
 
 rs.Close
 Set rs = Nothing
+conn.Close
 Set conn = Nothing
 
 End Sub
