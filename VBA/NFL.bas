@@ -45,7 +45,7 @@ If xl.Cells(1, 16).Value <> "Points" Then xl.Cells(1, 16).Value = "Points"
 If xl.Cells(1, 17).Value <> "Projected Points" Then xl.Cells(1, 17).Value = "Projected Points"
 
 For Each r In xl.Range("F2:F" & xl.Cells(Rows.Count, 1).End(xlUp).row)
-    r.Offset(, 11).Value = r.Value2
+    r.Offset(, 11).Value = Round(r.Value2, 1)
 Next
 
 xl.Range("A1").CurrentRegion.EntireColumn.AutoFit
@@ -144,9 +144,9 @@ createHeaders ws.Name
 
 'getPlayerArray
 SQL = "SELECT * " & _
-      "FROM [FanDuel$]" & _
+      "FROM [FanDuel$] " & _
       "WHERE [Points] > 0 " & _
-      "ORDER BY [Points] DESC"
+      "ORDER BY [Salary] DESC"
           
 conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
           "Data Source=" & wb.FullName & ";" & _
@@ -426,7 +426,7 @@ If Not rs.EOF Then
     
     For i = LBound(data, 2) To UBound(data, 2)
         For j = LBound(data, 1) To UBound(data, 1)
-            If Not IsNull(data(j, 1)) Then
+            If Not IsNull(data(j, i)) Then
                 arr(i + 1, j + 1) = data(j, i)
             End If
         Next j
@@ -698,11 +698,21 @@ With ws
         .Cells(i, 18).Value = i - 1
     Next i
         
+    For i = 2 To .Cells(Rows.Count, 15).End(xlUp).row
+        .Cells(i, 20).Value = .Cells(i, 2) & ":" & .Cells(i, 11) & " " & .Cells(i, 13)
+    Next i
+    
     .Range("A1").CurrentRegion.EntireColumn.AutoFit
+    
+    'Create Named Ranges
+    ActiveWorkbook.Names.Add Name:="Fanduel", RefersToR1C1:=.Range("$A$2:$T$" & .Cells(Rows.Count, 15).End(xlUp).row)
+    ActiveWorkbook.Names.Add Name:="Position", RefersToR1C1:=.Range("$T$2:$T$" & .Cells(Rows.Count, 15).End(xlUp).row)
+
 End With
 
 freezeTopPane activeWindow
 'ActiveWorkbook.Save
+
 
 rs.Close
 Set rs = Nothing
