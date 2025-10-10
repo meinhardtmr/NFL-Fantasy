@@ -1,5 +1,10 @@
 Attribute VB_Name = "NFLButtons"
 Private conn As Object
+Const adParamInput = 1
+Const adVarchar = 200
+Const adInteger = 3
+Const adUseClient = 3
+
 Sub getConnection()
 Set conn = CreateObject("ADODB.Connection")
 conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
@@ -184,10 +189,10 @@ Dim random As Double
 Dim flexNum As Integer: flexNum = 0
 Dim dict As Object
 
-Const adParamInput = 1
-Const adVarchar = 200
-Const adInteger = 3
-Const adUseClient = 3
+'Const adParamInput = 1
+'Const adVarchar = 200
+'Const adInteger = 3
+'Const adUseClient = 3
 
 Set ws = ActiveSheet
 
@@ -230,7 +235,7 @@ rs.Close
 Randomize
  
 'Query Tier Database
-SQL = "SELECT [F1]" & _
+SQL = "SELECT top 1 [F1]" & _
              ",[mvp_pos]" & _
              ",[p2_pos]" & _
              ",[p3_pos]" & _
@@ -304,7 +309,7 @@ rs.Open cmd
 'recCount = rs.RecordCount
 
 If rs.RecordCount > 0 Then
-    data = Application.Transpose(rs.GetRows(65000))
+    data = Application.Transpose(rs.GetRows)
     If rs.RecordCount > 1 Then
         random = WorksheetFunction.RandBetween(1, (UBound(data)))
         For i = 1 To UBound(arr, 2)
@@ -317,6 +322,7 @@ If rs.RecordCount > 0 Then
     End If
     
     Range("F" & Cells(Rows.Count, 6).End(xlUp).row + 1 & ":S" & Cells(Rows.Count, 6).End(xlUp).row + 1).Value = arr
+    Range("F1").CurrentRegion.EntireColumn.AutoFit
 
 Else
     MsgBox "No Lineups Found"
@@ -330,79 +336,28 @@ conn.Close
 Set conn = Nothing
 
 End Sub
-Sub removeRandomLineup()
-Dim ws As Worksheet
-Dim cmd As Object
-Dim base_SQL As String
-Dim SQL As String
-Dim rs As Object
-Dim inClause As String
-
-Const adParamInput = 1
-Const adVarchar = 200
-Const adInteger = 3
-Const adUseClient = 3
-
-Set ws = ActiveSheet
-
-getConnection
-
-Set cmd = CreateObject("ADODB.Command")
-Set rs = CreateObject("ADODB.Recordset")
-
-SQL = "SELECT [F6] FROM [Random Lineup$] WHERE [F6] IS NOT NULL"
-
-cmd.CommandText = SQL
-cmd.ActiveConnection = conn
-
-rs.CursorLocation = adUseClient
-rs.Open cmd
-
-base_SQL = "UPDATE[Tier$] " & _
-      "SET [select] = NULL " & _
-      "WHERE [F1] IN "
-
-Do While Not rs.EOF
-    If Len(inClause) = 0 Then
-        inClause = "(" & rs.fields("F6").Value & ")"
-    Else
-        inClause = Left(inClause, Len(inClause) - 1) & "," & rs.fields("F6").Value & ")"
-    End If
-    
-    If rs.AbsolutePosition Mod 100 = 0 Or rs.AbsolutePosition = rs.RecordCount Then
-        SQL = base_SQL & inClause
-        cmd.CommandText = SQL
-        cmd.Execute
-        SQL = base_SQL
-        inClause = ""
-    End If
-    
-    rs.MoveNext
-Loop
-
-Range("F2:S" & ws.Cells(Rows.Count, 6).End(xlDown).row).ClearContents
-Range("F2").Activate
-
+Sub clearRandomLineup()
+With Worksheets("Random Lineup")
+    .Range("F2:S" & .Cells(Rows.Count, 6).End(xlDown).row).ClearContents
+    .Range("F2").Activate
+End With
 End Sub
 Sub saveLineup()
-Dim wb As Workbook
+'Dim wb As Workbook
 Dim ws As Worksheet
 Dim strMVP As String
 Dim strPositions As String
 Dim arr
 Dim i As Long
-Dim foundCell As Range
 
-Set wb = ActiveWorkbook
+'Set wb = ActiveWorkbook
 Set ws = ActiveSheet
 
 With ws
     strMVP = .Range("C2")
     strPositions = .Range("C3") & " " & .Range("C4") & " " & .Range("C5") & " " & .Range("C6") & " " & .Range("C7")
 End With
-
-'Worksheets(3).Cells(Worksheets(3).Range("$L:$L").Find(What:=ws.Range("B2"), LookAt:=xlWhole).row, 12) = ""
-    
+ 
 arr = Sheets("Tier").Range("F2:K" & Sheets("Tier").Cells(Rows.Count, 6).End(xlUp).row).Value
 
 For i = 1 To UBound(arr)
@@ -412,18 +367,20 @@ For i = 1 To UBound(arr)
        InStr(strPositions, arr(i, 4)) * _
        InStr(strPositions, arr(i, 5)) * _
        InStr(strPositions, arr(i, 6)) Then
-        
-        Set foundCell = Worksheets("Tier").Range("$L:$L").Find(What:=ws.Range("B2"), LookAt:=xlWhole)
-        If Not Worksheets("Tier").Range("$L:$L").Find(What:=ws.Range("B2"), LookAt:=xlWhole) Is Nothing Then
-            foundCell = ""
-        End If
-        With ws
-            Sheets("Tier").Cells(i + 1, 12) = .Range("B2")
-        End With
+       
+        Sheets("Tier").Cells(i + 1, 12) = ws.Range("B2")
         Exit For
     End If
-Next
+    If i = UBound(arr) Then
+        MsgBox "No Lineups Found"
+    End If
+Next i
 
 End Sub
 
-
+Sub clearLineup()
+    With Worksheets("Lineup Manager")
+        .Range("B2").Activate
+        .Range("B2", "C2:C7").ClearContents
+    End With
+End Sub
