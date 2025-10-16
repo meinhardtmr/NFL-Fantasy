@@ -29,6 +29,8 @@ Dim exclude As String
 Dim includeNum As Long
 Dim arr
 Dim arrPrint
+Dim strP1 As String
+
 
 Set ws = Worksheets("Search")
 Range("F2").Activate
@@ -111,17 +113,20 @@ SQL = "SELECT F1, F2 " & _
 If Len(MVP) > 0 Then
     SQL = SQL & MVP
 Else
-    SQL = SQL & " mvp_pos"
+    SQL = SQL & "mvp_pos"
 End If
 
 If Len(include) > 0 Then
-    SQL = SQL & " AND iif(instr(" & include & ",[p2_pos])>0,1,0) + " & _
+    If Len(MVP) = 0 Then
+        strP1 = "iif(InStr(" & include & ",[mvp_pos])>0,1,0) + "
+    End If
+    SQL = SQL & " AND " & strP1 & "iif(instr(" & include & ",[p2_pos])>0,1,0) + " & _
                      "iif(instr(" & include & ",[p3_pos])>0,1,0) + " & _
                      "iif(instr(" & include & ",[p4_pos])>0,1,0) + " & _
                      "iif(instr(" & include & ",[p5_pos])>0,1,0) + " & _
                      "iif(instr(" & include & ",[p6_pos])>0,1,0) = " & includeNum
 End If
-
+Debug.Print SQL
 If Len(exclude) > 0 Then
     SQL = SQL & " AND iif(instr(" & exclude & ",[mvp_pos])>0,1,0) + " & _
                      "iif(instr(" & exclude & ",[p2_pos])>0,1,0) + " & _
@@ -188,6 +193,7 @@ Dim param As Object
 Dim random As Double
 Dim flexNum As Integer: flexNum = 0
 Dim dict As Object
+Dim strP1 As String
 
 'Const adParamInput = 1
 'Const adVarchar = 200
@@ -235,7 +241,7 @@ rs.Close
 Randomize
  
 'Query Tier Database
-SQL = "SELECT top 1 [F1]" & _
+SQL = "SELECT top 25 [F1]" & _
              ",[mvp_pos]" & _
              ",[p2_pos]" & _
              ",[p3_pos]" & _
@@ -258,11 +264,16 @@ If Len(MVP) > 0 Then
     Set param = cmd.CreateParameter("", adVarchar, adParamInput, 50, MVP)
     cmd.Parameters.Append param
 Else
-    SQL = SQL & " mvp_pos"
+    SQL = SQL & "mvp_pos"
 End If
 
 If Len(flex) > 0 Then
-    SQL = SQL & " AND iif(instr(?,[p2_pos])>0,1,0) + " & _
+    If Len(MVP) = 0 Then
+        strP1 = "iif(instr(?,[mvp_pos])>0,1,0) + "
+        Set param = cmd.CreateParameter("", adVarchar, adParamInput, 50, flex)
+        cmd.Parameters.Append param
+    End If
+    SQL = SQL & " AND " & strP1 & "iif(instr(?,[p2_pos])>0,1,0) + " & _
                      "iif(instr(?,[p3_pos])>0,1,0) + " & _
                      "iif(instr(?,[p4_pos])>0,1,0) + " & _
                      "iif(instr(?,[p5_pos])>0,1,0) + " & _

@@ -137,6 +137,9 @@ Set ws = Worksheets(7)
 With ws
     .Activate
     .Name = "Retro"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 ws.Range("A1:W" & ws.Cells(Rows.Count, 1).End(xlDown).row).Clear
@@ -226,6 +229,9 @@ Set ws = Worksheets(2)
 With ws
     .Activate
     .Name = "Matrix"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 createHeaders ws.Name
@@ -302,6 +308,9 @@ Set ws = Worksheets(4)
 With ws
     .Activate
     .Name = "Stats"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 'Import Player Positions for Dictionary
@@ -405,11 +414,12 @@ Set ws = Worksheets(3)
 With ws
     .Activate
     .Name = "Tier"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 createHeaders ws.Name
-ws.Range("A2:W" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
-
 getConnection
 
 SQL = "SELECT * " & _
@@ -420,7 +430,6 @@ SQL = "SELECT * " & _
 rs.Open SQL, conn
 
 If Not rs.EOF Then
-    
     data = rs.GetRows
     ReDim arr(1 To UBound(data, 2) + 1, 1 To UBound(data, 1) + 1)
     
@@ -469,6 +478,10 @@ With ws
         .SetRange Range("A2:W" & UBound(printArr) + 1)
         .Apply
     End With
+
+'Create Named Ranges
+    ActiveWorkbook.Names.Add Name:="Tier", RefersToR1C1:=.Range("$A$2:$W$" & .Cells(Rows.Count, 15).End(xlUp).row)
+    ActiveWorkbook.Names.Add Name:="Select", RefersToR1C1:=.Range("$L$2:$L$" & .Cells(Rows.Count, 15).End(xlUp).row)
 End With
 
 rs.Close
@@ -490,6 +503,9 @@ Set ws = Worksheets(1)
 With ws
     .Activate
     .Name = "Search"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 createHeaders ws.Name
@@ -560,6 +576,9 @@ Set ws = Worksheets(6)
 With ws
     .Activate
     .Name = "Random Lineup"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 createHeaders ws.Name
@@ -608,7 +627,7 @@ If Not rs.EOF Then
     Set btn = ws.Buttons.Add(0.5 * Range("A1").Width, Range("A" & UBound(arr, 2) + 6).Top, 0.75 * Range("A1").Width, Range("A18").Height * 1.5)
     With btn
         .Caption = "Clear"
-        .OnAction = "Tier.xlsm!removeRandomLineup"
+        .OnAction = "Tier.xlsm!clearRandomLineup"
         .Placement = xlFreeFloating
     End With
 End If
@@ -642,6 +661,9 @@ Set ws = Worksheets(5)
 With ws
     .Activate
     .Name = "FanDuel"
+    .Range("A1").Activate
+    If .FilterMode Then .ShowAllData
+    .UsedRange.ClearContents
 End With
 
 path = ActiveWorkbook.path
