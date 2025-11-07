@@ -1,0 +1,75 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,
+3471090571,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-63115:Lamar Jackson,111283-39280:Derrick Henry,111283-52442:Joe Mixon,111283-29932:Ka'imi Fairbairn,111283-87515:Tylan Wallace,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,
+3471090579,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-39280:Derrick Henry,111283-63115:Lamar Jackson,111283-91419:Nico Collins,111283-23045:Justin Tucker,111283-87515:Tylan Wallace,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,
+3471090585,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-63115:Lamar Jackson,111283-39280:Derrick Henry,111283-52442:Joe Mixon,111283-12555:Baltimore Ravens,111283-87515:Tylan Wallace,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,
+3471090590,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-52442:Joe Mixon,111283-91419:Nico Collins,111283-39280:Derrick Henry,111283-29932:Ka'imi Fairbairn,111283-12556:Houston Texans,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,
+3471090597,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-91419:Nico Collins,111283-39280:Derrick Henry,111283-129471:C.J. Stroud,111283-112295:Zay Flowers,111283-87515:Tylan Wallace,,,,,,,,,,,,,,,,,,,
+3471090603,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-39280:Derrick Henry,111283-91419:Nico Collins,111283-129471:C.J. Stroud,111283-85845:Rashod Bateman,111283-87515:Tylan Wallace,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3471090606,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-39280:Derrick Henry,111283-52442:Joe Mixon,111283-129471:C.J. Stroud,111283-52436:Mark Andrews,111283-87515:Tylan Wallace,,111283-39280:Derrick Henry,111283-39280,RB,Derrick,Derrick Henry,Henry,19.68666585,15,15500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+3471090609,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-39280:Derrick Henry,111283-52442:Joe Mixon,111283-129471:C.J. Stroud,111283-55042:Dalton Schultz,111283-87515:Tylan Wallace,,111283-63115:Lamar Jackson,111283-63115,QB,Lamar,Lamar Jackson,Jackson,26.06533407,15,15000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+3471090610,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-52442:Joe Mixon,111283-91419:Nico Collins,111283-63115:Lamar Jackson,111283-112295:Zay Flowers,111283-87515:Tylan Wallace,,111283-91419:Nico Collins,111283-91419,WR,Nico,Nico Collins,Collins,16.88999939,10,13500,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+3471090615,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-129471:C.J. Stroud,111283-91419:Nico Collins,111283-63115:Lamar Jackson,111283-112295:Zay Flowers,111283-102696:John Metchie III,,111283-52442:Joe Mixon,111283-52442,RB,Joe,Joe Mixon,Mixon,19.60833359,12,13000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+3471090620,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-52442:Joe Mixon,111283-63115:Lamar Jackson,111283-129471:C.J. Stroud,111283-112295:Zay Flowers,111283-87515:Tylan Wallace,,111283-129471:C.J. Stroud,111283-129471,QB,C.J.,C.J. Stroud,Stroud,15.01866659,15,12500,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+3471090624,111283-273581319,$3K Wed NFL Hail Mary (Only $0.25 to Enter),111283-129471:C.J. Stroud,111283-52442:Joe Mixon,111283-63115:Lamar Jackson,111283-112295:Zay Flowers,111283-29685:Robert Woods,,111283-112295:Zay Flowers,111283-112295,WR,Zay,Zay Flowers,Flowers,12.05333354,15,11500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-85845:Rashod Bateman,111283-85845,WR,Rashod,Rashod Bateman,Bateman,9.807143075,14,11000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-52436:Mark Andrews,111283-52436,TE,Mark,Mark Andrews,Andrews,8.940000407,15,10500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-55042:Dalton Schultz,111283-55042,TE,Dalton,Dalton Schultz,Schultz,5.61333313,15,10000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-87260:Isaiah Likely,111283-87260,TE,Isaiah,Isaiah Likely,Likely,6.642857143,14,9500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-23045:Justin Tucker,111283-23045,K,Justin,Justin Tucker,Tucker,8.6,15,9000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-29932:Ka'imi Fairbairn,111283-29932,K,Ka'imi,Ka'imi Fairbairn,Fairbairn,11.13333333,15,9000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-12555:Baltimore Ravens,111283-12555,D,Baltimore,Baltimore Ravens,Ravens,5.8,15,8500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-12556:Houston Texans,111283-12556,D,Houston,Houston Texans,Texans,8.533333333,15,8500,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-71521:Justice Hill,111283-71521,RB,Justice,Justice Hill,Hill,7.073333232,15,8000,BAL@HOU,BAL,HOU,NA,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-29685:Robert Woods,111283-29685,WR,Robert,Robert Woods,Woods,1.85833327,12,8000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-102696:John Metchie III,111283-102696,WR,John,John Metchie III,Metchie III,4.087500095,8,7500,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-29683:Nelson Agholor,111283-29683,WR,Nelson,Nelson Agholor,Agholor,3.238461421,13,7500,BAL@HOU,BAL,HOU,NA,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-86055:Dameon Pierce,111283-86055,RB,Dameon,Dameon Pierce,Pierce,2.200000048,8,7000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-119788:Xavier Hutchinson,111283-119788,WR,Xavier,Xavier Hutchinson,Hutchinson,1.046153875,13,7000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-137488:Rasheen Ali,111283-137488,RB,Rasheen,Rasheen Ali,Ali,1.133333365,3,6500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-87515:Tylan Wallace,111283-87515,WR,Tylan,Tylan Wallace,Wallace,4.137499809,8,6500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-134023:Keaton Mitchell,111283-134023,RB,Keaton,Keaton Mitchell,Mitchell,0,2,6000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-72725:Irv Smith Jr.,111283-72725,TE,Irv,Irv Smith Jr.,Smith Jr.,2.722222222,9,6000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-28827:Dare Ogunbowale,111283-28827,RB,Dare,Dare Ogunbowale,Ogunbowale,2.92142868,14,6000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-111637:Cade Stover,111283-111637,TE,Cade,Cade Stover,Stover,2.381818251,11,5500,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-80299:Patrick Ricard,111283-80299,RB,Patrick,Patrick Ricard,Ricard,2.760000038,5,5500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-41936:Anthony Miller,111283-41936,WR,Anthony,Anthony Miller,Miller,,0,5500,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-110721:Dayton Wade,111283-110721,WR,Dayton,Dayton Wade,Wade,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-85635:Charlie Kolar,111283-85635,TE,Charlie,Charlie Kolar,Kolar,3.399999891,7,5000,BAL@HOU,BAL,HOU,IR,Forearm,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-201345:Mike Rigerman,111283-201345,TE,Mike,Mike Rigerman,Rigerman,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-201344:DeAngelo Hardy,111283-201344,WR,DeAngelo,DeAngelo Hardy,Hardy,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-129291:Tank Dell,111283-129291,WR,Tank,Tank Dell,Dell,8.392857143,14,5000,BAL@HOU,HOU,BAL,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-96269:Owen Wright,111283-96269,RB,Owen,Owen Wright,Wright,0,1,5000,BAL@HOU,BAL,HOU,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-103308:Jawhar Jordan,111283-103308,RB,Jawhar,Jawhar Jordan,Jordan,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-88463:Johnny Johnson III,111283-88463,WR,Johnny,Johnny Johnson III,Johnson III,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-94094:Brevin Jordan,111283-94094,TE,Brevin,Brevin Jordan,Jordan,0.850000024,2,5000,BAL@HOU,HOU,BAL,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-62994:Steven Sims,111283-62994,WR,Steven,Steven Sims,Sims,-0.25,8,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-102933:Kedon Slovis,111283-102933,QB,Kedon,Kedon Slovis,Slovis,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-54426:Andrew Beck,111283-54426,TE,Andrew,Andrew Beck,Beck,0,2,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-89628:Davis Mills,111283-89628,QB,Davis,Davis Mills,Mills,0.790000021,4,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-160292:Jaxon Janke,111283-160292,WR,Jaxon,Jaxon Janke,Janke,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-45997:Keith Kirkwood,111283-45997,WR,Keith,Keith Kirkwood,Kirkwood,1.524999976,8,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-92975:Malik Cunningham,111283-92975,QB,Malik,Malik Cunningham,Cunningham,0,1,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-92465:Sean Ryan,111283-92465,WR,Sean,Sean Ryan,Ryan,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-72370:J.J. Taylor,111283-72370,RB,J.J.,J.J. Taylor,Taylor,1.800000032,3,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-93878:Devin Leary,111283-93878,QB,Devin,Devin Leary,Leary,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-86081:Emory Jones,111283-86081,QB,Emory,Emory Jones,Jones,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-173518:Qadir Ismail,111283-173518,WR,Qadir,Qadir Ismail,Ismail,,0,5000,BAL@HOU,BAL,HOU,O,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-53967:Nick Bawden,111283-53967,RB,Nick,Nick Bawden,Bawden,2,5,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-95184:Xavier Johnson,111283-95184,WR,Xavier,Xavier Johnson,Johnson,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-22994:Case Keenum,111283-22994,QB,Case,Case Keenum,Keenum,3.184999943,4,5000,BAL@HOU,HOU,BAL,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-8023:Josh Johnson,111283-8023,QB,Josh,Josh Johnson,Johnson,0.046666667,3,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-101718:Riley Sharp,111283-101718,TE,Riley,Riley Sharp,Sharp,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-66008:Diontae Johnson,111283-66008,WR,Diontae,Diontae Johnson,Johnson,7.340000153,10,5000,BAL@HOU,HOU,BAL,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-90458:Troy Hairston,111283-90458,RB,Troy,Troy Hairston,Hairston,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-112737:Isaiah Washington,111283-112737,WR,Isaiah,Isaiah Washington,Washington,,0,5000,BAL@HOU,BAL,HOU,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-93026:Teagan Quitoriano,111283-93026,TE,Teagan,Teagan Quitoriano,Quitoriano,0,2,5000,BAL@HOU,HOU,BAL,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-112101:Jared Wayne,111283-112101,WR,Jared,Jared Wayne,Wayne,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-93540:British Brooks,111283-93540,RB,British,British Brooks,Brooks,0.200000003,1,5000,BAL@HOU,HOU,BAL,IR,Knee - meniscus,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-153957:Zaire Mitchell-Paden,111283-153957,TE,Zaire,Zaire Mitchell-Paden,Mitchell-Paden,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-85994:Dalton Keene,111283-85994,TE,Dalton,Dalton Keene,Keene,,0,5000,BAL@HOU,HOU,BAL,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-156527:Devontez Walker,111283-156527,WR,Devontez,Devontez Walker,Walker,8.600000381,1,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-104176:Deonte Harty,111283-104176,WR,Deonte,Deonte Harty,Harty,0,5,5000,BAL@HOU,BAL,HOU,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-56947:Chris Myarick,111283-56947,TE,Chris,Chris Myarick,Myarick,,0,5000,BAL@HOU,HOU,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-64627:Scotty Washington,111283-64627,WR,Scotty,Scotty Washington,Washington,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-25079:Stefon Diggs,111283-25079,WR,Stefon,Stefon Diggs,Diggs,12.30249977,8,5000,BAL@HOU,HOU,BAL,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111283-201341:Jelani Baker,111283-201341,WR,Jelani,Jelani Baker,Baker,,0,5000,BAL@HOU,BAL,HOU,,,,,,MVP - 1.5X Points/AnyFLEX

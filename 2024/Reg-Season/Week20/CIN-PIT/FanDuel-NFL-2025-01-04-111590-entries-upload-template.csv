@@ -1,0 +1,78 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,
+3477734731,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-63336:Joe Burrow,111590-85701:Ja'Marr Chase,111590-89981:Tee Higgins,111590-90870:Calvin Austin III,111590-56265:Mike Gesicki,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,
+3477734733,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-63336:Joe Burrow,111590-85701:Ja'Marr Chase,111590-89981:Tee Higgins,111590-86244:Pat Freiermuth,111590-64581:Van Jefferson,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,
+3477734734,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-63336:Joe Burrow,111590-85701:Ja'Marr Chase,111590-22015:Russell Wilson,111590-56265:Mike Gesicki,111590-64581:Van Jefferson,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,
+3477734738,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-63336:Joe Burrow,111590-85701:Ja'Marr Chase,111590-90575:Najee Harris,111590-90870:Calvin Austin III,111590-56265:Mike Gesicki,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,
+3477734740,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-22015:Russell Wilson,111590-89981:Tee Higgins,111590-85701:Ja'Marr Chase,111590-110246:George Pickens,111590-112041:Isaiah Williams,,,,,,,,,,,,,,,,,,,
+3477734743,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-22015:Russell Wilson,111590-85701:Ja'Marr Chase,111590-110246:George Pickens,111590-32058:Chris Boswell,111590-12547:Pittsburgh Steelers,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3477734745,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-63336:Joe Burrow,111590-89981:Tee Higgins,111590-22015:Russell Wilson,111590-90575:Najee Harris,111590-56265:Mike Gesicki,,111590-85701:Ja'Marr Chase,111590-85701,WR,Ja'Marr,Ja'Marr Chase,Chase,20.86874962,16,16000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+3477734748,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-22015:Russell Wilson,111590-89981:Tee Higgins,111590-63336:Joe Burrow,111590-90575:Najee Harris,111590-64581:Van Jefferson,,111590-63336:Joe Burrow,111590-63336,QB,Joe,Joe Burrow,Burrow,24.30249977,16,15000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+3477734752,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-63336:Joe Burrow,111590-89981:Tee Higgins,111590-110246:George Pickens,111590-90575:Najee Harris,111590-86244:Pat Freiermuth,,111590-89981:Tee Higgins,111590-89981,WR,Tee,Tee Higgins,Higgins,16.75454573,11,13500,CIN@PIT,CIN,PIT,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+3477734754,111590-273781982,$1K Sat NFL Pooch Punt (150 Entries Max),111590-22015:Russell Wilson,111590-63336:Joe Burrow,111590-110246:George Pickens,111590-112057:Jaylen Warren,111590-56265:Mike Gesicki,,111590-22015:Russell Wilson,111590-22015,QB,Russell,Russell Wilson,Wilson,16.92599945,10,13000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-110246:George Pickens,111590-110246,WR,George,George Pickens,Pickens,10.79999953,13,12000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-89493:Chase Brown,111590-89493,RB,Chase,Chase Brown,Brown,14.4375,16,11500,CIN@PIT,CIN,PIT,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-90575:Najee Harris,111590-90575,RB,Najee,Najee Harris,Harris,11.375,16,11000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-72412:Khalil Herbert,111590-72412,RB,Khalil,Khalil Herbert,Herbert,1.336363619,11,10500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-112057:Jaylen Warren,111590-112057,RB,Jaylen,Jaylen Warren,Warren,7.357142857,14,10000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-32058:Chris Boswell,111590-32058,K,Chris,Chris Boswell,Boswell,11.5,16,9500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-12547:Pittsburgh Steelers,111590-12547,D,Pittsburgh,Pittsburgh Steelers,Steelers,8.5625,16,9000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-12528:Cincinnati Bengals,111590-12528,D,Cincinnati,Cincinnati Bengals,Bengals,6.0625,16,9000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-86244:Pat Freiermuth,111590-86244,TE,Pat,Pat Freiermuth,Freiermuth,7.331250191,16,8500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-102901:Cade York,111590-102901,K,Cade,Cade York,York,6.4,5,8500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-90870:Calvin Austin III,111590-90870,WR,Calvin,Calvin Austin III,Austin III,6.425000191,16,8000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-185593:Andrei Iosivas,111590-185593,WR,Andrei,Andrei Iosivas,Iosivas,6.231249809,16,8000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-39829:Mike Williams,111590-39829,WR,Mike,Mike Williams,Williams,3.330769172,13,7500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-56265:Mike Gesicki,111590-56265,TE,Mike,Mike Gesicki,Gesicki,6.746666463,15,7500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-64581:Van Jefferson,111590-64581,WR,Van,Van Jefferson,Jefferson,3.449999946,14,7000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-69860:Trayveon Williams,111590-69860,RB,Trayveon,Trayveon Williams,Williams,0,3,7000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-30733:Cordarrelle Patterson,111590-30733,RB,Cordarrelle,Cordarrelle Patterson,Patterson,2.616666635,12,6500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-133477:Darnell Washington,111590-133477,TE,Darnell,Darnell Washington,Washington,2.730769231,13,6500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-62505:MyCole Pruitt,111590-62505,TE,MyCole,MyCole Pruitt,Pruitt,1.857142857,7,6000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-83117:Tanner Hudson,111590-83117,TE,Tanner,Tanner Hudson,Hudson,3.424999952,8,6000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-56711:Drew Sample,111590-56711,TE,Drew,Drew Sample,Sample,2.310000038,10,5500,CIN@PIT,CIN,PIT,Q,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-92882:Connor Heyward,111590-92882,TE,Connor,Connor Heyward,Heyward,1.857142857,7,5500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-61273:Scotty Miller,111590-61273,WR,Scotty,Scotty Miller,Miller,1.879999924,5,5500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-133484:Jermaine Burton,111590-133484,WR,Jermaine,Jermaine Burton,Burton,1.587499976,8,5500,CIN@PIT,CIN,PIT,O,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-115971:Shaquan Davis,111590-115971,WR,Shaquan,Shaquan Davis,Davis,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-70027:Zack Moss,111590-70027,RB,Zack,Zack Moss,Moss,8.800000191,8,5000,CIN@PIT,CIN,PIT,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-92056:Cal Adomitis,111590-92056,TE,Cal,Cal Adomitis,Adomitis,0,2,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-103584:Noah Cain,111590-103584,RB,Noah,Noah Cain,Cain,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-185639:Keilahn Harris,111590-185639,WR,Keilahn,Keilahn Harris,Harris,,0,5000,CIN@PIT,PIT,CIN,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-60840:Jake Browning,111590-60840,QB,Jake,Jake Browning,Browning,-0.100000001,2,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-112041:Isaiah Williams,111590-112041,WR,Isaiah,Isaiah Williams,Williams,0.266666671,6,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-43433:Boston Scott,111590-43433,RB,Boston,Boston Scott,Scott,0.985714299,14,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-73130:Chris Evans,111590-73130,RB,Chris,Chris Evans,Evans,0.400000006,4,5000,CIN@PIT,CIN,PIT,IR,Leg,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-88109:Gary Brightwell,111590-88109,RB,Gary,Gary Brightwell,Brightwell,0,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-64175:Hakeem Butler,111590-64175,WR,Hakeem,Hakeem Butler,Butler,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-88752:Charlie Jones,111590-88752,WR,Charlie,Charlie Jones,Jones,0.714285714,7,5000,CIN@PIT,CIN,PIT,Q,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-86068:Jacob Copeland,111590-86068,WR,Jacob,Jacob Copeland,Copeland,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-138037:Roman Wilson,111590-138037,WR,Roman,Roman Wilson,Wilson,,0,5000,CIN@PIT,PIT,CIN,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-63419:Andy Isabella,111590-63419,WR,Andy,Andy Isabella,Isabella,0,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-71105:Ben Skowronek,111590-71105,WR,Ben,Ben Skowronek,Skowronek,1.879999924,5,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-71367:La'Mical Perine,111590-71367,RB,La'Mical,La'Mical Perine,Perine,6.25,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-91591:Justin Fields,111590-91591,QB,Justin,Justin Fields,Fields,12.31399994,10,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-71241:Brandon Johnson,111590-71241,WR,Brandon,Brandon Johnson,Johnson,1.399999976,1,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-45259:Logan Woodside,111590-45259,QB,Logan,Logan Woodside,Woodside,0.340000004,2,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-69068:Jonathan Ward,111590-69068,RB,Jonathan,Jonathan Ward,Ward,0.733333349,3,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-86092:Evan McPherson,111590-86092,K,Evan,Evan McPherson,McPherson,7.833333333,12,5000,CIN@PIT,CIN,PIT,IR,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-160463:Tanner McLachlan,111590-160463,TE,Tanner,Tanner McLachlan,McLachlan,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-103378:Erick All Jr.,111590-103378,TE,Erick,Erick All Jr.,All Jr.,3.224999905,8,5000,CIN@PIT,CIN,PIT,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-169937:Lance McCutcheon,111590-169937,WR,Lance,Lance McCutcheon,McCutcheon,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-73687:Quez Watkins,111590-73687,WR,Quez,Quez Watkins,Watkins,5.066666603,6,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-85720:Jaray Jenkins,111590-85720,WR,Jaray,Jaray Jenkins,Jenkins,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-92891:Elijah Collins,111590-92891,RB,Elijah,Elijah Collins,Collins,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-93019:Jack Colletto,111590-93019,RB,Jack,Jack Colletto,Colletto,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-201561:Cole Burgess,111590-201561,WR,Cole,Cole Burgess,Burgess,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-170206:Rodney Williams,111590-170206,TE,Rodney,Rodney Williams,Williams,0,3,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-54239:Matt Sokol,111590-54239,TE,Matt,Matt Sokol,Sokol,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-103390:Tre Mosley,111590-103390,WR,Tre,Tre Mosley,Mosley,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-201564:Cam Grandy,111590-201564,TE,Cam,Cam Grandy,Grandy,1.300000032,3,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-129508:Duece Watts,111590-129508,WR,Duece,Duece Watts,Watts,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-53095:Kyle Allen,111590-53095,QB,Kyle,Kyle Allen,Allen,0.379999995,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-170213:Aaron Shampklin,111590-170213,RB,Aaron,Aaron Shampklin,Shampklin,0.566666683,3,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-92904:Rocky Lombardi,111590-92904,QB,Rocky,Rocky Lombardi,Lombardi,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-72427:Kwamie Lassiter II,111590-72427,WR,Kwamie,Kwamie Lassiter II,Lassiter II,0.699999988,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-79979:Jamal Agnew,111590-79979,WR,Jamal,Jamal Agnew,Agnew,3.027272658,11,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-133487:Daijun Edwards,111590-133487,RB,Daijun,Daijun Edwards,Edwards,,0,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-119672:Kendall Milton,111590-119672,RB,Kendall,Kendall Milton,Milton,,0,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,111590-71935:Kendric Pryor,111590-71935,WR,Kendric,Kendric Pryor,Pryor,1.399999976,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX

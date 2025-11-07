@@ -1,0 +1,80 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,
+3386624179,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-111540:Rhamondre Stevenson,107022-40845:Hunter Henry,107022-158412:Braelon Allen,107022-120694:Ja'Lynn Polk,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,
+3386624181,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-103064:Breece Hall,107022-40845:Hunter Henry,107022-158412:Braelon Allen,107022-120694:Ja'Lynn Polk,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,
+3386624182,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-6894:Aaron Rodgers,107022-30231:Jacoby Brissett,107022-158412:Braelon Allen,107022-56378:Joey Slye,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,
+3386624184,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-103064:Breece Hall,107022-40845:Hunter Henry,107022-158412:Braelon Allen,107022-60451:Tyler Conklin,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,
+3386624185,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-6894:Aaron Rodgers,107022-111540:Rhamondre Stevenson,107022-30231:Jacoby Brissett,107022-158412:Braelon Allen,107022-56378:Joey Slye,,,,,,,,,,,,,,,,,,,
+3386624186,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-6894:Aaron Rodgers,107022-30231:Jacoby Brissett,107022-56378:Joey Slye,107022-120694:Ja'Lynn Polk,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3386624188,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-6894:Aaron Rodgers,107022-30231:Jacoby Brissett,107022-158412:Braelon Allen,107022-63855:K.J. Osborn,,107022-103064:Breece Hall,107022-103064,RB,Breece,Breece Hall,Hall,18.35000038,2,16000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624189,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-6894:Aaron Rodgers,107022-30231:Jacoby Brissett,107022-56378:Joey Slye,107022-22109:Greg Zuerlein,,107022-111540:Rhamondre Stevenson,107022-111540,RB,Rhamondre,Rhamondre Stevenson,Stevenson,19.54999924,2,15000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624190,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-6894:Aaron Rodgers,107022-40845:Hunter Henry,107022-158412:Braelon Allen,107022-63855:K.J. Osborn,,107022-6894:Aaron Rodgers,107022-6894,QB,Aaron,Aaron Rodgers,Rodgers,12.35999966,2,14000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624192,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-6894:Aaron Rodgers,107022-103064:Breece Hall,107022-40845:Hunter Henry,107022-158412:Braelon Allen,107022-120694:Ja'Lynn Polk,,107022-103564:Garrett Wilson,107022-103564,WR,Garrett,Garrett Wilson,Wilson,8.600000381,2,13000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624193,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-111540:Rhamondre Stevenson,107022-103564:Garrett Wilson,107022-22109:Greg Zuerlein,107022-63855:K.J. Osborn,,107022-30231:Jacoby Brissett,107022-30231,QB,Jacoby,Jacoby Brissett,Brissett,9.300000191,2,12500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624194,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-158412:Braelon Allen,107022-6894:Aaron Rodgers,107022-40845:Hunter Henry,107022-103064:Breece Hall,107022-120694:Ja'Lynn Polk,,107022-152316:Drake Maye,107022-152316,QB,Drake,Drake Maye,Maye,,0,12500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624196,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-103064:Breece Hall,107022-30231:Jacoby Brissett,107022-39829:Mike Williams,107022-63855:K.J. Osborn,,107022-90933:Antonio Gibson,107022-90933,RB,Antonio,Antonio Gibson,Gibson,6.300000191,2,11500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624198,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-6894:Aaron Rodgers,107022-103064:Breece Hall,107022-103564:Garrett Wilson,107022-56378:Joey Slye,107022-63855:K.J. Osborn,,107022-40845:Hunter Henry,107022-40845,TE,Hunter,Hunter Henry,Henry,10.35000038,2,11000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624199,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-6894:Aaron Rodgers,107022-158412:Braelon Allen,107022-120694:Ja'Lynn Polk,107022-63855:K.J. Osborn,,107022-158412:Braelon Allen,107022-158412,RB,Braelon,Braelon Allen,Allen,10.39999962,2,10000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624201,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-56378:Joey Slye,107022-6894:Aaron Rodgers,107022-158412:Braelon Allen,107022-111540:Rhamondre Stevenson,107022-63855:K.J. Osborn,,107022-12544:New York Jets,107022-12544,D,New York,New York Jets,Jets,6.5,2,9500,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624202,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-6894:Aaron Rodgers,107022-30231:Jacoby Brissett,107022-56809:Allen Lazard,107022-120694:Ja'Lynn Polk,,107022-56809:Allen Lazard,107022-56809,WR,Allen,Allen Lazard,Lazard,13,2,9500,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624203,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-103564:Garrett Wilson,107022-40845:Hunter Henry,107022-158412:Braelon Allen,107022-39829:Mike Williams,,107022-39829:Mike Williams,107022-39829,WR,Mike,Mike Williams,Williams,2.400000095,1,9000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624204,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-6894:Aaron Rodgers,107022-103064:Breece Hall,107022-30231:Jacoby Brissett,107022-39829:Mike Williams,107022-56378:Joey Slye,,107022-12541:New England Patriots,107022-12541,D,New England,New England Patriots,Patriots,7,2,9000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624205,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-103064:Breece Hall,107022-6894:Aaron Rodgers,107022-90933:Antonio Gibson,107022-39829:Mike Williams,107022-56378:Joey Slye,,107022-56378:Joey Slye,107022-56378,K,Joey,Joey Slye,Slye,9,2,8500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624206,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-111540:Rhamondre Stevenson,107022-6894:Aaron Rodgers,107022-90933:Antonio Gibson,107022-40845:Hunter Henry,107022-60451:Tyler Conklin,,107022-22109:Greg Zuerlein,107022-22109,K,Greg,Greg Zuerlein,Zuerlein,3.5,2,8500,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624207,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-158412:Braelon Allen,107022-103564:Garrett Wilson,107022-30231:Jacoby Brissett,107022-103064:Breece Hall,107022-22109:Greg Zuerlein,,107022-60451:Tyler Conklin,107022-60451,TE,Tyler,Tyler Conklin,Conklin,1.299999952,2,8000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624208,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-6894:Aaron Rodgers,107022-103064:Breece Hall,107022-103564:Garrett Wilson,107022-120694:Ja'Lynn Polk,107022-111876:DeMario Douglas,,107022-120694:Ja'Lynn Polk,107022-120694,WR,Ja'Lynn,Ja'Lynn Polk,Polk,4.650000095,2,8000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+3386624209,107022-271021290,$10K Thu NFL Pooch Punt (150 Entries Max),107022-39829:Mike Williams,107022-6894:Aaron Rodgers,107022-30231:Jacoby Brissett,107022-103064:Breece Hall,107022-56378:Joey Slye,,107022-111876:DeMario Douglas,107022-111876,WR,DeMario,DeMario Douglas,Douglas,2.200000048,1,7500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-63855:K.J. Osborn,107022-63855,WR,K.J.,K.J. Osborn,Osborn,2.400000095,2,7500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-89220:Tyquan Thornton,107022-89220,WR,Tyquan,Tyquan Thornton,Thornton,3.700000048,1,7000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-40126:Austin Hooper,107022-40126,TE,Austin,Austin Hooper,Hooper,2.549999952,2,7000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-87815:Jeremy Ruckert,107022-87815,TE,Jeremy,Jeremy Ruckert,Ruckert,0,1,6500,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-112455:Xavier Gipson,107022-112455,WR,Xavier,Xavier Gipson,Gipson,0,2,6500,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-128913:Malachi Corley,107022-128913,WR,Malachi,Malachi Corley,Corley,0.899999976,1,6000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-160213:Isaiah Davis,107022-160213,RB,Isaiah,Isaiah Davis,Davis,,0,6000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-65724:JaMycal Hasty,107022-65724,RB,JaMycal,JaMycal Hasty,Hasty,0.100000001,2,5500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-138746:Javon Baker,107022-138746,WR,Javon,Javon Baker,Baker,,0,5500,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-94469:Andrew Peasley,107022-94469,QB,Andrew,Andrew Peasley,Peasley,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-92937:Jordan Travis,107022-92937,QB,Jordan,Jordan Travis,Travis,,0,5000,NE@NYJ,NYJ,NE,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-61200:Jaylinn Hawkins,107022-61200,WR,Jaylinn,Jaylinn Hawkins,Hawkins,0,2,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-138643:Jason Brownlee,107022-138643,WR,Jason,Jason Brownlee,Brownlee,2.820000076,5,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-28434:Trevor Siemian,107022-28434,QB,Trevor,Trevor Siemian,Siemian,6.191999817,5,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-64403:Irvin Charles,107022-64403,WR,Irvin,Irvin Charles,Charles,0,2,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-92957:Marcus Riley,107022-92957,WR,Marcus,Marcus Riley,Riley,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-90268:Colby Suits,107022-90268,QB,Colby,Colby Suits,Suits,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-73247:Kene Nwangwu,107022-73247,RB,Kene,Kene Nwangwu,Nwangwu,0.144444439,9,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-65182:Mitchell Wilcox,107022-65182,TE,Mitchell,Mitchell Wilcox,Wilcox,0.918181853,11,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-94625:Jalen Reagor,107022-94625,WR,Jalen,Jalen Reagor,Reagor,2.5,10,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-80289:Kendrick Bourne,107022-80289,WR,Kendrick,Kendrick Bourne,Bourne,10.1875,8,5000,NE@NYJ,NE,NYJ,NA,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-80294:Anthony Firkser,107022-80294,TE,Anthony,Anthony Firkser,Firkser,1.299999952,1,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-14377:Tyrod Taylor,107022-14377,QB,Tyrod,Tyrod Taylor,Taylor,6.139999866,1,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-92970:Tyler Harrell,107022-92970,WR,Tyler,Tyler Harrell,Harrell,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-14257:Randall Cobb,107022-14257,WR,Randall,Randall Cobb,Cobb,1.439999962,10,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-138169:Jaheim Bell,107022-138169,TE,Jaheim,Jaheim Bell,Bell,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-91709:Deshaun Fenwick,107022-91709,RB,Deshaun,Deshaun Fenwick,Fenwick,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-129219:Israel Abanikanda,107022-129219,RB,Israel,Israel Abanikanda,Abanikanda,1.828571456,7,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-86341:Xazavian Valladay,107022-86341,RB,Xazavian,Xazavian Valladay,Valladay,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-87367:Jacob Warren,107022-87367,TE,Jacob,Jacob Warren,Warren,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-167625:Hamze El-Zayat,107022-167625,WR,Hamze,Hamze El-Zayat,El-Zayat,,0,5000,NE@NYJ,NYJ,NE,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-88525:Kawaan Baker,107022-88525,WR,Kawaan,Kawaan Baker,Baker,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-87117:Brenden Bates,107022-87117,TE,Brenden,Brenden Bates,Bates,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-93134:Deon Jackson,107022-93134,RB,Deon,Deon Jackson,Jackson,0.75,2,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-117201:Isaiah Winstead,107022-117201,WR,Isaiah,Isaiah Winstead,Winstead,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-169937:Lance McCutcheon,107022-169937,WR,Lance,Lance McCutcheon,McCutcheon,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-73046:Tre Nixon,107022-73046,WR,Tre,Tre Nixon,Nixon,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-72665:Kenny Yeboah,107022-72665,TE,Kenny,Kenny Yeboah,Yeboah,1.899999976,2,5000,NE@NYJ,NYJ,NE,IR,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-91612:Matt Landers,107022-91612,WR,Matt,Matt Landers,Landers,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-86750:Chad Ryland,107022-86750,K,Chad,Chad Ryland,Ryland,5.0625,16,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-86238:Zack Kuntz,107022-86238,TE,Zack,Zack Kuntz,Kuntz,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-104289:Malik Taylor,107022-104289,WR,Malik,Malik Taylor,Taylor,1.149999976,2,5000,NE@NYJ,NYJ,NE,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-155875:Lincoln Sefcik,107022-155875,TE,Lincoln,Lincoln Sefcik,Sefcik,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-64097:La'Michael Pettway,107022-64097,TE,La'Michael,La'Michael Pettway,Pettway,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-114787:Terrell Jennings,107022-114787,RB,Terrell,Terrell Jennings,Jennings,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-87011:Markese Stepp,107022-87011,RB,Markese,Markese Stepp,Stepp,,0,5000,NE@NYJ,NYJ,NE,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-119653:Kayshon Boutte,107022-119653,WR,Kayshon,Kayshon Boutte,Boutte,0.725000024,4,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-90981:Adrian Martinez,107022-90981,QB,Adrian,Adrian Martinez,Martinez,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-192359:JaQuae Jackson,107022-192359,WR,JaQuae,JaQuae Jackson,Jackson,,0,5000,NE@NYJ,NE,NYJ,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-102762:Kevin Harris,107022-102762,RB,Kevin,Kevin Harris,Harris,4.949999809,4,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-86125:Brandon Smith,107022-86125,WR,Brandon,Brandon Smith,Smith,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-202481:David Wallis,107022-202481,WR,David,David Wallis,Wallis,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-86265:Ben Bryant,107022-86265,QB,Ben,Ben Bryant,Bryant,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-201337:Peewee Jarrett,107022-201337,QB,Peewee,Peewee Jarrett,Jarrett,,0,5000,NE@NYJ,NYJ,NE,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,107022-91390:Joe Milton III,107022-91390,QB,Joe,Joe Milton III,Milton III,,0,5000,NE@NYJ,NE,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX

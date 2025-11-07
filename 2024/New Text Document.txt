@@ -1,0 +1,5 @@
+1 Download player file
+2 Evaluate Teir and position
+3 Order speadsheet accordingly and seperate tiers with a blank line
+4 Save as xlsm
+   

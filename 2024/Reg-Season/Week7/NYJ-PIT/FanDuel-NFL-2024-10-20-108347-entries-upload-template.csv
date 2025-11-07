@@ -1,0 +1,81 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,"","Instructions"
+"3409705172","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-22015","108347-91591","108347-6894","108347-56809","108347-12547","","1) Edit your lineup by inserting any player from this list into their appropriate position columns"
+"3409705177","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-22015","108347-91591","108347-56809","108347-103564","108347-32058","","2) You can paste either the Player ID + Name OR ID from their respective columns"
+"3409705183","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-91591","108347-22015","108347-6894","108347-56809","108347-12547","","3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited"
+"3409705188","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-91591","108347-22015","108347-56809","108347-103564","108347-32058","","4) You can not use this form to create new entries"
+"3409705191","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-6894","108347-91591","108347-22015","108347-56809","108347-12547",""
+"3409705195","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-22015","108347-91591","108347-56809","108347-32058","108347-90575","",Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+"3409705198","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-91591","108347-22015","108347-56809","108347-32058","108347-90575","",108347-103064:Breece Hall,108347-103064,RB,Breece,Breece Hall,Hall,13.90000025431315,6,15500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"3409705201","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-22015","108347-91591","108347-6894","108347-56809","108347-12544","",108347-6894:Aaron Rodgers,108347-6894,QB,Aaron,Aaron Rodgers,Rodgers,15.146666208902994,6,14500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"3409705205","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-22015","108347-91591","108347-56809","108347-103564","108347-12547","",108347-91591:Justin Fields,108347-91591,QB,Justin,Justin Fields,Fields,19.556666056315105,6,14000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"3409705209","108347-271822559","$3K Sun NFL Pooch Punt (150 Entries Max)","108347-91591","108347-22015","108347-6894","108347-56809","108347-12544","",108347-22015:Russell Wilson,108347-22015,QB,Russell,Russell Wilson,Wilson,17.65999959309896,15,14000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-103564:Garrett Wilson,108347-103564,WR,Garrett,Garrett Wilson,Wilson,13.816666920979818,6,13500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-45889:Davante Adams,108347-45889,WR,Davante,Davante Adams,Adams,12.966667175292969,3,13000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-90575:Najee Harris,108347-90575,RB,Najee,Najee Harris,Harris,11.183333079020182,6,12000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-110246:George Pickens,108347-110246,WR,George,George Pickens,Pickens,8.216666539510092,6,11000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-158412:Braelon Allen,108347-158412,RB,Braelon,Braelon Allen,Allen,6.383333206176758,6,10000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-32058:Chris Boswell,108347-32058,K,Chris,Chris Boswell,Boswell,12.333333333333334,6,9500,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-86244:Pat Freiermuth,108347-86244,TE,Pat,Pat Freiermuth,Freiermuth,6.733333587646484,6,9500,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-12544:New York Jets,108347-12544,D,New York,New York Jets,Jets,7.666666666666667,6,9000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-12547:Pittsburgh Steelers,108347-12547,D,Pittsburgh,Pittsburgh Steelers,Steelers,10,6,9000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-22109:Greg Zuerlein,108347-22109,K,Greg,Greg Zuerlein,Zuerlein,6,6,8500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-56809:Allen Lazard,108347-56809,WR,Allen,Allen Lazard,Lazard,13.566666920979818,6,8500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-60451:Tyler Conklin,108347-60451,TE,Tyler,Tyler Conklin,Conklin,4.766666730244954,6,8000,NYJ@PIT,NYJ,PIT,Q,Hip,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-112057:Jaylen Warren,108347-112057,RB,Jaylen,Jaylen Warren,Warren,3.5,4,8000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-39829:Mike Williams,108347-39829,WR,Mike,Mike Williams,Williams,3.9,5,7500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-90870:Calvin Austin III,108347-90870,WR,Calvin,Calvin Austin III,Austin III,4.616666793823242,6,7500,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-30733:Cordarrelle Patterson,108347-30733,RB,Cordarrelle,Cordarrelle Patterson,Patterson,3.7750000953674316,4,7000,NYJ@PIT,PIT,NYJ,O,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-64581:Van Jefferson,108347-64581,WR,Van,Van Jefferson,Jefferson,2.549999952316284,4,7000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-160213:Isaiah Davis,108347-160213,RB,Isaiah,Isaiah Davis,Davis,0.20000000794728598,3,6500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-133477:Darnell Washington,108347-133477,TE,Darnell,Darnell Washington,Washington,2.9,5,6500,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-87815:Jeremy Ruckert,108347-87815,TE,Jeremy,Jeremy Ruckert,Ruckert,1.5499999523162842,4,6000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-61273:Scotty Miller,108347-61273,WR,Scotty,Scotty Miller,Miller,4.099999904632568,1,6000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-112455:Xavier Gipson,108347-112455,WR,Xavier,Xavier Gipson,Gipson,0.6166666746139526,6,5500,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-92882:Connor Heyward,108347-92882,TE,Connor,Connor Heyward,Heyward,3.633333206176758,3,5500,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-170213:Aaron Shampklin,108347-170213,RB,Aaron,Aaron Shampklin,Shampklin,0.5666666825612386,3,5500,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-115971:Shaquan Davis,108347-115971,WR,Shaquan,Shaquan Davis,Davis,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-94469:Andrew Peasley,108347-94469,QB,Andrew,Andrew Peasley,Peasley,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-92937:Jordan Travis,108347-92937,QB,Jordan,Jordan Travis,Travis,,0,5000,NYJ@PIT,NYJ,PIT,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-128913:Malachi Corley,108347-128913,WR,Malachi,Malachi Corley,Corley,0.8999999761581421,1,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-138643:Jason Brownlee,108347-138643,WR,Jason,Jason Brownlee,Brownlee,2.8200000762939452,5,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-64403:Irvin Charles,108347-64403,WR,Irvin,Irvin Charles,Charles,0,2,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-92957:Marcus Riley,108347-92957,WR,Marcus,Marcus Riley,Riley,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-90268:Colby Suits,108347-90268,QB,Colby,Colby Suits,Suits,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-73247:Kene Nwangwu,108347-73247,RB,Kene,Kene Nwangwu,Nwangwu,0.1444444391462538,9,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-185639:Keilahn Harris,108347-185639,WR,Keilahn,Keilahn Harris,Harris,,0,5000,NYJ@PIT,PIT,NYJ,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-91428:Tarik Black,108347-91428,WR,Tarik,Tarik Black,Black,,0,5000,NYJ@PIT,PIT,NYJ,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-80294:Anthony Firkser,108347-80294,TE,Anthony,Anthony Firkser,Firkser,1.2999999523162842,1,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-62505:MyCole Pruitt,108347-62505,TE,MyCole,MyCole Pruitt,Pruitt,1.399999976158142,1,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-43433:Boston Scott,108347-43433,RB,Boston,Boston Scott,Scott,0.9857142993382045,14,5000,NYJ@PIT,PIT,NYJ,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-14377:Tyrod Taylor,108347-14377,QB,Tyrod,Tyrod Taylor,Taylor,6.139999866485596,1,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-92970:Tyler Harrell,108347-92970,WR,Tyler,Tyler Harrell,Harrell,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-86068:Jacob Copeland,108347-86068,WR,Jacob,Jacob Copeland,Copeland,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-138037:Roman Wilson,108347-138037,WR,Roman,Roman Wilson,Wilson,,0,5000,NYJ@PIT,PIT,NYJ,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-71105:Ben Skowronek,108347-71105,WR,Ben,Ben Skowronek,Skowronek,1.85,10,5000,NYJ@PIT,PIT,NYJ,IR,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-129219:Israel Abanikanda,108347-129219,RB,Israel,Israel Abanikanda,Abanikanda,1.8285714558192663,7,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-86341:Xazavian Valladay,108347-86341,RB,Xazavian,Xazavian Valladay,Valladay,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-71367:La'Mical Perine,108347-71367,RB,La'Mical,La'Mical Perine,Perine,6.25,2,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-71241:Brandon Johnson,108347-71241,WR,Brandon,Brandon Johnson,Johnson,1.399999976158142,1,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-167625:Hamze El-Zayat,108347-167625,WR,Hamze,Hamze El-Zayat,El-Zayat,,0,5000,NYJ@PIT,NYJ,PIT,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-87117:Brenden Bates,108347-87117,TE,Brenden,Brenden Bates,Bates,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-69068:Jonathan Ward,108347-69068,RB,Jonathan,Jonathan Ward,Ward,1.100000023841858,2,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-93134:Deon Jackson,108347-93134,RB,Deon,Deon Jackson,Jackson,0.75,2,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-117201:Isaiah Winstead,108347-117201,WR,Isaiah,Isaiah Winstead,Winstead,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-169937:Lance McCutcheon,108347-169937,WR,Lance,Lance McCutcheon,McCutcheon,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-73687:Quez Watkins,108347-73687,WR,Quez,Quez Watkins,Watkins,5.066666603088379,6,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-72665:Kenny Yeboah,108347-72665,TE,Kenny,Kenny Yeboah,Yeboah,1.899999976158142,2,5000,NYJ@PIT,NYJ,PIT,IR,Groin,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-85720:Jaray Jenkins,108347-85720,WR,Jaray,Jaray Jenkins,Jenkins,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-93019:Jack Colletto,108347-93019,RB,Jack,Jack Colletto,Colletto,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-170206:Rodney Williams,108347-170206,TE,Rodney,Rodney Williams,Williams,0,3,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-86238:Zack Kuntz,108347-86238,TE,Zack,Zack Kuntz,Kuntz,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-54239:Matt Sokol,108347-54239,TE,Matt,Matt Sokol,Sokol,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-104289:Malik Taylor,108347-104289,WR,Malik,Malik Taylor,Taylor,1.149999976158142,2,5000,NYJ@PIT,NYJ,PIT,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-155875:Lincoln Sefcik,108347-155875,TE,Lincoln,Lincoln Sefcik,Sefcik,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-87011:Markese Stepp,108347-87011,RB,Markese,Markese Stepp,Stepp,,0,5000,NYJ@PIT,NYJ,PIT,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-90981:Adrian Martinez,108347-90981,QB,Adrian,Adrian Martinez,Martinez,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-129508:Duece Watts,108347-129508,WR,Duece,Duece Watts,Watts,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-53095:Kyle Allen,108347-53095,QB,Kyle,Kyle Allen,Allen,0.7599999904632568,1,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-86125:Brandon Smith,108347-86125,WR,Brandon,Brandon Smith,Smith,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-133487:Daijun Edwards,108347-133487,RB,Daijun,Daijun Edwards,Edwards,,0,5000,NYJ@PIT,PIT,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-86265:Ben Bryant,108347-86265,QB,Ben,Ben Bryant,Bryant,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",108347-201337:Peewee Jarrett,108347-201337,QB,Peewee,Peewee Jarrett,Jarrett,,0,5000,NYJ@PIT,NYJ,PIT,,,,,,MVP - 1.5X Points/AnyFLEX

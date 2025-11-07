@@ -1,0 +1,77 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,"","Instructions"
+"3394564724","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-62239","107485-63115","107485-12526","107485-65128","107485-23045","","1) Edit your lineup by inserting any player from this list into their appropriate position columns"
+"3394564726","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-63115","107485-62239","107485-12526","107485-65128","107485-23045","","2) You can paste either the Player ID + Name OR ID from their respective columns"
+"3394564728","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-62239","107485-39280","107485-12526","107485-86518","107485-65128","","3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited"
+"3394564730","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-63115","107485-39280","107485-12526","107485-86518","107485-65128","","4) You can not use this form to create new entries"
+"3394564732","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-63115","107485-39280","107485-91626","107485-12526","107485-29683",""
+"3394564734","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-62239","107485-63115","107485-12526","107485-65128","107485-85845","",Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+"3394564737","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-63115","107485-62239","107485-12526","107485-65128","107485-85845","",107485-62239:Josh Allen,107485-62239,QB,Josh,Josh Allen,Allen,23.953333536783855,3,17000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"3394564738","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-63115","107485-91626","107485-12526","107485-86518","107485-65128","",107485-63115:Lamar Jackson,107485-63115,QB,Lamar,Lamar Jackson,Jackson,23.82666778564453,3,16500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"3394564741","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-62239","107485-39280","107485-12526","107485-86518","107485-23045","",107485-39280:Derrick Henry,107485-39280,RB,Derrick,Derrick Henry,Henry,19.866666158040363,3,14500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"3394564742","107485-271280181","$12K Sun NFL Hail Mary (Only $0.25 To Enter)","107485-63115","107485-39280","107485-12526","107485-86518","107485-23045","",107485-91626:James Cook,107485-91626,RB,James,James Cook,Cook,18.833333333333332,3,14000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-112295:Zay Flowers,107485-112295,WR,Zay,Zay Flowers,Flowers,10.166666666666666,3,12000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-86518:Khalil Shakir,107485-86518,WR,Khalil,Khalil Shakir,Shakir,12,3,11000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-145558:Dalton Kincaid,107485-145558,TE,Dalton,Dalton Kincaid,Kincaid,6.166666666666667,3,10500,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-52436:Mark Andrews,107485-52436,TE,Mark,Mark Andrews,Andrews,3.1666666666666665,3,10000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-87260:Isaiah Likely,107485-87260,TE,Isaiah,Isaiah Likely,Likely,9.700000127156576,3,9500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-23045:Justin Tucker,107485-23045,K,Justin,Justin Tucker,Tucker,8.333333333333334,3,9000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-65128:Tyler Bass,107485-65128,K,Tyler,Tyler Bass,Bass,10,3,9000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-12555:Baltimore Ravens,107485-12555,D,Baltimore,Baltimore Ravens,Ravens,5.333333333333333,3,8500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-12526:Buffalo Bills,107485-12526,D,Buffalo,Buffalo Bills,Bills,12.333333333333334,3,8500,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-157467:Keon Coleman,107485-157467,WR,Keon,Keon Coleman,Coleman,5.333333333333333,3,8000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-71521:Justice Hill,107485-71521,RB,Justice,Justice Hill,Hill,6.366666793823242,3,8000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-103694:Ray Davis,107485-103694,RB,Ray,Ray Davis,Davis,5.100000063578288,3,7500,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-85845:Rashod Bateman,107485-85845,WR,Rashod,Rashod Bateman,Bateman,7.366666793823242,3,7500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-52613:Curtis Samuel,107485-52613,WR,Curtis,Curtis Samuel,Samuel,2.3333333333333335,3,7000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-25267:Mack Hollins,107485-25267,WR,Mack,Mack Hollins,Hollins,3.866666793823242,3,7000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-63050:Ty Johnson,107485-63050,RB,Ty,Ty Johnson,Johnson,5.5,3,6500,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-29683:Nelson Agholor,107485-29683,WR,Nelson,Nelson Agholor,Agholor,3,3,6500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-40647:Marquez Valdes-Scantling,107485-40647,WR,Marquez,Marquez Valdes-Scantling,Valdes-Scantling,1.1999999682108562,3,6000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-64585:Dawson Knox,107485-64585,TE,Dawson,Dawson Knox,Knox,2,2,6000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-85635:Charlie Kolar,107485-85635,TE,Charlie,Charlie Kolar,Kolar,2.200000047683716,2,5500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-90123:Quintin Morris,107485-90123,TE,Quintin,Quintin Morris,Morris,3.2000001271565757,3,5500,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-156527:Devontez Walker,107485-156527,WR,Devontez,Devontez Walker,Walker,,0,5500,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-110721:Dayton Wade,107485-110721,WR,Dayton,Dayton Wade,Wade,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-201345:Mike Rigerman,107485-201345,TE,Mike,Mike Rigerman,Rigerman,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-201344:DeAngelo Hardy,107485-201344,WR,DeAngelo,DeAngelo Hardy,Hardy,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-134023:Keaton Mitchell,107485-134023,RB,Keaton,Keaton Mitchell,Mitchell,8.175000190734863,8,5000,BUF@BAL,BAL,BUF,NA,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-96269:Owen Wright,107485-96269,RB,Owen,Owen Wright,Wright,0,1,5000,BUF@BAL,BAL,BUF,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-137488:Rasheen Ali,107485-137488,RB,Rasheen,Rasheen Ali,Ali,,0,5000,BUF@BAL,BAL,BUF,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-139284:Frank Gore Jr.,107485-139284,RB,Frank,Frank Gore Jr.,Gore Jr.,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-73111:Chase Claypool,107485-73111,WR,Chase,Chase Claypool,Claypool,2.2125000953674316,8,5000,BUF@BAL,BUF,BAL,Q,Toe,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-70426:Reggie Gilliam,107485-70426,RB,Reggie,Reggie Gilliam,Gilliam,0.26666667064030963,3,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-80299:Patrick Ricard,107485-80299,RB,Patrick,Patrick Ricard,Ricard,0,1,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-45997:Keith Kirkwood,107485-45997,WR,Keith,Keith Kirkwood,Kirkwood,1.524999976158142,8,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-92975:Malik Cunningham,107485-92975,QB,Malik,Malik Cunningham,Cunningham,0,1,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-92465:Sean Ryan,107485-92465,WR,Sean,Sean Ryan,Ryan,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-86192:KJ Hamler,107485-86192,WR,KJ,KJ Hamler,Hamler,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-52916:Russell Gage,107485-52916,WR,Russell,Russell Gage,Gage,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-93878:Devin Leary,107485-93878,QB,Devin,Devin Leary,Leary,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-63419:Andy Isabella,107485-63419,WR,Andy,Andy Isabella,Isabella,0,2,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-87233:Bryan Thompson,107485-87233,WR,Bryan,Bryan Thompson,Thompson,,0,5000,BUF@BAL,BUF,BAL,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-86081:Emory Jones,107485-86081,QB,Emory,Emory Jones,Jones,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-89283:Tre' McKitty,107485-89283,TE,Tre',Tre' McKitty,McKitty,0,1,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-69833:Shane Buechele,107485-69833,QB,Shane,Shane Buechele,Buechele,,0,5000,BUF@BAL,BUF,BAL,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-173518:Qadir Ismail,107485-173518,WR,Qadir,Qadir Ismail,Ismail,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-149708:Zach Davidson,107485-149708,TE,Zach,Zach Davidson,Davidson,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-41936:Anthony Miller,107485-41936,WR,Anthony,Anthony Miller,Miller,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-90583:Tyrell Shavers,107485-90583,WR,Tyrell,Tyrell Shavers,Shavers,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-40534:Mike White,107485-40534,QB,Mike,Mike White,White,0.43714284896850586,7,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-30678:Damiere Byrd,107485-30678,WR,Damiere,Damiere Byrd,Byrd,0,1,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-101718:Riley Sharp,107485-101718,TE,Riley,Riley Sharp,Sharp,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-8023:Josh Johnson,107485-8023,QB,Josh,Josh Johnson,Johnson,0,2,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-87515:Tylan Wallace,107485-87515,WR,Tylan,Tylan Wallace,Wallace,0.949999988079071,8,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-91098:Lawrence Keys III,107485-91098,WR,Lawrence,Lawrence Keys III,Keys III,,0,5000,BUF@BAL,BUF,BAL,Q,Leg,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-69597:Anthony Brown Jr.,107485-69597,QB,Anthony,Anthony Brown Jr.,Brown Jr.,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-112737:Isaiah Washington,107485-112737,WR,Isaiah,Isaiah Washington,Washington,,0,5000,BUF@BAL,BAL,BUF,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-38628:Mitchell Trubisky,107485-38628,QB,Mitchell,Mitchell Trubisky,Trubisky,-0.09000000357627869,2,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-153957:Zaire Mitchell-Paden,107485-153957,TE,Zaire,Zaire Mitchell-Paden,Mitchell-Paden,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-63469:Ben DiNucci,107485-63469,QB,Ben,Ben DiNucci,DiNucci,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-70383:Darrynton Evans,107485-70383,RB,Darrynton,Darrynton Evans,Evans,4.416666666666667,6,5000,BUF@BAL,BUF,BAL,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-104176:Deonte Harty,107485-104176,WR,Deonte,Deonte Harty,Harty,0,3,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-64627:Scotty Washington,107485-64627,WR,Scotty,Scotty Washington,Washington,,0,5000,BUF@BAL,BAL,BUF,O,Hand,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-63479:John Kelly Jr.,107485-63479,RB,John,John Kelly Jr.,Kelly Jr.,0,1,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-69752:Jalen Virgil,107485-69752,WR,Jalen,Jalen Virgil,Virgil,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-103291:Ahmarean Brown,107485-103291,WR,Ahmarean,Ahmarean Brown,Brown,,0,5000,BUF@BAL,BUF,BAL,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-201342:Chris Collier,107485-201342,RB,Chris,Chris Collier,Collier,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",107485-201341:Jelani Baker,107485-201341,WR,Jelani,Jelani Baker,Baker,,0,5000,BUF@BAL,BAL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX

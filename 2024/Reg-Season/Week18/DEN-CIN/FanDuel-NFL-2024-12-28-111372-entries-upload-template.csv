@@ -1,0 +1,69 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,"","Instructions"
+"3472968123","111372-273666401","$1K Sat NFL Hail Mary (Only $0.25 to Enter)","111372-63336","111372-85701","111372-57403","111372-56265","111372-130270","","1) Edit your lineup by inserting any player from this list into their appropriate position columns"
+"3472969002","111372-273666401","$1K Sat NFL Hail Mary (Only $0.25 to Enter)","111372-85701","111372-63336","111372-89493","111372-48380","111372-130270","","2) You can paste either the Player ID + Name OR ID from their respective columns"
+"3472969810","111372-273666401","$1K Sat NFL Hail Mary (Only $0.25 to Enter)","111372-85701","111372-102965","111372-57403","111372-185593","111372-103511","","3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited"
+"3472970822","111372-273666401","$1K Sat NFL Hail Mary (Only $0.25 to Enter)","111372-63336","111372-102965","111372-89981","111372-93541","111372-120093","","4) You can not use this form to create new entries"
+"","","","","","","","",""
+"","","","","","","","","",Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+"","","","","","","","","",111372-85701:Ja'Marr Chase,111372-85701,WR,Ja'Marr,Ja'Marr Chase,Chase,21.080000813802084,15,16500,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-63336:Joe Burrow,111372-63336,QB,Joe,Joe Burrow,Burrow,23.257332356770835,15,15000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-102965:Bo Nix,111372-102965,QB,Bo,Bo Nix,Nix,18.35333251953125,15,14000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-89493:Chase Brown,111372-89493,RB,Chase,Chase Brown,Brown,14.659999593098958,15,13000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-89981:Tee Higgins,111372-89981,WR,Tee,Tee Higgins,Higgins,14.669999694824218,10,12500,DEN@CIN,CIN,DEN,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-57403:Courtland Sutton,111372-57403,WR,Courtland,Courtland Sutton,Sutton,12.607142857142858,14,11500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-93541:Javonte Williams,111372-93541,RB,Javonte,Javonte Williams,Williams,8.106666564941406,15,10500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-185593:Andrei Iosivas,111372-185593,WR,Andrei,Andrei Iosivas,Iosivas,6.153333536783854,15,10000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-56265:Mike Gesicki,111372-56265,TE,Mike,Mike Gesicki,Gesicki,6.257142748151507,14,9500,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-157150:Audric Estime,111372-157150,RB,Audric,Audric Estime,Estime,2.9636362249200996,11,9500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-12528:Cincinnati Bengals,111372-12528,D,Cincinnati,Cincinnati Bengals,Bengals,6.2,15,9000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-102901:Cade York,111372-102901,K,Cade,Cade York,York,6.5,4,9000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-12531:Denver Broncos,111372-12531,D,Denver,Denver Broncos,Broncos,10.533333333333333,15,8500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-48380:Wil Lutz,111372-48380,K,Wil,Wil Lutz,Lutz,9.733333333333333,15,8500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-120093:Marvin Mims Jr.,111372-120093,WR,Marvin,Marvin Mims Jr.,Mims Jr.,4.479999796549479,15,8000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-103511:Devaughn Vele,111372-103511,WR,Devaughn,Devaughn Vele,Vele,6.300000277432528,11,8000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-72412:Khalil Herbert,111372-72412,RB,Khalil,Khalil Herbert,Herbert,1.2399999618530273,10,7500,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-147051:Jaleel McLaughlin,111372-147051,RB,Jaleel,Jaleel McLaughlin,McLaughlin,5.057143075125558,14,7500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-86075:Lucas Krull,111372-86075,TE,Lucas,Lucas Krull,Krull,2.3899999618530274,10,7000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-151903:Troy Franklin,111372-151903,WR,Troy,Troy Franklin,Franklin,3.607142857142857,14,7000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-83117:Tanner Hudson,111372-83117,TE,Tanner,Tanner Hudson,Hudson,3.424999952316284,8,6500,DEN@CIN,CIN,DEN,D,Knee,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-173626:Nate Adkins,111372-173626,TE,Nate,Nate Adkins,Adkins,2.8454544760964136,11,6500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-26057:Michael Burton,111372-26057,RB,Michael,Michael Burton,Burton,2.4,10,6000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-130270:Adam Trautman,111372-130270,TE,Adam,Adam Trautman,Trautman,3.0249999364217124,12,6000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-56711:Drew Sample,111372-56711,TE,Drew,Drew Sample,Sample,2.4777776930067272,9,5500,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-89912:Blake Watson,111372-89912,RB,Blake,Blake Watson,Watson,2.799999952316284,1,5500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-133484:Jermaine Burton,111372-133484,WR,Jermaine,Jermaine Burton,Burton,1.8142856870378767,7,5500,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-71031:Lil'Jordan Humphrey,111372-71031,WR,Lil'Jordan,Lil'Jordan Humphrey,Humphrey,3.4769231356107273,13,5500,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-70027:Zack Moss,111372-70027,RB,Zack,Zack Moss,Moss,8.800000190734863,8,5000,DEN@CIN,CIN,DEN,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-87179:Thomas Yassmin,111372-87179,TE,Thomas,Thomas Yassmin,Yassmin,,0,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-60947:Jarrett Stidham,111372-60947,QB,Jarrett,Jarrett Stidham,Stidham,-0.10000000149011612,2,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-92056:Cal Adomitis,111372-92056,TE,Cal,Cal Adomitis,Adomitis,0,2,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-103584:Noah Cain,111372-103584,RB,Noah,Noah Cain,Cain,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-94887:Tyler Badie,111372-94887,RB,Tyler,Tyler Badie,Badie,2.633333365122477,3,5000,DEN@CIN,DEN,CIN,IR,Back,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-90406:Zach Wilson,111372-90406,QB,Zach,Zach Wilson,Wilson,0,1,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-154661:Michael Bandy,111372-154661,WR,Michael,Michael Bandy,Bandy,,0,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-60840:Jake Browning,111372-60840,QB,Jake,Jake Browning,Browning,-0.10000000149011612,2,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-112041:Isaiah Williams,111372-112041,WR,Isaiah,Isaiah Williams,Williams,0.3200000047683716,5,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-73130:Chris Evans,111372-73130,RB,Chris,Chris Evans,Evans,0.4000000059604645,4,5000,DEN@CIN,CIN,DEN,IR,Leg,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-88109:Gary Brightwell,111372-88109,RB,Gary,Gary Brightwell,Brightwell,0,1,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-64175:Hakeem Butler,111372-64175,WR,Hakeem,Hakeem Butler,Butler,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-88752:Charlie Jones,111372-88752,WR,Charlie,Charlie Jones,Jones,0.7142857142857143,7,5000,DEN@CIN,CIN,DEN,Q,Groin,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-69173:Hunter Kampmoyer,111372-69173,TE,Hunter,Hunter Kampmoyer,Kampmoyer,,0,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-87621:A.T. Perry,111372-87621,WR,A.T.,A.T. Perry,Perry,6.066666497124566,9,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-45259:Logan Woodside,111372-45259,QB,Logan,Logan Woodside,Woodside,0.3400000035762787,2,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-58189:Mitchell Fraboni,111372-58189,TE,Mitchell,Mitchell Fraboni,Fraboni,0,1,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-86092:Evan McPherson,111372-86092,K,Evan,Evan McPherson,McPherson,7.833333333333333,12,5000,DEN@CIN,CIN,DEN,IR,Groin,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-160463:Tanner McLachlan,111372-160463,TE,Tanner,Tanner McLachlan,McLachlan,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-103378:Erick All Jr.,111372-103378,TE,Erick,Erick All Jr.,All Jr.,3.2249999046325684,8,5000,DEN@CIN,CIN,DEN,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-104278:Donald Parham Jr.,111372-104278,TE,Donald,Donald Parham Jr.,Parham Jr.,5.5,12,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-92891:Elijah Collins,111372-92891,RB,Elijah,Elijah Collins,Collins,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-201561:Cole Burgess,111372-201561,WR,Cole,Cole Burgess,Burgess,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-103390:Tre Mosley,111372-103390,WR,Tre,Tre Mosley,Mosley,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-201564:Cam Grandy,111372-201564,TE,Cam,Cam Grandy,Grandy,1.350000023841858,2,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-69860:Trayveon Williams,111372-69860,RB,Trayveon,Trayveon Williams,Williams,0,3,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-92904:Rocky Lombardi,111372-92904,QB,Rocky,Rocky Lombardi,Lombardi,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-72427:Kwamie Lassiter II,111372-72427,WR,Kwamie,Kwamie Lassiter II,Lassiter II,0.699999988079071,1,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-61555:David Sills V,111372-61555,WR,David,David Sills V,Sills V,,0,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-112373:Dylan Leonard,111372-112373,TE,Dylan,Dylan Leonard,Leonard,,0,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-119672:Kendall Milton,111372-119672,RB,Kendall,Kendall Milton,Milton,,0,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-112506:Lincoln Victor,111372-112506,WR,Lincoln,Lincoln Victor,Victor,,0,5000,DEN@CIN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+"","","","","","","","","",111372-71935:Kendric Pryor,111372-71935,WR,Kendric,Kendric Pryor,Pryor,1.399999976158142,1,5000,DEN@CIN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX

@@ -1,0 +1,64 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,
+3494476003,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-64401:Saquon Barkley,112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-12545:Philadelphia Eagles,112626-12536:Kansas City Chiefs,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,
+3494476005,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-64401:Saquon Barkley,112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-12545:Philadelphia Eagles,112626-86229:Jahan Dotson,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,
+3494476007,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-64401:Saquon Barkley,112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-41642:Harrison Butker,112626-86229:Jahan Dotson,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,
+3494476009,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-64401:Saquon Barkley,112626-57439:Patrick Mahomes,112626-45229:Kareem Hunt,112626-83074:Dallas Goedert,112626-41642:Harrison Butker,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,
+3494476010,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-57439:Patrick Mahomes,112626-64401:Saquon Barkley,112626-158974:Xavier Worthy,112626-45229:Kareem Hunt,112626-86229:Jahan Dotson,,,,,,,,,,,,,,,,,,,
+3494476011,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-57439:Patrick Mahomes,112626-64401:Saquon Barkley,112626-33076:Travis Kelce,112626-45229:Kareem Hunt,112626-86229:Jahan Dotson,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3494476012,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-64401:Saquon Barkley,112626-57439:Patrick Mahomes,112626-72846:A.J. Brown,112626-86687:Hollywood Brown,112626-86229:Jahan Dotson,,112626-64401:Saquon Barkley,112626-64401,RB,Saquon,Saquon Barkley,Barkley,24.31578947,19,16500,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476013,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-69531:Jalen Hurts,112626-64401:Saquon Barkley,112626-90576:DeVonta Smith,112626-45229:Kareem Hunt,112626-16606:DeAndre Hopkins,,112626-57439:Patrick Mahomes,112626-57439,QB,Patrick,Patrick Mahomes,Mahomes,19.17222256,18,14000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476015,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-69531:Jalen Hurts,112626-64401:Saquon Barkley,112626-45229:Kareem Hunt,112626-83074:Dallas Goedert,112626-41235:Jake Elliott,,112626-69531:Jalen Hurts,112626-69531,QB,Jalen,Jalen Hurts,Hurts,21.7511105,18,13500,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476016,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-64401:Saquon Barkley,112626-69531:Jalen Hurts,112626-90576:DeVonta Smith,112626-45229:Kareem Hunt,112626-12536:Kansas City Chiefs,,112626-72846:A.J. Brown,112626-72846,WR,A.J.,A.J. Brown,Brown,13.80624962,16,12500,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476018,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-72846:A.J. Brown,112626-45229:Kareem Hunt,112626-12545:Philadelphia Eagles,,112626-33076:Travis Kelce,112626-33076,TE,Travis,Travis Kelce,Kelce,9.833333333,18,12000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476019,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-72846:A.J. Brown,112626-45229:Kareem Hunt,112626-41642:Harrison Butker,,112626-158974:Xavier Worthy,112626-158974,WR,Xavier,Xavier Worthy,Worthy,10.16666667,18,11500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476021,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-158974:Xavier Worthy,112626-45229:Kareem Hunt,112626-83074:Dallas Goedert,,112626-90576:DeVonta Smith,112626-90576,WR,DeVonta,DeVonta Smith,Smith,11.14705882,17,11000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476024,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-57439:Patrick Mahomes,112626-69531:Jalen Hurts,112626-33076:Travis Kelce,112626-45229:Kareem Hunt,112626-83074:Dallas Goedert,,112626-45229:Kareem Hunt,112626-45229,RB,Kareem,Kareem Hunt,Hunt,11.63333333,15,10500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3494476028,112626-274278714,$50K Sun NFL LIX Snap (20 Entries Max),112626-45229:Kareem Hunt,112626-69531:Jalen Hurts,112626-72846:A.J. Brown,112626-57439:Patrick Mahomes,112626-86687:Hollywood Brown,,112626-83074:Dallas Goedert,112626-83074,TE,Dallas,Dallas Goedert,Goedert,9.169230534,13,10000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-41235:Jake Elliott,112626-41235,K,Jake,Jake Elliott,Elliott,8.45,20,9000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-41642:Harrison Butker,112626-41642,K,Harrison,Harrison Butker,Butker,7.8,15,9000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-92575:Isiah Pacheco,112626-92575,RB,Isiah,Isiah Pacheco,Pacheco,6.233333164,9,8500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-16606:DeAndre Hopkins,112626-16606,WR,DeAndre,DeAndre Hopkins,Hopkins,6.699999915,18,8500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-12545:Philadelphia Eagles,112626-12545,D,Philadelphia,Philadelphia Eagles,Eagles,8.6,20,8000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-12536:Kansas City Chiefs,112626-12536,D,Kansas City,Kansas City Chiefs,Chiefs,6.368421053,19,8000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-90912:Kenneth Gainwell,112626-90912,RB,Kenneth,Kenneth Gainwell,Gainwell,3.095000076,20,7500,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-93143:Noah Gray,112626-93143,TE,Noah,Noah Gray,Gray,5.652941087,17,7500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-55987:JuJu Smith-Schuster,112626-55987,WR,JuJu,JuJu Smith-Schuster,Smith-Schuster,4.161538344,13,7000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-86229:Jahan Dotson,112626-86229,WR,Jahan,Jahan Dotson,Dotson,2.666666667,15,7000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-152520:Will Shipley,112626-152520,RB,Will,Will Shipley,Shipley,2.490909056,11,6500,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-52451:Samaje Perine,112626-52451,RB,Samaje,Samaje Perine,Perine,3.663157814,19,6500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-83083:Justin Watson,112626-83083,WR,Justin,Justin Watson,Watson,3.368750095,16,6000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-119722:Johnny Wilson,112626-119722,WR,Johnny,Johnny Wilson,Wilson,1.366666688,9,6000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-86682:Grant Calcaterra,112626-86682,TE,Grant,Grant Calcaterra,Calcaterra,3.246666718,15,5500,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-156523:Carson Steele,112626-156523,RB,Carson,Carson Steele,Steele,1.699999968,12,5500,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-92545:Keaontay Ingram,112626-92545,RB,Keaontay,Keaontay Ingram,Ingram,1.714285714,7,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-89220:Tyquan Thornton,112626-89220,WR,Tyquan,Tyquan Thornton,Thornton,1.674999952,4,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-89607:Tanner McKee,112626-89607,QB,Tanner,Tanner McKee,McKee,9.606666565,3,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-136970:Danny Gray,112626-136970,WR,Danny,Danny Gray,Gray,,0,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-138643:Jason Brownlee,112626-138643,WR,Jason,Jason Brownlee,Brownlee,2.820000076,5,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-64147:Britain Covey,112626-64147,WR,Britain,Britain Covey,Covey,1.725000024,4,5000,KC@PHI,PHI,KC,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-103192:Jared Wiley,112626-103192,TE,Jared,Jared Wiley,Wiley,1.200000048,1,5000,KC@PHI,KC,PHI,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-73118:Ian Book,112626-73118,QB,Ian,Ian Book,Book,,0,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-80294:Anthony Firkser,112626-80294,TE,Anthony,Anthony Firkser,Firkser,1.299999952,1,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-201508:Jaaron Hayek,112626-201508,WR,Jaaron,Jaaron Hayek,Hayek,,0,5000,KC@PHI,KC,PHI,IR,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-70324:Carson Wentz,112626-70324,QB,Carson,Carson Wentz,Wentz,1.573333263,3,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-73398:Chris Oladokun,112626-73398,QB,Chris,Chris Oladokun,Oladokun,0.5,1,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-71352:Mecole Hardman,112626-71352,WR,Mecole,Mecole Hardman,Hardman,2.26666673,12,5000,KC@PHI,KC,PHI,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-151737:E.J. Jenkins,112626-151737,TE,E.J.,E.J. Jenkins,Jenkins,3.599999905,2,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-114109:Ainias Smith,112626-114109,WR,Ainias,Ainias Smith,Smith,3.549999952,4,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-112062:Skyy Moore,112626-112062,WR,Skyy,Skyy Moore,Moore,0,3,5000,KC@PHI,KC,PHI,IR,Abdomen,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-56262:Parris Campbell,112626-56262,WR,Parris,Parris Campbell,Campbell,3,4,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-111311:Rashee Rice,112626-111311,WR,Rashee,Rashee Rice,Rice,19.63333384,3,5000,KC@PHI,KC,PHI,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-114255:Spencer Shrader,112626-114255,K,Spencer,Spencer Shrader,Shrader,6.5,4,5000,KC@PHI,KC,PHI,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-91481:Nikko Remigio,112626-91481,WR,Nikko,Nikko Remigio,Remigio,0.828571456,7,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-42077:James Winchester,112626-42077,TE,James,James Winchester,Winchester,0,1,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-66402:Jack Driscoll,112626-66402,TE,Jack,Jack Driscoll,Driscoll,0,1,5000,KC@PHI,PHI,KC,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-31207:C.J. Uzomah,112626-31207,TE,C.J.,C.J. Uzomah,Uzomah,0,1,5000,KC@PHI,PHI,KC,IR,Abdomen,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-56041:Khari Blasingame,112626-56041,RB,Khari,Khari Blasingame,Blasingame,0.477777799,9,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-102893:Tyrion Davis-Price,112626-102893,RB,Tyrion,Tyrion Davis-Price,Davis-Price,0.699999988,1,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-89964:Justyn Ross,112626-89964,WR,Justyn,Justyn Ross,Ross,0,1,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-95854:Montrell Washington,112626-95854,WR,Montrell,Montrell Washington,Washington,0,1,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-88816:Peyton Hendershot,112626-88816,TE,Peyton,Peyton Hendershot,Hendershot,1.519999981,5,5000,KC@PHI,KC,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-92020:Kenny Pickett,112626-92020,QB,Kenny,Kenny Pickett,Pickett,4.306666692,6,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-104447:Jody Fortson,112626-104447,TE,Jody,Jody Fortson,Fortson,0.333333333,3,5000,KC@PHI,KC,PHI,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-91902:Kyle Philips,112626-91902,WR,Kyle,Kyle Philips,Philips,2.950000048,8,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,112626-96254:Nick Muse,112626-96254,TE,Nick,Nick Muse,Muse,0,2,5000,KC@PHI,PHI,KC,,,,,,MVP - 1.5X Points/AnyFLEX

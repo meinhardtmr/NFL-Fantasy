@@ -1,0 +1,79 @@
+entry_id,contest_id,contest_name,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,
+3385931500,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-69531:Jalen Hurts,106989-90576:DeVonta Smith,106989-64401:Saquon Barkley,106989-69777:Darnell Mooney,106989-62055:Ray-Ray McCloud III,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,
+3385931503,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-69531:Jalen Hurts,106989-64401:Saquon Barkley,106989-112745:Drake London,106989-69777:Darnell Mooney,106989-86229:Jahan Dotson,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,
+3385931505,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-22038:Kirk Cousins,106989-90576:DeVonta Smith,106989-112745:Drake London,106989-86229:Jahan Dotson,106989-136855:Bijan Robinson,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,
+3385931508,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-64401:Saquon Barkley,106989-90576:DeVonta Smith,106989-112745:Drake London,106989-69777:Darnell Mooney,106989-86229:Jahan Dotson,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,
+3385931511,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-64401:Saquon Barkley,106989-41235:Jake Elliott,106989-22038:Kirk Cousins,106989-90576:DeVonta Smith,106989-69777:Darnell Mooney,,,,,,,,,,,,,,,,,,,
+3385931514,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-64401:Saquon Barkley,106989-41235:Jake Elliott,106989-22038:Kirk Cousins,106989-86229:Jahan Dotson,106989-69777:Darnell Mooney,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3385931517,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-64401:Saquon Barkley,106989-69531:Jalen Hurts,106989-86229:Jahan Dotson,106989-136855:Bijan Robinson,106989-64147:Britain Covey,,106989-69531:Jalen Hurts,106989-69531,QB,Jalen,Jalen Hurts,Hurts,18.42000008,1,17500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931520,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-136855:Bijan Robinson,106989-64401:Saquon Barkley,106989-90576:DeVonta Smith,106989-112745:Drake London,106989-69777:Darnell Mooney,,106989-136855:Bijan Robinson,106989-136855,RB,Bijan,Bijan Robinson,Robinson,13.60000038,1,16000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931528,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-136855:Bijan Robinson,106989-22038:Kirk Cousins,106989-83074:Dallas Goedert,106989-86229:Jahan Dotson,106989-112745:Drake London,,106989-22038:Kirk Cousins,106989-22038,QB,Kirk,Kirk Cousins,Cousins,8.199999809,1,14000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931532,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-136855:Bijan Robinson,106989-64401:Saquon Barkley,106989-22038:Kirk Cousins,106989-86229:Jahan Dotson,106989-69777:Darnell Mooney,,106989-64401:Saquon Barkley,106989-64401,RB,Saquon,Saquon Barkley,Barkley,35.20000076,1,13500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931535,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-90576:DeVonta Smith,106989-64401:Saquon Barkley,106989-112745:Drake London,106989-69777:Darnell Mooney,106989-86229:Jahan Dotson,,106989-72846:A.J. Brown,106989-72846,WR,A.J.,A.J. Brown,Brown,23.39999962,1,13000,ATL@PHI,PHI,ATL,O,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+3385931537,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-90576:DeVonta Smith,106989-22038:Kirk Cousins,106989-112745:Drake London,106989-86229:Jahan Dotson,106989-136855:Bijan Robinson,,106989-90576:DeVonta Smith,106989-90576,WR,DeVonta,DeVonta Smith,Smith,11.89999962,1,11500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931540,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-112745:Drake London,106989-22038:Kirk Cousins,106989-136855:Bijan Robinson,106989-64401:Saquon Barkley,106989-64147:Britain Covey,,106989-112745:Drake London,106989-112745,WR,Drake,Drake London,London,2.5,1,10500,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931541,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-86229:Jahan Dotson,106989-69531:Jalen Hurts,106989-64401:Saquon Barkley,106989-86080:Kyle Pitts,106989-69777:Darnell Mooney,,106989-86080:Kyle Pitts,106989-86080,TE,Kyle,Kyle Pitts,Pitts,10.10000038,1,10000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931544,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-86229:Jahan Dotson,106989-22038:Kirk Cousins,106989-69531:Jalen Hurts,106989-64401:Saquon Barkley,106989-62055:Ray-Ray McCloud III,,106989-83074:Dallas Goedert,106989-83074,TE,Dallas,Dallas Goedert,Goedert,5.099999905,1,9500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931547,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-86229:Jahan Dotson,106989-22038:Kirk Cousins,106989-69531:Jalen Hurts,106989-64401:Saquon Barkley,106989-64147:Britain Covey,,106989-12545:Philadelphia Eagles,106989-12545,D,Philadelphia,Philadelphia Eagles,Eagles,3,1,9000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931548,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-86229:Jahan Dotson,106989-22038:Kirk Cousins,106989-69531:Jalen Hurts,106989-12545:Philadelphia Eagles,106989-86080:Kyle Pitts,,106989-90428:Tyler Allgeier,106989-90428,RB,Tyler,Tyler Allgeier,Allgeier,2.099999905,1,9000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931549,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-69777:Darnell Mooney,106989-136855:Bijan Robinson,106989-90576:DeVonta Smith,106989-64401:Saquon Barkley,106989-112745:Drake London,,106989-41235:Jake Elliott,106989-41235,K,Jake,Jake Elliott,Elliott,10,1,8500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931550,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-69777:Darnell Mooney,106989-22038:Kirk Cousins,106989-136855:Bijan Robinson,106989-90576:DeVonta Smith,106989-83074:Dallas Goedert,,106989-53212:Younghoe Koo,106989-53212,K,Younghoe,Younghoe Koo,Koo,4,1,8500,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931555,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-69777:Darnell Mooney,106989-22038:Kirk Cousins,106989-136855:Bijan Robinson,106989-90576:DeVonta Smith,106989-86229:Jahan Dotson,,106989-69777:Darnell Mooney,106989-69777,WR,Darnell,Darnell Mooney,Mooney,2,1,8000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931558,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-41235:Jake Elliott,106989-69531:Jalen Hurts,106989-64401:Saquon Barkley,106989-86229:Jahan Dotson,106989-53212:Younghoe Koo,,106989-12525:Atlanta Falcons,106989-12525,D,Atlanta,Atlanta Falcons,Falcons,3,1,8000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931559,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-41235:Jake Elliott,106989-69531:Jalen Hurts,106989-64401:Saquon Barkley,106989-86229:Jahan Dotson,106989-69777:Darnell Mooney,,106989-90912:Kenneth Gainwell,106989-90912,RB,Kenneth,Kenneth Gainwell,Gainwell,1.700000048,1,7500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931560,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-53212:Younghoe Koo,106989-22038:Kirk Cousins,106989-41235:Jake Elliott,106989-86229:Jahan Dotson,106989-136855:Bijan Robinson,,106989-86229:Jahan Dotson,106989-86229,WR,Jahan,Jahan Dotson,Dotson,0,1,7500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3385931562,106989-271004610,$10K Mon NFL Pooch Punt (150 Entries Max),106989-53212:Younghoe Koo,106989-22038:Kirk Cousins,106989-41235:Jake Elliott,106989-12525:Atlanta Falcons,106989-136855:Bijan Robinson,,106989-86682:Grant Calcaterra,106989-86682,TE,Grant,Grant Calcaterra,Calcaterra,1.600000024,1,7000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-62055:Ray-Ray McCloud III,106989-62055,WR,Ray-Ray,Ray-Ray McCloud III,McCloud III,7.199999809,1,7000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-119722:Johnny Wilson,106989-119722,WR,Johnny,Johnny Wilson,Wilson,0,1,6500,ATL@PHI,PHI,ATL,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-85306:KhaDarel Hodge,106989-85306,WR,KhaDarel,KhaDarel Hodge,Hodge,2.323076982,13,6500,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-71351:Charlie Woerner,106989-71351,TE,Charlie,Charlie Woerner,Woerner,0.899999976,1,6000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-152520:Will Shipley,106989-152520,RB,Will,Will Shipley,Shipley,,0,6000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-64147:Britain Covey,106989-64147,WR,Britain,Britain Covey,Covey,0.387499988,16,5500,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-119610:Jase McClellan,106989-119610,RB,Jase,Jase McClellan,McClellan,,0,5500,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-83138:Ross Dwelley,106989-83138,TE,Ross,Ross Dwelley,Dwelley,0.425000012,4,5500,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-170113:Kehinde Oginni,106989-170113,TE,Kehinde,Kehinde Oginni,Oginni,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-41475:John Ross III,106989-41475,WR,John,John Ross III,Ross III,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-90628:Griffin Hebert,106989-90628,TE,Griffin,Griffin Hebert,Hebert,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-89607:Tanner McKee,106989-89607,QB,Tanner,Tanner McKee,McKee,0,1,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-136970:Danny Gray,106989-136970,WR,Danny,Danny Gray,Gray,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-167311:OJ Hiliare,106989-167311,WR,OJ,OJ Hiliare,Hiliare,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-94099:Robert Burns,106989-94099,RB,Robert,Robert Burns,Burns,,0,5000,ATL@PHI,ATL,PHI,NA,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-72863:Armani Rogers,106989-72863,TE,Armani,Armani Rogers,Rogers,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-112037:Casey Washington,106989-112037,WR,Casey,Casey Washington,Washington,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-103081:Austin Stogner,106989-103081,TE,Austin,Austin Stogner,Stogner,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-30761:Nathan Peterman,106989-30761,QB,Nathan,Nathan Peterman,Peterman,-0.100000001,4,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-91443:McCallan Castles,106989-91443,TE,McCallan,McCallan Castles,Castles,,0,5000,ATL@PHI,PHI,ATL,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-102836:Joseph Ngata,106989-102836,WR,Joseph,Joseph Ngata,Ngata,,0,5000,ATL@PHI,PHI,ATL,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-89785:Spencer Brown,106989-89785,RB,Spencer,Spencer Brown,Brown,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-89147:John Paddock,106989-89147,QB,John,John Paddock,Paddock,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-151737:E.J. Jenkins,106989-151737,TE,E.J.,E.J. Jenkins,Jenkins,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-114109:Ainias Smith,106989-114109,WR,Ainias,Ainias Smith,Smith,,0,5000,ATL@PHI,PHI,ATL,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-32703:Jakeem Grant Sr.,106989-32703,WR,Jakeem,Jakeem Grant Sr.,Grant Sr.,,0,5000,ATL@PHI,ATL,PHI,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-55748:James Washington,106989-55748,WR,James,James Washington,Washington,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-43973:Keith Smith,106989-43973,RB,Keith,Keith Smith,Smith,0.685714313,7,5000,ATL@PHI,ATL,PHI,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-174148:Carlos Washington Jr.,106989-174148,RB,Carlos,Carlos Washington Jr.,Washington Jr.,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-65607:Jacob Harris,106989-65607,WR,Jacob,Jacob Harris,Harris,,0,5000,ATL@PHI,PHI,ATL,IR,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-56262:Parris Campbell,106989-56262,WR,Parris,Parris Campbell,Campbell,2.039999962,10,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-201546:Kevin Foelsch,106989-201546,TE,Kevin,Kevin Foelsch,Foelsch,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-87112:Josh Ali,106989-87112,WR,Josh,Josh Ali,Ali,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-70859:Albert Okwuegbunam Jr.,106989-70859,TE,Albert,Albert Okwuegbunam Jr.,Okwuegbunam Jr.,0,2,5000,ATL@PHI,PHI,ATL,IR,Abdomen,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-69451:Jack Stoll,106989-69451,TE,Jack,Jack Stoll,Stoll,1.050000032,6,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-68685:Austin Mack,106989-68685,WR,Austin,Austin Mack,Mack,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-89817:Austin Watkins Jr.,106989-89817,WR,Austin,Austin Watkins Jr.,Watkins Jr.,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-86747:Dylan Drummond,106989-86747,WR,Dylan,Dylan Drummond,Drummond,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-71386:Jordan Thomas,106989-71386,TE,Jordan,Jordan Thomas,Thomas,0,1,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-88797:Michael Penix Jr.,106989-88797,QB,Michael,Michael Penix Jr.,Penix Jr.,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-93408:Rondale Moore,106989-93408,WR,Rondale,Rondale Moore,Moore,5,17,5000,ATL@PHI,ATL,PHI,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-147168:Chris Blair,106989-147168,WR,Chris,Chris Blair,Blair,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-133473:Marcus Rosemy-Jacksaint,106989-133473,WR,Marcus,Marcus Rosemy-Jacksaint,Rosemy-Jacksaint,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-91618:John FitzPatrick,106989-91618,TE,John,John FitzPatrick,FitzPatrick,0.850000024,2,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-66402:Jack Driscoll,106989-66402,TE,Jack,Jack Driscoll,Driscoll,0,1,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-104165:Lew Nichols,106989-104165,RB,Lew,Lew Nichols,Nichols,,0,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-31207:C.J. Uzomah,106989-31207,TE,C.J.,C.J. Uzomah,Uzomah,2.257142884,7,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-102893:Tyrion Davis-Price,106989-102893,RB,Tyrion,Tyrion Davis-Price,Davis-Price,1.049999952,2,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-14190:Julio Jones,106989-14190,WR,Julio,Julio Jones,Jones,3.459999847,10,5000,ATL@PHI,PHI,ATL,Q,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-90353:Jesse Matthews,106989-90353,WR,Jesse,Jesse Matthews,Matthews,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-92020:Kenny Pickett,106989-92020,QB,Kenny,Kenny Pickett,Pickett,9.516666412,12,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-52342:Will Grier,106989-52342,QB,Will,Will Grier,Grier,0,2,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-94718:Nathan Rourke,106989-94718,QB,Nathan,Nathan Rourke,Rourke,,0,5000,ATL@PHI,ATL,PHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,106989-91902:Kyle Philips,106989-91902,WR,Kyle,Kyle Philips,Philips,2.950000048,8,5000,ATL@PHI,PHI,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
