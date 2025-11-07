@@ -1,0 +1,65 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3587674484,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-102785:Jayden Daniels,121480-152113:Caleb Williams,121480-91598:D'Andre Swift,121480-87180:Matt Gay,121480-29780:Zach Ertz,121480-91047:Cole Kmet,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3587674489,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-102785:Jayden Daniels,121480-152113:Caleb Williams,121480-91598:D'Andre Swift,121480-29780:Zach Ertz,121480-103547:Luke McCaffrey,121480-91047:Cole Kmet,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3587674491,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-152113:Caleb Williams,121480-102785:Jayden Daniels,121480-91598:D'Andre Swift,121480-63043:DJ Moore,121480-103547:Luke McCaffrey,121480-91047:Cole Kmet,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3587674495,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-152113:Caleb Williams,121480-102785:Jayden Daniels,121480-120033:Rome Odunze,121480-87180:Matt Gay,121480-103547:Luke McCaffrey,121480-91047:Cole Kmet,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3587674498,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-102785:Jayden Daniels,121480-120033:Rome Odunze,121480-56018:Deebo Samuel Sr.,121480-87180:Matt Gay,121480-29780:Zach Ertz,121480-91047:Cole Kmet,,,,,,,,,,,,,,,,,,,,
+3587674502,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-102785:Jayden Daniels,121480-56018:Deebo Samuel Sr.,121480-117178:Jacory Croskey-Merritt,121480-12552:Washington Commanders,121480-87180:Matt Gay,121480-91047:Cole Kmet,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3587674505,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-152113:Caleb Williams,121480-102785:Jayden Daniels,121480-91598:D'Andre Swift,121480-87180:Matt Gay,121480-29780:Zach Ertz,121480-103547:Luke McCaffrey,,121480-102785:Jayden Daniels,121480-102785,QB,Jayden,Jayden Daniels,Daniels,18.98666636,3,13600,20400,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+3587674508,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-117178:Jacory Croskey-Merritt,121480-120033:Rome Odunze,121480-56018:Deebo Samuel Sr.,121480-152113:Caleb Williams,121480-29780:Zach Ertz,121480-91047:Cole Kmet,,121480-152113:Caleb Williams,121480-152113,QB,Caleb,Caleb Williams,Williams,21.02000046,4,12400,18600,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+3587674511,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-102785:Jayden Daniels,121480-152113:Caleb Williams,121480-56018:Deebo Samuel Sr.,121480-87180:Matt Gay,121480-103547:Luke McCaffrey,121480-91047:Cole Kmet,,121480-120033:Rome Odunze,121480-120033,WR,Rome,Rome Odunze,Odunze,18.14999962,4,12000,18000,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+3587674515,121480-277021022,$10K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121480-102785:Jayden Daniels,121480-152113:Caleb Williams,121480-56018:Deebo Samuel Sr.,121480-91372:Jake Moody,121480-29780:Zach Ertz,121480-91047:Cole Kmet,,121480-56018:Deebo Samuel Sr.,121480-56018,WR,Deebo,Deebo Samuel Sr.,Samuel Sr.,14.71999969,5,11200,16800,CHI@WAS,WAS,CHI,Q,Heel,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-91598:D'Andre Swift,121480-91598,RB,D'Andre,D'Andre Swift,Swift,10.92500019,4,10200,15300,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-117178:Jacory Croskey-Merritt,121480-117178,RB,Jacory,Jacory Croskey-Merritt,Croskey-Merritt,12.24000015,5,9600,14400,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-29358:Marcus Mariota,121480-29358,QB,Marcus,Marcus Mariota,Mariota,18.76000023,2,9000,13500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-185776:Tyson Bagent,121480-185776,QB,Tyson,Tyson Bagent,Bagent,1.779999971,1,9000,13500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-56250:Terry McLaurin,121480-56250,WR,Terry,Terry McLaurin,McLaurin,6.633333206,3,8800,13200,CHI@WAS,WAS,CHI,O,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-63043:DJ Moore,121480-63043,WR,DJ,DJ Moore,Moore,7.699999809,4,8400,12600,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-87127:Chris Rodriguez Jr.,121480-87127,RB,Chris,Chris Rodriguez Jr.,Rodriguez Jr.,3.5,3,7200,10800,CHI@WAS,WAS,CHI,Q,Calf,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-56648:Jeremy McNichols,121480-56648,RB,Jeremy,Jeremy McNichols,McNichols,4.849999905,4,7000,10500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-12552:Washington Commanders,121480-12552,D,Washington,Washington Commanders,Commanders,7.4,5,6800,10200,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-87180:Matt Gay,121480-87180,K,Matt,Matt Gay,Gay,10,5,6600,9900,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-12527:Chicago Bears,121480-12527,D,Chicago,Chicago Bears,Bears,7,4,6400,9600,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-33714:Cairo Santos,121480-33714,K,Cairo,Cairo Santos,Santos,9,4,6200,9300,CHI@WAS,CHI,WAS,Q,Thigh,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-91372:Jake Moody,121480-91372,K,Jake,Jake Moody,Moody,5,1,6200,9300,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-29780:Zach Ertz,121480-29780,TE,Zach,Zach Ertz,Ertz,7.180000305,5,5600,8400,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-103547:Luke McCaffrey,121480-103547,WR,Luke,Luke McCaffrey,McCaffrey,6.419999695,5,5000,7500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-64496:Olamide Zaccheaus,121480-64496,WR,Olamide,Olamide Zaccheaus,Zaccheaus,5.25,4,4600,6900,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-91047:Cole Kmet,121480-91047,TE,Cole,Cole Kmet,Kmet,5.275000095,4,4200,6300,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-144102:Kyle Monangai,121480-144102,RB,Kyle,Kyle Monangai,Monangai,2.5,4,3600,5400,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-166092:Luther Burden III,121480-166092,WR,Luther,Luther Burden III,Burden III,5.775000095,4,3200,4800,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-166588:Colston Loveland,121480-166588,TE,Colston,Colston Loveland,Loveland,1.933333397,3,2800,4200,CHI@WAS,CHI,WAS,Q,Hip,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-56248:Noah Brown,121480-56248,WR,Noah,Noah Brown,Brown,2.549999952,2,2400,3600,CHI@WAS,WAS,CHI,O,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-128986:Jaylin Lane,121480-128986,WR,Jaylin,Jaylin Lane,Lane,2.7,5,2000,3000,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-103187:Roschon Johnson,121480-103187,RB,Roschon,Roschon Johnson,Johnson,5.78333346,12,1800,2700,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-93845:Tay Martin,121480-93845,WR,Tay,Tay Martin,Martin,1.649999976,2,1600,2400,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-26251:Robbie Chosen,121480-26251,WR,Robbie,Robbie Chosen,Chosen,1,1,1400,2100,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-86800:Colson Yankoff,121480-86800,TE,Colson,Colson Yankoff,Yankoff,,0,1200,1800,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-137265:Ben Sinnott,121480-137265,TE,Ben,Ben Sinnott,Sinnott,1.200000048,1,1200,1800,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-42046:Durham Smythe,121480-42046,TE,Durham,Durham Smythe,Smythe,0.753846169,13,1200,1800,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-72705:John Bates,121480-72705,TE,John,John Bates,Bates,1.399999976,1,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-80001:Austin Ekeler,121480-80001,RB,Austin,Austin Ekeler,Ekeler,5.300000191,2,1000,1500,CHI@WAS,WAS,CHI,IR,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-83081:Chase Edmonds,121480-83081,RB,Chase,Chase Edmonds,Edmonds,,0,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-71444:Travis Homer,121480-71444,RB,Travis,Travis Homer,Homer,0.980000019,5,1000,1500,CHI@WAS,CHI,WAS,IR,Calf,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-33047:Chris Moore,121480-33047,WR,Chris,Chris Moore,Moore,2.075000048,4,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-63646:Lawrence Cager,121480-63646,TE,Lawrence,Lawrence Cager,Cager,,0,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-71459:Brittain Brown,121480-71459,RB,Brittain,Brittain Brown,Brown,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-167588:Jacoby Jones,121480-167588,WR,Jacoby,Jacoby Jones,Jones,,0,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-87594:Sam Hartman,121480-87594,QB,Sam,Sam Hartman,Hartman,,0,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-87731:Dominique Robinson,121480-87731,WR,Dominique,Dominique Robinson,Robinson,0,1,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-64827:Miles Boykin,121480-64827,WR,Miles,Miles Boykin,Boykin,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-165962:Nikola Kalinic,121480-165962,TE,Nikola,Nikola Kalinic,Kalinic,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-104008:Stephen Carlson,121480-104008,TE,Stephen,Stephen Carlson,Carlson,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-152014:JP Richardson,121480-152014,WR,JP,JP Richardson,Richardson,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-22994:Case Keenum,121480-22994,QB,Case,Case Keenum,Keenum,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-8023:Josh Johnson,121480-8023,QB,Josh,Josh Johnson,Johnson,0.194999993,4,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-54746:Tyler Ott,121480-54746,TE,Tyler,Tyler Ott,Ott,0,1,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-65627:Maurice Alexander,121480-65627,WR,Maurice,Maurice Alexander,Alexander,0,1,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-154461:Ja'Corey Brooks,121480-154461,WR,Ja'Corey,Ja'Corey Brooks,Brooks,,0,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-14820:Nick Bellore,121480-14820,RB,Nick,Nick Bellore,Bellore,0,1,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-114532:Deion Hankins,121480-114532,RB,Deion,Deion Hankins,Hankins,,0,1000,1500,CHI@WAS,CHI,WAS,IR,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-87654:Noah Igbinoghene,121480-87654,WR,Noah,Noah Igbinoghene,Igbinoghene,0,2,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-63851:Tyree Jackson,121480-63851,TE,Tyree,Tyree Jackson,Jackson,,0,1000,1500,CHI@WAS,WAS,CHI,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-193004:Jahdae Walker,121480-193004,WR,Jahdae,Jahdae Walker,Walker,,0,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-71032:Devin Duvernay,121480-71032,WR,Devin,Devin Duvernay,Duvernay,0,4,1000,1500,CHI@WAS,CHI,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121480-152574:Donovan Edwards,121480-152574,RB,Donovan,Donovan Edwards,Edwards,,0,1000,1500,CHI@WAS,WAS,CHI,,,,,,MVP - 1.5X Points/AnyFLEX

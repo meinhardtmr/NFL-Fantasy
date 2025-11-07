@@ -1,0 +1,62 @@
+MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+122371-31716:Dak Prescott,122371-86631:CeeDee Lamb,122371-91750:Trey McBride,122371-89680:Jake Ferguson,122371-60957:KaVontae Turpin,122371-94579:Emari Demercado,,1) Create a lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+122371-31716:Dak Prescott,122371-93541:Javonte Williams,122371-89680:Jake Ferguson,122371-103252:Zonovan Knight,122371-189471:Brandon Aubrey,122371-41305:Zay Jones,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+122371-86631:CeeDee Lamb,122371-31716:Dak Prescott,122371-30231:Jacoby Brissett,122371-86750:Chad Ryland,122371-41305:Zay Jones,122371-60957:KaVontae Turpin,,3) Any information to the right of the last position column will be ignored in the upload,,,,,,,,,,,,,,,,,,
+122371-93541:Javonte Williams,122371-31716:Dak Prescott,122371-86631:CeeDee Lamb,122371-89612:Michael Wilson,122371-41305:Zay Jones,122371-60957:KaVontae Turpin,,4) Maximum of 250 lineups per upload,,,,,,,,,,,,,,,,,,
+122371-93541:Javonte Williams,122371-31716:Dak Prescott,122371-30231:Jacoby Brissett,122371-103252:Zonovan Knight,122371-41305:Zay Jones,122371-60957:KaVontae Turpin,,,,,,,,,,,,,,,,,,,,
+122371-30231:Jacoby Brissett,122371-31716:Dak Prescott,122371-110246:George Pickens,122371-93539:Michael Carter,122371-189471:Brandon Aubrey,122371-89612:Michael Wilson,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+122371-30231:Jacoby Brissett,122371-31716:Dak Prescott,122371-110246:George Pickens,122371-91750:Trey McBride,122371-41305:Zay Jones,122371-60957:KaVontae Turpin,,122371-31716:Dak Prescott,122371-31716,QB,Dak,Dak Prescott,Prescott,20.55750084,8,13000,19500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+122371-152651:Marvin Harrison Jr.,122371-86631:CeeDee Lamb,122371-30231:Jacoby Brissett,122371-89680:Jake Ferguson,122371-103252:Zonovan Knight,122371-189471:Brandon Aubrey,,122371-86631:CeeDee Lamb,122371-86631,WR,CeeDee,CeeDee Lamb,Lamb,17.450000762939453,4,12800,19200,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+122371-93541:Javonte Williams,122371-30231:Jacoby Brissett,122371-89680:Jake Ferguson,122371-152651:Marvin Harrison Jr.,122371-189471:Brandon Aubrey,122371-41305:Zay Jones,,122371-93541:Javonte Williams,122371-93541,RB,Javonte,Javonte Williams,Williams,17.825000762939453,8,12200,18300,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+122371-93541:Javonte Williams,122371-31716:Dak Prescott,122371-110246:George Pickens,122371-91750:Trey McBride,122371-60957:KaVontae Turpin,122371-94579:Emari Demercado,,122371-30231:Jacoby Brissett,122371-30231,QB,Jacoby,Jacoby Brissett,Brissett,11.164999961853027,4,11400,17100,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-63484:Kyler Murray,122371-63484,QB,Kyler,Kyler Murray,Murray,16.155999755859376,5,11400,17100,ARI@DAL,ARI,DAL,Q,Foot,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-110246:George Pickens,122371-110246,WR,George,George Pickens,Pickens,16.5,8,10200,15300,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-91750:Trey McBride,122371-91750,TE,Trey,Trey McBride,McBride,12.799999782017299,7,9600,14400,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-89680:Jake Ferguson,122371-89680,TE,Jake,Jake Ferguson,Ferguson,11.862500190734863,8,8800,13200,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-152651:Marvin Harrison Jr.,122371-152651,WR,Marvin,Marvin Harrison Jr.,Harrison Jr.,9.085714067731585,7,8200,12300,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-102933:Kedon Slovis,122371-102933,QB,Kedon,Kedon Slovis,Slovis,,0,8000,12000,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-91390:Joe Milton III,122371-91390,QB,Joe,Joe Milton III,Milton III,3.4800000190734863,2,8000,12000,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-103252:Zonovan Knight,122371-103252,RB,Zonovan,Zonovan Knight,Knight,5.740000152587891,5,7400,11100,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-189471:Brandon Aubrey,122371-189471,K,Brandon,Brandon Aubrey,Aubrey,11,8,7000,10500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-93539:Michael Carter,122371-93539,RB,Michael,Michael Carter,Carter,6.974999904632568,4,7000,10500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-86750:Chad Ryland,122371-86750,K,Chad,Chad Ryland,Ryland,9.142857142857142,7,6800,10200,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-12530:Dallas Cowboys,122371-12530,D,Dallas,Dallas Cowboys,Cowboys,3.25,8,6400,9600,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-12546:Arizona Cardinals,122371-12546,D,Arizona,Arizona Cardinals,Cardinals,5.571428571428571,7,6200,9300,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-89612:Michael Wilson,122371-89612,WR,Michael,Michael Wilson,Wilson,3.8714286259242465,7,5600,8400,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-41305:Zay Jones,122371-41305,WR,Zay,Zay Jones,Jones,4.8599998474121096,5,5000,7500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-60957:KaVontae Turpin,122371-60957,WR,KaVontae,KaVontae Turpin,Turpin,5.366666793823242,6,4600,6900,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-166801:Jaydon Blue,122371-166801,RB,Jaydon,Jaydon Blue,Blue,1.875,4,4200,6300,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-94579:Emari Demercado,122371-94579,RB,Emari,Emari Demercado,Demercado,3.0600000381469727,5,4000,6000,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-69558:Greg Dortch,122371-69558,WR,Greg,Greg Dortch,Dortch,3.1000001089913503,7,3800,5700,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-88548:Jalen Tolbert,122371-88548,WR,Jalen,Jalen Tolbert,Tolbert,4.025000095367432,8,3400,5100,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-112192:Jonathan Mingo,122371-112192,WR,Jonathan,Jonathan Mingo,Mingo,1.6928571973528181,14,3000,4500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-102986:Elijah Higgins,122371-102986,WR,Elijah,Elijah Higgins,Higgins,2.449999968210856,6,2600,3900,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-91417:Luke Schoonmaker,122371-91417,TE,Luke,Luke Schoonmaker,Schoonmaker,1.1999999455043249,7,2400,3600,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-201233:Ryan Flournoy,122371-201233,WR,Ryan,Ryan Flournoy,Flournoy,6.220000076293945,5,2000,3000,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-185863:Hunter Luepke,122371-185863,RB,Hunter,Hunter Luepke,Luepke,2.160000038146973,5,1800,2700,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-86047:Malik Davis,122371-86047,RB,Malik,Malik Davis,Davis,0.30000001192092896,1,1600,2400,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-85842:Brevyn Spann-Ford,122371-85842,TE,Brevyn,Brevyn Spann-Ford,Spann-Ford,0.7250000238418579,4,1400,2100,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-89613:Simi Fehoko,122371-89613,WR,Simi,Simi Fehoko,Fehoko,2.720000076293945,5,1200,1800,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-137990:Tip Reiman,122371-137990,TE,Tip,Tip Reiman,Reiman,1.099999984105428,3,1000,1500,ARI@DAL,ARI,DAL,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-94600:John Stephens Jr.,122371-94600,WR,John,John Stephens Jr.,Stephens Jr.,,0,1000,1500,ARI@DAL,DAL,ARI,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-87442:Princeton Fant,122371-87442,TE,Princeton,Princeton Fant,Fant,0,2,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-92573:Travis Vokolek,122371-92573,TE,Travis,Travis Vokolek,Vokolek,0,1,1000,1500,ARI@DAL,ARI,DAL,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-135325:Rivaldo Fairweather,122371-135325,TE,Rivaldo,Rivaldo Fairweather,Fairweather,,0,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-71845:Miles Sanders,122371-71845,RB,Miles,Miles Sanders,Sanders,5.675000190734863,4,1000,1500,ARI@DAL,DAL,ARI,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-71844:Blake Gillikin,122371-71844,K,Blake,Blake Gillikin,Gillikin,0,5,1000,1500,ARI@DAL,ARI,DAL,IR,Back,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-60838:Andre Baccellia,122371-60838,WR,Andre,Andre Baccellia,Baccellia,,0,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-138277:Jalen Brooks,122371-138277,WR,Jalen,Jalen Brooks,Brooks,2.284615443303035,13,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-94888:Messiah Swinson,122371-94888,TE,Messiah,Messiah Swinson,Swinson,,0,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-61112:Josiah Deguara,122371-61112,TE,Josiah,Josiah Deguara,Deguara,0.9666666984558105,3,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-119619:Traeshon Holden,122371-119619,WR,Traeshon,Traeshon Holden,Holden,,0,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-56262:Parris Campbell,122371-56262,WR,Parris,Parris Campbell,Campbell,2.4,5,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-152522:Phil Mafah,122371-152522,RB,Phil,Phil Mafah,Mafah,,0,1000,1500,ARI@DAL,DAL,ARI,IR,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-114252:Xavier Weaver,122371-114252,WR,Xavier,Xavier Weaver,Weaver,0,2,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-54863:C.J. Goodwin,122371-54863,WR,C.J.,C.J. Goodwin,Goodwin,0,4,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-109008:Jalen Cropper,122371-109008,WR,Jalen,Jalen Cropper,Cropper,0,2,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-142042:Trey Benson,122371-142042,RB,Trey,Trey Benson,Benson,7.224999904632568,4,1000,1500,ARI@DAL,ARI,DAL,IR,Knee - meniscus,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-93023:Jermar Jefferson,122371-93023,RB,Jermar,Jermar Jefferson,Jefferson,1.850000023841858,2,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-29411:Pharaoh Brown,122371-29411,TE,Pharaoh,Pharaoh Brown,Brown,1.0625,8,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-40687:James Conner,122371-40687,RB,James,James Conner,Conner,9.766666412353516,3,1000,1500,ARI@DAL,ARI,DAL,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-52342:Will Grier,122371-52342,QB,Will,Will Grier,Grier,,0,1000,1500,ARI@DAL,DAL,ARI,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122371-156152:Tejhaun Palmer,122371-156152,WR,Tejhaun,Tejhaun Palmer,Palmer,,0,1000,1500,ARI@DAL,ARI,DAL,,,,,,MVP - 1.5X Points/AnyFLEX

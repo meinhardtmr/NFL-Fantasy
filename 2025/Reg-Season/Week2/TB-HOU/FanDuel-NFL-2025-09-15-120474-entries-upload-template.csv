@@ -1,0 +1,61 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3570665080,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-129471:C.J. Stroud,120474-41535:Baker Mayfield,120474-32384:Mike Evans,120474-152655:Emeka Egbuka,120474-55042:Dalton Schultz,120474-86811:Cade Otton,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3570665082,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-129471:C.J. Stroud,120474-41535:Baker Mayfield,120474-32384:Mike Evans,120474-53562:Nick Chubb,120474-12551:Tampa Bay Buccaneers,120474-86811:Cade Otton,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3570665084,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-129471:C.J. Stroud,120474-41535:Baker Mayfield,120474-32384:Mike Evans,120474-53562:Nick Chubb,120474-12556:Houston Texans,120474-86811:Cade Otton,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3570665085,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-41535:Baker Mayfield,120474-129471:C.J. Stroud,120474-32384:Mike Evans,120474-53562:Nick Chubb,120474-55042:Dalton Schultz,120474-86811:Cade Otton,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3570665086,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-53562:Nick Chubb,120474-91419:Nico Collins,120474-129471:C.J. Stroud,120474-41535:Baker Mayfield,120474-55042:Dalton Schultz,120474-86811:Cade Otton,,,,,,,,,,,,,,,,,,,,
+3570665087,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-41535:Baker Mayfield,120474-129471:C.J. Stroud,120474-32384:Mike Evans,120474-152655:Emeka Egbuka,120474-55042:Dalton Schultz,120474-119788:Xavier Hutchinson,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3570665088,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-91419:Nico Collins,120474-129471:C.J. Stroud,120474-32384:Mike Evans,120474-152655:Emeka Egbuka,120474-55042:Dalton Schultz,120474-119788:Xavier Hutchinson,,120474-41535:Baker Mayfield,120474-41535,QB,Baker,Baker Mayfield,Mayfield,22.57999992,1,13200,19800,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+3570665089,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-32384:Mike Evans,120474-129471:C.J. Stroud,120474-41535:Baker Mayfield,120474-53562:Nick Chubb,120474-29932:Ka'imi Fairbairn,120474-119788:Xavier Hutchinson,,120474-91419:Nico Collins,120474-91419,WR,Nico,Nico Collins,Collins,4,1,13000,19500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+3570665090,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-152664:Bucky Irving,120474-129471:C.J. Stroud,120474-32384:Mike Evans,120474-53562:Nick Chubb,120474-29932:Ka'imi Fairbairn,120474-119788:Xavier Hutchinson,,120474-152664:Bucky Irving,120474-152664,RB,Bucky,Bucky Irving,Irving,12.5,1,12200,18300,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+3570665093,120474-276524222,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120474-41535:Baker Mayfield,120474-129471:C.J. Stroud,120474-32384:Mike Evans,120474-29932:Ka'imi Fairbairn,120474-60479:Chase McLaughlin,120474-119788:Xavier Hutchinson,,120474-129471:C.J. Stroud,120474-129471,QB,C.J.,C.J. Stroud,Stroud,9.720000267,1,11200,16800,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-32384:Mike Evans,120474-32384,WR,Mike,Mike Evans,Evans,7.599999905,1,10400,15600,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-152655:Emeka Egbuka,120474-152655,WR,Emeka,Emeka Egbuka,Egbuka,21.60000038,1,9800,14700,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-53562:Nick Chubb,120474-53562,RB,Nick,Nick Chubb,Chubb,6,1,8800,13200,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-60858:Christian Kirk,120474-60858,WR,Christian,Christian Kirk,Kirk,7.175000191,8,7600,11400,TB@HOU,HOU,TB,NA,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-29932:Ka'imi Fairbairn,120474-29932,K,Ka'imi,Ka'imi Fairbairn,Fairbairn,14,1,7200,10800,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-12551:Tampa Bay Buccaneers,120474-12551,D,Tampa Bay,Tampa Bay Buccaneers,Buccaneers,2,1,6800,10200,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-60479:Chase McLaughlin,120474-60479,K,Chase,Chase McLaughlin,McLaughlin,6,1,6600,9900,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-12556:Houston Texans,120474-12556,D,Houston,Houston Texans,Texans,6,1,6400,9600,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-137902:Rachaad White,120474-137902,RB,Rachaad,Rachaad White,White,2.099999905,1,5600,8400,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-55042:Dalton Schultz,120474-55042,TE,Dalton,Dalton Schultz,Schultz,4.300000191,1,5200,7800,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-27477:Sterling Shepard,120474-27477,WR,Sterling,Sterling Shepard,Shepard,5.400000095,1,4400,6600,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-86811:Cade Otton,120474-86811,TE,Cade,Cade Otton,Otton,0,1,4000,6000,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-86055:Dameon Pierce,120474-86055,RB,Dameon,Dameon Pierce,Pierce,0.5,1,3800,5700,TB@HOU,HOU,TB,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-119788:Xavier Hutchinson,120474-119788,WR,Xavier,Xavier Hutchinson,Hutchinson,4.5,1,3600,5400,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-147315:Jayden Higgins,120474-147315,WR,Jayden,Jayden Higgins,Higgins,4.199999809,1,3000,4500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-83083:Justin Watson,120474-83083,WR,Justin,Justin Watson,Watson,3.700000048,1,2600,3900,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-28827:Dare Ogunbowale,120474-28827,RB,Dare,Dare Ogunbowale,Ogunbowale,1.600000024,1,2200,3300,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-137059:Sean Tucker,120474-137059,RB,Sean,Sean Tucker,Tucker,0.200000003,1,2000,3000,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-138774:Woody Marks,120474-138774,RB,Woody,Woody Marks,Marks,0.300000012,1,1800,2700,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-152007:Jaylin Noel,120474-152007,WR,Jaylin,Jaylin Noel,Noel,1.200000048,1,1600,2400,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-95370:Ryan Miller,120474-95370,TE,Ryan,Ryan Miller,Miller,0,1,1400,2100,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-93391:Payne Durham,120474-93391,TE,Payne,Payne Durham,Durham,5.8,5,1200,1800,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-142086:Silas Bolden,120474-142086,WR,Silas,Silas Bolden,Bolden,,0,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-103308:Jawhar Jordan,120474-103308,RB,Jawhar,Jawhar Jordan,Jordan,,0,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-52495:Braxton Berrios,120474-52495,WR,Braxton,Braxton Berrios,Berrios,0,6,1000,1500,TB@HOU,HOU,TB,NA,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-94094:Brevin Jordan,120474-94094,TE,Brevin,Brevin Jordan,Jordan,0.850000024,2,1000,1500,TB@HOU,HOU,TB,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-72725:Irv Smith Jr.,120474-72725,TE,Irv,Irv Smith Jr.,Smith Jr.,0.699999988,1,1000,1500,TB@HOU,HOU,TB,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-111637:Cade Stover,120474-111637,TE,Cade,Cade Stover,Stover,4.199999809,1,1000,1500,TB@HOU,HOU,TB,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-110868:Josh Williams,120474-110868,RB,Josh,Josh Williams,Williams,,0,1000,1500,TB@HOU,TB,HOU,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-89628:Davis Mills,120474-89628,QB,Davis,Davis Mills,Mills,1.596666654,6,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-185889:Tanner Taula,120474-185889,TE,Tanner,Tanner Taula,Taula,,0,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-103591:Graham Mertz,120474-103591,QB,Graham,Graham Mertz,Mertz,,0,1000,1500,TB@HOU,HOU,TB,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-110000:Connor Bazelak,120474-110000,QB,Connor,Connor Bazelak,Bazelak,,0,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-60981:Charlie Heck,120474-60981,TE,Charlie,Charlie Heck,Heck,,0,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-52409:Jakob Johnson,120474-52409,RB,Jakob,Jakob Johnson,Johnson,,0,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-201535:Kameron Johnson,120474-201535,WR,Kameron,Kameron Johnson,Johnson,0,1,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-206276:Jaden Smith,120474-206276,WR,Jaden,Jaden Smith,Smith,,0,1000,1500,TB@HOU,TB,HOU,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-70601:Harrison Bryant,120474-70601,TE,Harrison,Harrison Bryant,Bryant,2.183333397,6,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-109007:Josh Kelly,120474-109007,WR,Josh,Josh Kelly,Kelly,,0,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-55635:Chris Godwin Jr.,120474-55635,WR,Chris,Chris Godwin Jr.,Godwin Jr.,16.97142901,7,1000,1500,TB@HOU,TB,HOU,NA,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-112101:Jared Wayne,120474-112101,WR,Jared,Jared Wayne,Wayne,0,1,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-170214:Dennis Houston,120474-170214,WR,Dennis,Dennis Houston,Houston,,0,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-93540:British Brooks,120474-93540,RB,British,British Brooks,Brooks,0.200000003,1,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-33259:Teddy Bridgewater,120474-33259,QB,Teddy,Teddy Bridgewater,Bridgewater,0.119999997,1,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-68714:Ko Kieft,120474-68714,TE,Ko,Ko Kieft,Kieft,0,1,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-120042:Jalen McMillan,120474-120042,WR,Jalen,Jalen McMillan,McMillan,8.714285714,14,1000,1500,TB@HOU,TB,HOU,IR,Neck,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-131694:Luke Lachey,120474-131694,TE,Luke,Luke Lachey,Lachey,,0,1000,1500,TB@HOU,HOU,TB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-120684:Garrett Greene,120474-120684,QB,Garrett,Garrett Greene,Greene,,0,1000,1500,TB@HOU,TB,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-128624:Tez Johnson,120474-128624,WR,Tez,Tez Johnson,Johnson,0,1,1000,1500,TB@HOU,TB,HOU,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120474-86778:Devin Culp,120474-86778,TE,Devin,Devin Culp,Culp,3.76666673,3,1000,1500,TB@HOU,TB,HOU,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX

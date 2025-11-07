@@ -1,0 +1,60 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3579187036,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-102965:Bo Nix,120973-85701:Ja'Marr Chase,120973-87787:J.K. Dobbins,120973-151903:Troy Franklin,120973-48380:Wil Lutz,120973-155551:Pat Bryant,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3579187037,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-85701:Ja'Marr Chase,120973-102965:Bo Nix,120973-87787:J.K. Dobbins,120973-48380:Wil Lutz,120973-120093:Marvin Mims Jr.,120973-130270:Adam Trautman,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3579187038,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-102965:Bo Nix,120973-85701:Ja'Marr Chase,120973-89493:Chase Brown,120973-87787:J.K. Dobbins,120973-155551:Pat Bryant,120973-56711:Drew Sample,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3579187039,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-102965:Bo Nix,120973-85701:Ja'Marr Chase,120973-89493:Chase Brown,120973-87787:J.K. Dobbins,120973-56265:Mike Gesicki,120973-56711:Drew Sample,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3579187040,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-85701:Ja'Marr Chase,120973-102965:Bo Nix,120973-87787:J.K. Dobbins,120973-151903:Troy Franklin,120973-185593:Andrei Iosivas,120973-56265:Mike Gesicki,,,,,,,,,,,,,,,,,,,,
+3579187041,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-102965:Bo Nix,120973-85701:Ja'Marr Chase,120973-87787:J.K. Dobbins,120973-89981:Tee Higgins,120973-120093:Marvin Mims Jr.,120973-56265:Mike Gesicki,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3579187042,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-102965:Bo Nix,120973-85701:Ja'Marr Chase,120973-89493:Chase Brown,120973-87787:J.K. Dobbins,120973-185593:Andrei Iosivas,120973-155551:Pat Bryant,,120973-85701:Ja'Marr Chase,120973-85701,WR,Ja'Marr,Ja'Marr Chase,Chase,14.16666667,3,14200,21300,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+3579187043,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-89493:Chase Brown,120973-102965:Bo Nix,120973-85701:Ja'Marr Chase,120973-87787:J.K. Dobbins,120973-130270:Adam Trautman,120973-155551:Pat Bryant,,120973-102965:Bo Nix,120973-102965,QB,Bo,Bo Nix,Nix,14.5,3,12400,18600,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+3579187044,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-85701:Ja'Marr Chase,120973-102965:Bo Nix,120973-89981:Tee Higgins,120973-151903:Troy Franklin,120973-86092:Evan McPherson,120973-130270:Adam Trautman,,120973-89493:Chase Brown,120973-89493,RB,Chase,Chase Brown,Brown,7.866666794,3,12000,18000,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+3579187045,120973-276788206,$8K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,120973-85701:Ja'Marr Chase,120973-102965:Bo Nix,120973-57403:Courtland Sutton,120973-86092:Evan McPherson,120973-56265:Mike Gesicki,120973-130270:Adam Trautman,,120973-60840:Jake Browning,120973-60840,QB,Jake,Jake Browning,Browning,14.31999969,2,11000,16500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-57403:Courtland Sutton,120973-57403,WR,Courtland,Courtland Sutton,Sutton,13.33333333,3,10400,15600,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-87787:J.K. Dobbins,120973-87787,RB,J.K.,J.K. Dobbins,Dobbins,14.53333282,3,9200,13800,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-89981:Tee Higgins,120973-89981,WR,Tee,Tee Higgins,Higgins,6.633333206,3,9000,13500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-12531:Denver Broncos,120973-12531,D,Denver,Denver Broncos,Broncos,7.666666667,3,7800,11700,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-151903:Troy Franklin,120973-151903,WR,Troy,Troy Franklin,Franklin,9.400000254,3,7400,11100,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-48380:Wil Lutz,120973-48380,K,Wil,Wil Lutz,Lutz,7,3,7000,10500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-86092:Evan McPherson,120973-86092,K,Evan,Evan McPherson,McPherson,5.666666667,3,6600,9900,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-12528:Cincinnati Bengals,120973-12528,D,Cincinnati,Cincinnati Bengals,Bengals,3.666666667,3,6200,9300,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-110484:RJ Harvey,120973-110484,RB,RJ,RJ Harvey,Harvey,4.46666654,3,5600,8400,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-120093:Marvin Mims Jr.,120973-120093,WR,Marvin,Marvin Mims Jr.,Mims Jr.,3.666666667,3,5200,7800,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-71705:Noah Fant,120973-71705,TE,Noah,Noah Fant,Fant,6,3,5000,7500,CIN@DEN,CIN,DEN,NA,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-41872:Evan Engram,120973-41872,TE,Evan,Evan Engram,Engram,2.650000095,2,4800,7200,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-185593:Andrei Iosivas,120973-185593,WR,Andrei,Andrei Iosivas,Iosivas,1.700000048,1,4200,6300,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-56265:Mike Gesicki,120973-56265,TE,Mike,Mike Gesicki,Gesicki,2.100000064,3,3600,5400,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-130270:Adam Trautman,120973-130270,TE,Adam,Adam Trautman,Trautman,4.75,2,3000,4500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-52451:Samaje Perine,120973-52451,RB,Samaje,Samaje Perine,Perine,0.566666683,3,2600,3900,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-128912:Mitchell Tinsley,120973-128912,WR,Mitchell,Mitchell Tinsley,Tinsley,3.900000095,2,2200,3300,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-94887:Tyler Badie,120973-94887,RB,Tyler,Tyler Badie,Badie,2.900000095,2,2000,3000,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-155551:Pat Bryant,120973-155551,WR,Pat,Pat Bryant,Bryant,2.799999952,1,1800,2700,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-56711:Drew Sample,120973-56711,TE,Drew,Drew Sample,Sample,3.399999936,3,1600,2400,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-137122:Tahj Brooks,120973-137122,RB,Tahj,Tahj Brooks,Brooks,1.700000048,1,1400,2100,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-83117:Tanner Hudson,120973-83117,TE,Tanner,Tanner Hudson,Hudson,3.222222222,9,1200,1800,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-56059:Trent Sherfield Sr.,120973-56059,WR,Trent,Trent Sherfield Sr.,Sherfield Sr.,0.800000012,2,1200,1800,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-185728:Patrick Murtagh,120973-185728,TE,Patrick,Patrick Murtagh,Murtagh,,0,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-92560:Sam Ehlinger,120973-92560,QB,Sam,Sam Ehlinger,Ehlinger,0,1,1000,1500,CIN@DEN,DEN,CIN,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-60947:Jarrett Stidham,120973-60947,QB,Jarrett,Jarrett Stidham,Stidham,0.166666667,3,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-143509:Caleb Lohner,120973-143509,TE,Caleb,Caleb Lohner,Lohner,,0,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-93853:Thayer Thomas,120973-93853,WR,Thayer,Thayer Thomas,Thomas,,0,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-114591:William Wagner,120973-114591,TE,William,William Wagner,Wagner,,0,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-137254:Deuce Vaughn,120973-137254,RB,Deuce,Deuce Vaughn,Vaughn,1.716666698,6,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-154661:Michael Bandy,120973-154661,WR,Michael,Michael Bandy,Bandy,,0,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-152232:Jordan Moore,120973-152232,WR,Jordan,Jordan Moore,Moore,,0,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-88109:Gary Brightwell,120973-88109,RB,Gary,Gary Brightwell,Brightwell,0,1,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-88752:Charlie Jones,120973-88752,WR,Charlie,Charlie Jones,Jones,0,3,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-173626:Nate Adkins,120973-173626,TE,Nate,Nate Adkins,Adkins,2.807692308,13,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-86200:Sean Clifford,120973-86200,QB,Sean,Sean Clifford,Clifford,,0,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-86075:Lucas Krull,120973-86075,TE,Lucas,Lucas Krull,Krull,1.25,2,1000,1500,CIN@DEN,DEN,CIN,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-87621:A.T. Perry,120973-87621,WR,A.T.,A.T. Perry,Perry,,0,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-26057:Michael Burton,120973-26057,RB,Michael,Michael Burton,Burton,2.20909084,11,1000,1500,CIN@DEN,DEN,CIN,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-58189:Mitchell Fraboni,120973-58189,TE,Mitchell,Mitchell Fraboni,Fraboni,0,1,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-65231:Adam Prentice,120973-65231,RB,Adam,Adam Prentice,Prentice,0.899999976,1,1000,1500,CIN@DEN,DEN,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-40534:Mike White,120973-40534,QB,Mike,Mike White,White,1.120000005,1,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-201564:Cam Grandy,120973-201564,TE,Cam,Cam Grandy,Grandy,1.100000024,1,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-61157:Brett Rypien,120973-61157,QB,Brett,Brett Rypien,Rypien,0,1,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-63336:Joe Burrow,120973-63336,QB,Joe,Joe Burrow,Burrow,7.929999828,2,1000,1500,CIN@DEN,CIN,DEN,IR,Toe,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-147051:Jaleel McLaughlin,120973-147051,RB,Jaleel,Jaleel McLaughlin,McLaughlin,5.029411765,17,1000,1500,CIN@DEN,DEN,CIN,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-133484:Jermaine Burton,120973-133484,WR,Jermaine,Jermaine Burton,Burton,1.587499976,8,1000,1500,CIN@DEN,CIN,DEN,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-119672:Kendall Milton,120973-119672,RB,Kendall,Kendall Milton,Milton,,0,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120973-71935:Kendric Pryor,120973-71935,WR,Kendric,Kendric Pryor,Pryor,1.399999976,1,1000,1500,CIN@DEN,CIN,DEN,,,,,,MVP - 1.5X Points/AnyFLEX

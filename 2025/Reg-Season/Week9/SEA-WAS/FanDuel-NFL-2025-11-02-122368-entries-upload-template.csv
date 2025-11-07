@@ -1,0 +1,63 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3601792952,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-129458:Jaxon Smith-Njigba,122368-102785:Jayden Daniels,122368-29780:Zach Ertz,122368-60745:Jason Myers,122368-87180:Matt Gay,122368-137953:AJ Barner,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3601792957,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-129458:Jaxon Smith-Njigba,122368-102785:Jayden Daniels,122368-103342:Kenneth Walker III,122368-117178:Jacory Croskey-Merritt,122368-134837:Tory Horton,122368-33047:Chris Moore,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3601792961,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-102785:Jayden Daniels,122368-129458:Jaxon Smith-Njigba,122368-63589:Sam Darnold,122368-117178:Jacory Croskey-Merritt,122368-103547:Luke McCaffrey,122368-103302:Courtney Jackson,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3601792964,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-102785:Jayden Daniels,122368-129458:Jaxon Smith-Njigba,122368-63589:Sam Darnold,122368-103376:Zach Charbonnet,122368-128986:Jaylin Lane,122368-134837:Tory Horton,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3601792968,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-102785:Jayden Daniels,122368-129458:Jaxon Smith-Njigba,122368-103342:Kenneth Walker III,122368-60745:Jason Myers,122368-103547:Luke McCaffrey,122368-56648:Jeremy McNichols,,,,,,,,,,,,,,,,,,,,
+3601792973,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-63589:Sam Darnold,122368-129458:Jaxon Smith-Njigba,122368-103342:Kenneth Walker III,122368-87180:Matt Gay,122368-56648:Jeremy McNichols,122368-128986:Jaylin Lane,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3601792978,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-63589:Sam Darnold,122368-129458:Jaxon Smith-Njigba,122368-117178:Jacory Croskey-Merritt,122368-103376:Zach Charbonnet,122368-29780:Zach Ertz,122368-33047:Chris Moore,,122368-129458:Jaxon Smith-Njigba,122368-129458,WR,Jaxon,Jaxon Smith-Njigba,Smith-Njigba,20.714285714285715,7,13400,20100,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+3601792985,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-103342:Kenneth Walker III,122368-129458:Jaxon Smith-Njigba,122368-102785:Jayden Daniels,122368-137953:AJ Barner,122368-103547:Luke McCaffrey,122368-134837:Tory Horton,,122368-102785:Jayden Daniels,122368-102785,QB,Jayden,Jayden Daniels,Daniels,19.467999267578126,5,12800,19200,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+3601792988,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-103342:Kenneth Walker III,122368-102785:Jayden Daniels,122368-63589:Sam Darnold,122368-56018:Deebo Samuel Sr.,122368-56648:Jeremy McNichols,122368-134837:Tory Horton,,122368-63589:Sam Darnold,122368-63589,QB,Sam,Sam Darnold,Darnold,16.751428876604354,7,12000,18000,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+3601792995,122368-277364580,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,122368-103342:Kenneth Walker III,122368-102785:Jayden Daniels,122368-63589:Sam Darnold,122368-56018:Deebo Samuel Sr.,122368-56648:Jeremy McNichols,122368-103302:Courtney Jackson,,122368-103342:Kenneth Walker III,122368-103342,RB,Kenneth,Kenneth Walker III,Walker III,10.585714067731585,7,11200,16800,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-56018:Deebo Samuel Sr.,122368-56018,WR,Deebo,Deebo Samuel Sr.,Samuel Sr.,11.385713849748884,7,10400,15600,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-29358:Marcus Mariota,122368-29358,QB,Marcus,Marcus Mariota,Mariota,13.93999958,4,10000,15000,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-117178:Jacory Croskey-Merritt,122368-117178,RB,Jacory,Jacory Croskey-Merritt,Croskey-Merritt,9.087499618530273,8,9400,14100,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-103376:Zach Charbonnet,122368-103376,RB,Zach,Zach Charbonnet,Charbonnet,9.516666412353516,6,8600,12900,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-56250:Terry McLaurin,122368-56250,WR,Terry,Terry McLaurin,McLaurin,8.199999809265137,4,8400,12600,SEA@WAS,WAS,SEA,O,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-64051:Drew Lock,122368-64051,QB,Drew,Drew Lock,Lock,0.5,1,8000,12000,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-29780:Zach Ertz,122368-29780,TE,Zach,Zach Ertz,Ertz,8,8,7200,10800,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-12550:Seattle Seahawks,122368-12550,D,Seattle,Seattle Seahawks,Seahawks,9.714285714285714,7,6800,10200,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-60745:Jason Myers,122368-60745,K,Jason,Jason Myers,Myers,10.428571428571429,7,6600,9900,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-87180:Matt Gay,122368-87180,K,Matt,Matt Gay,Gay,8.571428571428571,7,6400,9600,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-12552:Washington Commanders,122368-12552,D,Washington,Washington Commanders,Commanders,5.875,8,6000,9000,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-137953:AJ Barner,122368-137953,TE,AJ,AJ Barner,Barner,7.828571319580078,7,5600,8400,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-79970:Cooper Kupp,122368-79970,WR,Cooper,Cooper Kupp,Kupp,6.614285605294364,7,5400,8100,SEA@WAS,SEA,WAS,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-8023:Josh Johnson,122368-8023,QB,Josh,Josh Johnson,Johnson,0.19499999284744263,4,5000,7500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-103547:Luke McCaffrey,122368-103547,WR,Luke,Luke McCaffrey,McCaffrey,5.724999904632568,8,5000,7500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-56648:Jeremy McNichols,122368-56648,RB,Jeremy,Jeremy McNichols,McNichols,5.600000108991351,7,4400,6600,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-128986:Jaylin Lane,122368-128986,WR,Jaylin,Jaylin Lane,Lane,3.299999952316284,8,3800,5700,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-152258:Elijah Arroyo,122368-152258,TE,Elijah,Elijah Arroyo,Arroyo,2.5,7,3400,5100,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-134837:Tory Horton,122368-134837,WR,Tory,Tory Horton,Horton,5.685714176722935,7,3000,4500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-87127:Chris Rodriguez Jr.,122368-87127,RB,Chris,Chris Rodriguez Jr.,Rodriguez Jr.,3.5799999237060547,5,2600,3900,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-33047:Chris Moore,122368-33047,WR,Chris,Chris Moore,Moore,4.549999872843425,6,2200,3300,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-26251:Robbie Chosen,122368-26251,WR,Robbie,Robbie Chosen,Chosen,5.599999904632568,1,2000,3000,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-93150:Jake Bobo,122368-93150,WR,Jake,Jake Bobo,Bobo,1.5,2,1800,2700,SEA@WAS,SEA,WAS,O,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-114231:George Holani,122368-114231,RB,George,George Holani,Holani,0.5333333412806193,6,1600,2400,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-137265:Ben Sinnott,122368-137265,TE,Ben,Ben Sinnott,Sinnott,1.9500000476837158,2,1400,2100,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-169834:Dareke Young,122368-169834,WR,Dareke,Dareke Young,Young,1.1600000381469726,5,1200,1800,SEA@WAS,SEA,WAS,O,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-79980:Eric Saubert,122368-79980,TE,Eric,Eric Saubert,Saubert,0.8500000238418579,2,1200,1800,SEA@WAS,SEA,WAS,IR,Calf,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-72705:John Bates,122368-72705,TE,John,John Bates,Bates,1.6999999682108562,3,1000,1500,SEA@WAS,WAS,SEA,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-80001:Austin Ekeler,122368-80001,RB,Austin,Austin Ekeler,Ekeler,5.300000190734863,2,1000,1500,SEA@WAS,WAS,SEA,IR,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-60930:Myles Gaskin,122368-60930,RB,Myles,Myles Gaskin,Gaskin,0.375,4,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-103302:Courtney Jackson,122368-103302,WR,Courtney,Courtney Jackson,Jackson,,0,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-83081:Chase Edmonds,122368-83081,RB,Chase,Chase Edmonds,Edmonds,,0,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-86800:Colson Yankoff,122368-86800,TE,Colson,Colson Yankoff,Yankoff,,0,1000,1500,SEA@WAS,WAS,SEA,O,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-110230:Kenny McIntosh,122368-110230,RB,Kenny,Kenny McIntosh,McIntosh,2.322222179836697,9,1000,1500,SEA@WAS,SEA,WAS,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-63646:Lawrence Cager,122368-63646,TE,Lawrence,Lawrence Cager,Cager,,0,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-114469:Tyrone Broden,122368-114469,WR,Tyrone,Tyrone Broden,Broden,,0,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-87844:Brady Russell,122368-87844,TE,Brady,Brady Russell,Russell,0,1,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-167588:Jacoby Jones,122368-167588,WR,Jacoby,Jacoby Jones,Jones,,0,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-87594:Sam Hartman,122368-87594,QB,Sam,Sam Hartman,Hartman,,0,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-151726:Robbie Ouzts,122368-151726,TE,Robbie,Robbie Ouzts,Ouzts,,0,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-110259:Treylon Burks,122368-110259,WR,Treylon,Treylon Burks,Burks,1.1,5,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-56248:Noah Brown,122368-56248,WR,Noah,Noah Brown,Brown,2.549999952316284,2,1000,1500,SEA@WAS,WAS,SEA,IR,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-103506:Nick Kallerup,122368-103506,TE,Nick,Nick Kallerup,Kallerup,,0,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-54746:Tyler Ott,122368-54746,TE,Tyler,Tyler Ott,Ott,0,1,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-92890:Cody White,122368-92890,WR,Cody,Cody White,White,0,1,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-154462:Jalen Milroe,122368-154462,QB,Jalen,Jalen Milroe,Milroe,-0.533333341,3,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-154461:Ja'Corey Brooks,122368-154461,WR,Ja'Corey,Ja'Corey Brooks,Brooks,,0,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-14820:Nick Bellore,122368-14820,RB,Nick,Nick Bellore,Bellore,0,1,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-87654:Noah Igbinoghene,122368-87654,WR,Noah,Noah Igbinoghene,Igbinoghene,0,2,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-63851:Tyree Jackson,122368-63851,TE,Tyree,Tyree Jackson,Jackson,,0,1000,1500,SEA@WAS,WAS,SEA,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-138221:Ricky White III,122368-138221,WR,Ricky,Ricky White III,White III,,0,1000,1500,SEA@WAS,SEA,WAS,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,122368-152574:Donovan Edwards,122368-152574,RB,Donovan,Donovan Edwards,Edwards,,0,1000,1500,SEA@WAS,WAS,SEA,,,,,,MVP - 1.5X Points/AnyFLEX

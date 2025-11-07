@@ -1,0 +1,60 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3595343511,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-72731:Josh Jacobs,121989-69017:Jordan Love,121989-6894:Aaron Rodgers,121989-86244:Pat Freiermuth,121989-138037:Roman Wilson,121989-120642:Savion Williams,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3595343515,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-72731:Josh Jacobs,121989-69017:Jordan Love,121989-73048:DK Metcalf,121989-32058:Chris Boswell,121989-90870:Calvin Austin III,121989-120642:Savion Williams,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3595343517,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-69017:Jordan Love,121989-72731:Josh Jacobs,121989-160303:Tucker Kraft,121989-94370:Romeo Doubs,121989-90870:Calvin Austin III,121989-120642:Savion Williams,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3595343519,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-69017:Jordan Love,121989-72731:Josh Jacobs,121989-160303:Tucker Kraft,121989-94370:Romeo Doubs,121989-138037:Roman Wilson,121989-120642:Savion Williams,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3595343523,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-69017:Jordan Love,121989-72731:Josh Jacobs,121989-112057:Jaylen Warren,121989-26247:Brandon McManus,121989-48116:Jonnu Smith,121989-90870:Calvin Austin III,,,,,,,,,,,,,,,,,,,,
+3595343525,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-72731:Josh Jacobs,121989-6894:Aaron Rodgers,121989-94370:Romeo Doubs,121989-32058:Chris Boswell,121989-48116:Jonnu Smith,121989-90870:Calvin Austin III,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3595343527,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-6894:Aaron Rodgers,121989-72731:Josh Jacobs,121989-166916:Matthew Golden,121989-86244:Pat Freiermuth,121989-26247:Brandon McManus,121989-90870:Calvin Austin III,,121989-72731:Josh Jacobs,121989-72731,RB,Josh,Josh Jacobs,Jacobs,19.21666718,6,14600,21900,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+3595343528,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-6894:Aaron Rodgers,121989-72731:Josh Jacobs,121989-112057:Jaylen Warren,121989-26247:Brandon McManus,121989-90912:Kenneth Gainwell,121989-90870:Calvin Austin III,,121989-69017:Jordan Love,121989-69017,QB,Jordan,Jordan Love,Love,17.91999944,6,12400,18600,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+3595343529,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-69017:Jordan Love,121989-6894:Aaron Rodgers,121989-160303:Tucker Kraft,121989-94370:Romeo Doubs,121989-90912:Kenneth Gainwell,121989-90870:Calvin Austin III,,121989-6894:Aaron Rodgers,121989-6894,QB,Aaron,Aaron Rodgers,Rodgers,17.59999975,6,11600,17400,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+3595343531,121989-277226644,$10K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,121989-69017:Jordan Love,121989-6894:Aaron Rodgers,121989-73048:DK Metcalf,121989-26247:Brandon McManus,121989-32058:Chris Boswell,121989-90870:Calvin Austin III,,121989-73048:DK Metcalf,121989-73048,WR,DK,DK Metcalf,Metcalf,13.09999975,6,11400,17100,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-160303:Tucker Kraft,121989-160303,TE,Tucker,Tucker Kraft,Kraft,11.90000025,6,10000,15000,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-112057:Jaylen Warren,121989-112057,RB,Jaylen,Jaylen Warren,Warren,13.4,5,9800,14700,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-87691:Malik Willis,121989-87691,QB,Malik,Malik Willis,Willis,7.399999891,7,9000,13500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-94370:Romeo Doubs,121989-94370,WR,Romeo,Romeo Doubs,Doubs,11.09999975,6,8600,12900,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-53729:Mason Rudolph,121989-53729,QB,Mason,Mason Rudolph,Rudolph,0.239999995,2,8000,12000,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-166916:Matthew Golden,121989-166916,WR,Matthew,Matthew Golden,Golden,6.400000254,6,7800,11700,GB@PIT,GB,PIT,Q,Hip,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-12533:Green Bay Packers,121989-12533,D,Green Bay,Green Bay Packers,Packers,5,6,7200,10800,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-86244:Pat Freiermuth,121989-86244,TE,Pat,Pat Freiermuth,Freiermuth,8.040000153,5,7000,10500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-26247:Brandon McManus,121989-26247,K,Brandon,Brandon McManus,McManus,9,4,6800,10200,GB@PIT,GB,PIT,Q,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-88060:Lucas Havrisik,121989-88060,K,Lucas,Lucas Havrisik,Havrisik,10.5,2,6800,10200,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-32058:Chris Boswell,121989-32058,K,Chris,Chris Boswell,Boswell,9.666666667,6,6600,9900,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-12547:Pittsburgh Steelers,121989-12547,D,Pittsburgh,Pittsburgh Steelers,Steelers,7.5,6,6400,9600,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-90912:Kenneth Gainwell,121989-90912,RB,Kenneth,Kenneth Gainwell,Gainwell,9.25,6,6200,9300,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-110457:Dontayvion Wicks,121989-110457,WR,Dontayvion,Dontayvion Wicks,Wicks,3.316666603,6,5800,8700,GB@PIT,GB,PIT,O,Calf,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-48116:Jonnu Smith,121989-48116,TE,Jonnu,Jonnu Smith,Smith,5.78333346,6,5400,8100,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-90870:Calvin Austin III,121989-90870,WR,Calvin,Calvin Austin III,Austin III,7.724999905,4,4800,7200,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-185861:Emanuel Wilson,121989-185861,RB,Emanuel,Emanuel Wilson,Wilson,2.616666635,6,4400,6600,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-138037:Roman Wilson,121989-138037,WR,Roman,Roman Wilson,Wilson,1.866666635,3,3800,5700,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-133477:Darnell Washington,121989-133477,TE,Darnell,Darnell Washington,Washington,5.224999905,4,3200,4800,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-120642:Savion Williams,121989-120642,WR,Savion,Savion Williams,Williams,1.166666667,6,2800,4200,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-168916:Kaleb Johnson,121989-168916,RB,Kaleb,Kaleb Johnson,Johnson,0.400000006,4,2400,3600,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-91488:Chris Brooks,121989-91488,RB,Chris,Chris Brooks,Brooks,1.139999962,5,2000,3000,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-113228:Luke Musgrave,121989-113228,TE,Luke,Luke Musgrave,Musgrave,1.850000024,4,1800,2700,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-138786:Malik Heath,121989-138786,WR,Malik,Malik Heath,Heath,2.799999952,2,1600,2400,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-71105:Ben Skowronek,121989-71105,WR,Ben,Ben Skowronek,Skowronek,4.349999905,2,1600,2400,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-92882:Connor Heyward,121989-92882,TE,Connor,Connor Heyward,Heyward,2.25,4,1400,2100,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-91618:John FitzPatrick,121989-91618,TE,John,John FitzPatrick,FitzPatrick,3.333333333,3,1200,1800,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-113160:Jakobie Keeney-James,121989-113160,WR,Jakobie,Jakobie Keeney-James,Keeney-James,,0,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-119697:MarShawn Lloyd,121989-119697,RB,MarShawn,MarShawn Lloyd,Lloyd,2.299999952,1,1000,1500,GB@PIT,GB,PIT,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-110617:Isaiah Neyor,121989-110617,WR,Isaiah,Isaiah Neyor,Neyor,,0,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-120105:Will Howard,121989-120105,QB,Will,Will Howard,Howard,,0,1000,1500,GB@PIT,PIT,GB,IR,Hand,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-69294:Skylar Thompson,121989-69294,QB,Skylar,Skylar Thompson,Thompson,2.626666705,3,1000,1500,GB@PIT,PIT,GB,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-92590:Raheem Blackshear,121989-92590,RB,Raheem,Raheem Blackshear,Blackshear,0.533333333,15,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-160306:Pierre Strong Jr.,121989-160306,RB,Pierre,Pierre Strong Jr.,Strong Jr.,2.350000064,12,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-90813:Clayton Tune,121989-90813,QB,Clayton,Clayton Tune,Tune,-0.346666654,6,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-92606:Bo Melton,121989-92606,WR,Bo,Bo Melton,Melton,0.100000004,3,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-104019:Matt Orzech,121989-104019,TE,Matt,Matt Orzech,Orzech,0,2,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-104278:Donald Parham Jr.,121989-104278,TE,Donald,Donald Parham Jr.,Parham Jr.,,0,1000,1500,GB@PIT,PIT,GB,IR,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-61273:Scotty Miller,121989-61273,WR,Scotty,Scotty Miller,Miller,0.699999988,2,1000,1500,GB@PIT,PIT,GB,O,Finger,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-54239:Matt Sokol,121989-54239,TE,Matt,Matt Sokol,Sokol,,0,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-89185:Ben Sims,121989-89185,TE,Ben,Ben Sims,Sims,1.239999962,5,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-104165:Lew Nichols,121989-104165,RB,Lew,Lew Nichols,Nichols,0,1,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-138854:Ke'Shawn Williams,121989-138854,WR,Ke'Shawn,Ke'Shawn Williams,Williams,0,2,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-129641:Will Sheppard,121989-129641,WR,Will,Will Sheppard,Sheppard,,0,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-206447:Max Hurleman,121989-206447,RB,Max,Max Hurleman,Hurleman,,0,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-86255:Josh Whyle,121989-86255,TE,Josh,Josh Whyle,Whyle,3.119999949,15,1000,1500,GB@PIT,GB,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-89455:Jayden Reed,121989-89455,WR,Jayden,Jayden Reed,Reed,12,1,1000,1500,GB@PIT,GB,PIT,IR,Collarbone,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-86646:Trey Sermon,121989-86646,RB,Trey,Trey Sermon,Sermon,0,1,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121989-93055:Isaiah Hodgins,121989-93055,WR,Isaiah,Isaiah Hodgins,Hodgins,1.100000024,2,1000,1500,GB@PIT,PIT,GB,,,,,,MVP - 1.5X Points/AnyFLEX

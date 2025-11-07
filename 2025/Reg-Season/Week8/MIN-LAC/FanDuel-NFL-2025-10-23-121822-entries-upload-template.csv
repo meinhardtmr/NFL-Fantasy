@@ -1,0 +1,60 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3593825713,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-85671:Justin Jefferson,121822-69189:Justin Herbert,121822-120639:Quentin Johnston,121822-102703:Will Reichard,121822-92496:Cameron Dicker,121822-92859:Jalen Nailor,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3593825715,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-92859:Jalen Nailor,121822-92496:Cameron Dicker,121822-69189:Justin Herbert,121822-70324:Carson Wentz,121822-128633:Kimani Vidal,121822-85671:Justin Jefferson,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3593825716,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-92496:Cameron Dicker,121822-69189:Justin Herbert,121822-86875:Jordan Mason,121822-133472:Ladd McConkey,121822-85671:Justin Jefferson,121822-92859:Jalen Nailor,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3593825718,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-69189:Justin Herbert,121822-85671:Justin Jefferson,121822-120639:Quentin Johnston,121822-102703:Will Reichard,121822-92496:Cameron Dicker,121822-92859:Jalen Nailor,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3593825719,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-102703:Will Reichard,121822-71706:T.J. Hockenson,121822-70324:Carson Wentz,121822-29253:Keenan Allen,121822-133472:Ladd McConkey,121822-85671:Justin Jefferson,,,,,,,,,,,,,,,,,,,,
+3593834798,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-102703:Will Reichard,121822-71706:T.J. Hockenson,121822-70324:Carson Wentz,121822-120639:Quentin Johnston,121822-129210:Jordan Addison,121822-85671:Justin Jefferson,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3593834799,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-102703:Will Reichard,121822-71706:T.J. Hockenson,121822-70324:Carson Wentz,121822-29253:Keenan Allen,121822-158438:Oronde Gadsden II,121822-69189:Justin Herbert,,121822-85671:Justin Jefferson,121822-85671,WR,Justin,Justin Jefferson,Jefferson,13.69999949,6,13400,20100,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+3593834801,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-71706:T.J. Hockenson,121822-70324:Carson Wentz,121822-86875:Jordan Mason,121822-133472:Ladd McConkey,121822-69189:Justin Herbert,121822-92496:Cameron Dicker,,121822-69189:Justin Herbert,121822-69189,QB,Justin,Justin Herbert,Herbert,21.44571359,7,13000,19500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+3593834803,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-69189:Justin Herbert,121822-86875:Jordan Mason,121822-129210:Jordan Addison,121822-158438:Oronde Gadsden II,121822-102703:Will Reichard,121822-92496:Cameron Dicker,,121822-70324:Carson Wentz,121822-70324,QB,Carson,Carson Wentz,Wentz,18.14500046,4,11400,17100,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+3593834804,121822-277160740,$18K Thu NFL Hail Mary (Only $0.25 to Enter),0.25,121822-69189:Justin Herbert,121822-29253:Keenan Allen,121822-128633:Kimani Vidal,121822-133472:Ladd McConkey,121822-71706:T.J. Hockenson,121822-92496:Cameron Dicker,,121822-86875:Jordan Mason,121822-86875,RB,Jordan,Jordan Mason,Mason,11.81666692,6,10600,15900,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-29253:Keenan Allen,121822-29253,WR,Keenan,Keenan Allen,Allen,13.21428571,7,10200,15300,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-152575:J.J. McCarthy,121822-152575,QB,J.J.,J.J. McCarthy,McCarthy,14.02000046,2,10000,15000,MIN@LAC,MIN,LAC,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-120639:Quentin Johnston,121822-120639,WR,Quentin,Quentin Johnston,Johnston,13.90000025,6,9200,13800,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-128633:Kimani Vidal,121822-128633,RB,Kimani,Kimani Vidal,Vidal,8.050000191,4,8800,13200,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-129210:Jordan Addison,121822-129210,WR,Jordan,Jordan Addison,Addison,16.43333308,3,8400,12600,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-40442:Aaron Jones Sr.,121822-40442,RB,Aaron,Aaron Jones Sr.,Jones Sr.,8.25,2,8200,12300,MIN@LAC,MIN,LAC,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-158438:Oronde Gadsden II,121822-158438,TE,Oronde,Oronde Gadsden II,Gadsden II,9.759999847,5,8000,12000,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-133472:Ladd McConkey,121822-133472,WR,Ladd,Ladd McConkey,McConkey,10.21428571,7,7800,11700,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-71706:T.J. Hockenson,121822-71706,TE,T.J.,T.J. Hockenson,Hockenson,6.349999746,6,7200,10800,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-149696:Trey Lance,121822-149696,QB,Trey,Trey Lance,Lance,2.859999895,1,7000,10500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-200653:Max Brosmer,121822-200653,QB,Max,Max Brosmer,Brosmer,0.529999971,2,7000,10500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-12540:Minnesota Vikings,121822-12540,D,Minnesota,Minnesota Vikings,Vikings,8.333333333,6,6800,10200,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-102703:Will Reichard,121822-102703,K,Will,Will Reichard,Reichard,10,6,6600,9900,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-92496:Cameron Dicker,121822-92496,K,Cameron,Cameron Dicker,Dicker,9.142857143,7,6400,9600,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-12548:Los Angeles Chargers,121822-12548,D,Los Angeles,Los Angeles Chargers,Chargers,4.571428571,7,6200,9300,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-91361:Hassan Haskins,121822-91361,RB,Hassan,Hassan Haskins,Haskins,1.050000032,6,5200,7800,MIN@LAC,LAC,MIN,O,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-92859:Jalen Nailor,121822-92859,WR,Jalen,Jalen Nailor,Nailor,5.366666794,6,4600,6900,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-92677:Zavier Scott,121822-92677,RB,Zavier,Zavier Scott,Scott,4.949999809,4,3800,5700,MIN@LAC,MIN,LAC,Q,Wrist,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-129546:Tre' Harris,121822-129546,WR,Tre',Tre' Harris,Harris,2.333333333,6,3200,4800,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-39716:Adam Thielen,121822-39716,WR,Adam,Adam Thielen,Thielen,1.839999962,5,3000,4500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-63907:Josh Oliver,121822-63907,TE,Josh,Josh Oliver,Oliver,4.120000076,5,2600,3900,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-60451:Tyler Conklin,121822-60451,TE,Tyler,Tyler Conklin,Conklin,2.75,4,2400,3600,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-56708:Will Dissly,121822-56708,TE,Will,Will Dissly,Dissly,1.575000048,4,2200,3300,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-89230:Cam Akers,121822-89230,RB,Cam,Cam Akers,Akers,3.589999914,2,2000,3000,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-152537:Tai Felton,121822-152537,WR,Tai,Tai Felton,Felton,0.466666659,3,1800,2700,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-128805:KeAndre Lambert-Smith,121822-128805,WR,KeAndre,KeAndre Lambert-Smith,Lambert-Smith,0.150000006,4,1600,2400,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-137139:Myles Price,121822-137139,WR,Myles,Myles Price,Price,-0.333333333,6,1400,2100,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-94621:Derius Davis,121822-94621,WR,Derius,Derius Davis,Davis,-0.375,4,1200,1800,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-70501:C.J. Ham,121822-70501,RB,C.J.,C.J. Ham,Ham,1,1,1200,1800,MIN@LAC,MIN,LAC,O,Hand,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-174215:Omarion Hampton,121822-174215,RB,Omarion,Omarion Hampton,Hampton,14,5,1000,1500,MIN@LAC,LAC,MIN,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-63625:Nyheim Miller-Hines,121822-63625,RB,Nyheim,Nyheim Miller-Hines,Miller-Hines,0,2,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-87179:Thomas Yassmin,121822-87179,TE,Thomas,Thomas Yassmin,Yassmin,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-23435:Andrew DePaola,121822-23435,TE,Andrew,Andrew DePaola,DePaola,,0,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-135824:Luke Grimm,121822-135824,WR,Luke,Luke Grimm,Grimm,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-28570:Nick Vannett,121822-28570,TE,Nick,Nick Vannett,Vannett,3.333333333,12,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-160287:Amar Johnson,121822-160287,RB,Amar,Amar Johnson,Johnson,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-156197:Bryson Nesbit,121822-156197,TE,Bryson,Bryson Nesbit,Nesbit,,0,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-112044:Dalevon Campbell,121822-112044,WR,Dalevon,Dalevon Campbell,Campbell,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-133180:Ben Yurosek,121822-133180,TE,Ben,Ben Yurosek,Yurosek,,0,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-151740:Corey Kiner,121822-151740,RB,Corey,Corey Kiner,Kiner,,0,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-87371:Ty Chandler,121822-87371,RB,Ty,Ty Chandler,Chandler,0,1,1000,1500,MIN@LAC,MIN,LAC,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-90575:Najee Harris,121822-90575,RB,Najee,Najee Harris,Harris,3.366666794,3,1000,1500,MIN@LAC,LAC,MIN,IR,Achilles,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-93408:Rondale Moore,121822-93408,WR,Rondale,Rondale Moore,Moore,,0,1000,1500,MIN@LAC,MIN,LAC,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-88290:Jeshaun Jones,121822-88290,WR,Jeshaun,Jeshaun Jones,Jones,,0,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-192359:JaQuae Jackson,121822-192359,WR,JaQuae,JaQuae Jackson,Jackson,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-133615:Dontae Fleming,121822-133615,WR,Dontae,Dontae Fleming,Fleming,,0,1000,1500,MIN@LAC,MIN,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-89586:Tucker Fisk,121822-89586,TE,Tucker,Tucker Fisk,Fisk,0,2,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-129010:DJ Uiagalelei,121822-129010,QB,DJ,DJ Uiagalelei,Uiagalelei,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121822-88699:Jaret Patterson,121822-88699,RB,Jaret,Jaret Patterson,Patterson,,0,1000,1500,MIN@LAC,LAC,MIN,,,,,,MVP - 1.5X Points/AnyFLEX

@@ -1,0 +1,58 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3587673952,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-62239:Josh Allen,121479-136855:Bijan Robinson,121479-6782:Matt Prater,121479-88035:Parker Romo,121479-157467:Keon Coleman,121479-86080:Kyle Pitts Sr.,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3587673954,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-62239:Josh Allen,121479-136855:Bijan Robinson,121479-91626:James Cook III,121479-157467:Keon Coleman,121479-86080:Kyle Pitts Sr.,121479-112037:Casey Washington,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3587673955,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-136855:Bijan Robinson,121479-62239:Josh Allen,121479-91626:James Cook III,121479-6782:Matt Prater,121479-87418:Joshua Palmer,121479-62055:Ray-Ray McCloud III,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3587673957,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-136855:Bijan Robinson,121479-62239:Josh Allen,121479-88797:Michael Penix Jr.,121479-86518:Khalil Shakir,121479-87418:Joshua Palmer,121479-112037:Casey Washington,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3587673958,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-62239:Josh Allen,121479-91626:James Cook III,121479-88797:Michael Penix Jr.,121479-112745:Drake London,121479-62055:Ray-Ray McCloud III,121479-112037:Casey Washington,,,,,,,,,,,,,,,,,,,,
+3587673960,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-91626:James Cook III,121479-62239:Josh Allen,121479-88797:Michael Penix Jr.,121479-112745:Drake London,121479-87418:Joshua Palmer,121479-112037:Casey Washington,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3587673961,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-91626:James Cook III,121479-62239:Josh Allen,121479-112745:Drake London,121479-145558:Dalton Kincaid,121479-88035:Parker Romo,121479-62055:Ray-Ray McCloud III,,121479-62239:Josh Allen,121479-62239,QB,Josh,Josh Allen,Allen,24.57599945,5,14000,21000,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3587673963,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-88797:Michael Penix Jr.,121479-62239:Josh Allen,121479-112745:Drake London,121479-86518:Khalil Shakir,121479-6782:Matt Prater,121479-62055:Ray-Ray McCloud III,,121479-136855:Bijan Robinson,121479-136855,RB,Bijan,Bijan Robinson,Robinson,22.10000038,4,12800,19200,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+3587673965,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-88797:Michael Penix Jr.,121479-62239:Josh Allen,121479-86518:Khalil Shakir,121479-145558:Dalton Kincaid,121479-88035:Parker Romo,121479-112037:Casey Washington,,121479-91626:James Cook III,121479-91626,RB,James,James Cook III,Cook III,19.78000031,5,12000,18000,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3587673966,121479-277020563,$6K Mon NFL Hail Mary (Only $0.25 to Enter),0.25,121479-88797:Michael Penix Jr.,121479-91626:James Cook III,121479-136855:Bijan Robinson,121479-6782:Matt Prater,121479-157467:Keon Coleman,121479-86080:Kyle Pitts Sr.,,121479-88797:Michael Penix Jr.,121479-88797,QB,Michael,Michael Penix Jr.,Penix Jr.,14.45499992,4,11000,16500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-112745:Drake London,121479-112745,WR,Drake,Drake London,London,11.47500038,4,10200,15300,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-86518:Khalil Shakir,121479-86518,WR,Khalil,Khalil Shakir,Shakir,9.4,5,9400,14100,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-22038:Kirk Cousins,121479-22038,QB,Kirk,Kirk Cousins,Cousins,1.159999967,1,9000,13500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-38628:Mitchell Trubisky,121479-38628,QB,Mitchell,Mitchell Trubisky,Trubisky,0.980000019,1,9000,13500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-145558:Dalton Kincaid,121479-145558,TE,Dalton,Dalton Kincaid,Kincaid,11.94000015,5,8400,12600,BUF@ATL,BUF,ATL,NA,Oblique,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-69777:Darnell Mooney,121479-69777,WR,Darnell,Darnell Mooney,Mooney,3.799999873,3,8200,12300,BUF@ATL,ATL,BUF,NA,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-12526:Buffalo Bills,121479-12526,D,Buffalo,Buffalo Bills,Bills,4.8,5,7200,10800,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-65128:Tyler Bass,121479-65128,K,Tyler,Tyler Bass,Bass,8.75,20,7000,10500,BUF@ATL,BUF,ATL,IR,Hip,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-6782:Matt Prater,121479-6782,K,Matt,Matt Prater,Prater,10,5,6800,10200,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-88035:Parker Romo,121479-88035,K,Parker,Parker Romo,Romo,9.333333333,3,6400,9600,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-157467:Keon Coleman,121479-157467,WR,Keon,Keon Coleman,Coleman,9.219999695,5,6000,9000,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-86080:Kyle Pitts Sr.,121479-86080,TE,Kyle,Kyle Pitts Sr.,Pitts Sr.,9.125,4,5800,8700,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-12525:Atlanta Falcons,121479-12525,D,Atlanta,Atlanta Falcons,Falcons,7.25,4,5600,8400,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-90428:Tyler Allgeier,121479-90428,RB,Tyler,Tyler Allgeier,Allgeier,7.224999905,4,5000,7500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-87418:Joshua Palmer,121479-87418,WR,Joshua,Joshua Palmer,Palmer,4.679999924,5,4400,6600,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-88575:Elijah Moore,121479-88575,WR,Elijah,Elijah Moore,Moore,4.224999905,4,3800,5700,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-52613:Curtis Samuel,121479-52613,WR,Curtis,Curtis Samuel,Samuel,5.5,2,3400,5100,BUF@ATL,BUF,ATL,NA,Neck,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-62055:Ray-Ray McCloud III,121479-62055,WR,Ray-Ray,Ray-Ray McCloud III,McCloud III,2.349999905,4,3000,4500,BUF@ATL,ATL,BUF,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-128765:Nathan Carter,121479-128765,RB,Nathan,Nathan Carter,Carter,2.599999905,1,2800,4200,BUF@ATL,ATL,BUF,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-103694:Ray Davis,121479-103694,RB,Ray,Ray Davis,Davis,0.680000019,5,2400,3600,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-63050:Ty Johnson,121479-63050,RB,Ty,Ty Johnson,Johnson,1.319999981,5,2000,3000,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-64585:Dawson Knox,121479-64585,TE,Dawson,Dawson Knox,Knox,2.099999905,4,1800,2700,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-200291:Jackson Hawes,121479-200291,TE,Jackson,Jackson Hawes,Hawes,3.349999905,4,1600,2400,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-112037:Casey Washington,121479-112037,WR,Casey,Casey Washington,Washington,3.599999905,2,1400,2100,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-71351:Charlie Woerner,121479-71351,TE,Charlie,Charlie Woerner,Woerner,0,2,1200,1800,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-85306:KhaDarel Hodge,121479-85306,WR,KhaDarel,KhaDarel Hodge,Hodge,0,1,1200,1800,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-61555:David Sills V,121479-61555,WR,David,David Sills V,Sills V,1.399999976,1,1200,1800,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-94481:Deven Thompkins,121479-94481,WR,Deven,Deven Thompkins,Thompkins,0.939999962,5,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-103824:Easton Stick,121479-103824,QB,Easton,Easton Stick,Stick,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-157975:Keleki Latu,121479-157975,TE,Keleki,Keleki Latu,Latu,,0,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-139284:Frank Gore Jr.,121479-139284,RB,Frank,Frank Gore Jr.,Gore Jr.,,0,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-129302:Stephen Gosnell,121479-129302,WR,Stephen,Stephen Gosnell,Gosnell,,0,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-70426:Reggie Gilliam,121479-70426,RB,Reggie,Reggie Gilliam,Gilliam,0.349999994,2,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-103844:Nick Nash,121479-103844,WR,Nick,Nick Nash,Nash,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-222889:Lenny Krieg,121479-222889,K,Lenny,Lenny Krieg,Krieg,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-104117:Joshua Simon,121479-104117,TE,Joshua,Joshua Simon,Simon,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-69302:Feleipe Franks,121479-69302,TE,Feleipe,Feleipe Franks,Franks,0.425000012,4,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-86081:Emory Jones,121479-86081,QB,Emory,Emory Jones,Jones,,0,1000,1500,BUF@ATL,ATL,BUF,IR,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-174148:Carlos Washington Jr.,121479-174148,RB,Carlos,Carlos Washington Jr.,Washington Jr.,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-69833:Shane Buechele,121479-69833,QB,Shane,Shane Buechele,Buechele,,0,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-90583:Tyrell Shavers,121479-90583,WR,Tyrell,Tyrell Shavers,Shavers,1.133333365,3,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-138196:Ben Sauls,121479-138196,K,Ben,Ben Sauls,Sauls,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-86747:Dylan Drummond,121479-86747,WR,Dylan,Dylan Drummond,Drummond,,0,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-130275:Kristian Wilkerson,121479-130275,WR,Kristian,Kristian Wilkerson,Wilkerson,8.800000191,1,1000,1500,BUF@ATL,BUF,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-147168:Chris Blair,121479-147168,WR,Chris,Chris Blair,Blair,1.100000024,2,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-93026:Teagan Quitoriano,121479-93026,TE,Teagan,Teagan Quitoriano,Quitoriano,0,2,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,121479-79979:Jamal Agnew,121479-79979,WR,Jamal,Jamal Agnew,Agnew,0,2,1000,1500,BUF@ATL,ATL,BUF,,,,,,MVP - 1.5X Points/AnyFLEX

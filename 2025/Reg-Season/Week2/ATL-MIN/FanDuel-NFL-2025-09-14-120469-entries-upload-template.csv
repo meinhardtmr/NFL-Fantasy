@@ -1,0 +1,61 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3569151115,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-86875:Jordan Mason,120469-71706:T.J. Hockenson,120469-152575:J.J. McCarthy,120469-112745:Drake London,120469-69777:Darnell Mooney,120469-88797:Michael Penix Jr.,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3569151119,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-88797:Michael Penix Jr.,120469-136855:Bijan Robinson,120469-69777:Darnell Mooney,120469-71706:T.J. Hockenson,120469-86875:Jordan Mason,120469-86080:Kyle Pitts Sr.,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3569151120,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-136855:Bijan Robinson,120469-40442:Aaron Jones Sr.,120469-69777:Darnell Mooney,120469-71706:T.J. Hockenson,120469-86875:Jordan Mason,120469-88035:John Parker Romo,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3569151121,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-152575:J.J. McCarthy,120469-85671:Justin Jefferson,120469-40442:Aaron Jones Sr.,120469-69777:Darnell Mooney,120469-86875:Jordan Mason,120469-62055:Ray-Ray McCloud III,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3569151123,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-152575:J.J. McCarthy,120469-85671:Justin Jefferson,120469-40442:Aaron Jones Sr.,120469-69777:Darnell Mooney,120469-102703:Will Reichard,120469-62055:Ray-Ray McCloud III,,,,,,,,,,,,,,,,,,,,
+3569151125,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-88797:Michael Penix Jr.,120469-136855:Bijan Robinson,120469-112745:Drake London,120469-40442:Aaron Jones Sr.,120469-62055:Ray-Ray McCloud III,120469-92859:Jalen Nailor,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3569151128,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-136855:Bijan Robinson,120469-85671:Justin Jefferson,120469-112745:Drake London,120469-102703:Will Reichard,120469-62055:Ray-Ray McCloud III,120469-92859:Jalen Nailor,,120469-136855:Bijan Robinson,120469-136855,RB,Bijan,Bijan Robinson,Robinson,24.39999962,1,13800,20700,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+3569151130,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-85671:Justin Jefferson,120469-152575:J.J. McCarthy,120469-40442:Aaron Jones Sr.,120469-86080:Kyle Pitts Sr.,120469-39716:Adam Thielen,120469-92859:Jalen Nailor,,120469-85671:Justin Jefferson,120469-85671,WR,Justin,Justin Jefferson,Jefferson,12.80000019,1,13600,20400,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+3569151133,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-88797:Michael Penix Jr.,120469-136855:Bijan Robinson,120469-40442:Aaron Jones Sr.,120469-39716:Adam Thielen,120469-62055:Ray-Ray McCloud III,120469-92859:Jalen Nailor,,120469-88797:Michael Penix Jr.,120469-88797,QB,Michael,Michael Penix Jr.,Penix Jr.,24.02000046,1,11400,17100,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+3569151134,120469-276480801,$12K Sun NFL Hail Mary (Only $0.25 to Enter),0.25,120469-112745:Drake London,120469-136855:Bijan Robinson,120469-86875:Jordan Mason,120469-102703:Will Reichard,120469-86080:Kyle Pitts Sr.,120469-62055:Ray-Ray McCloud III,,120469-152575:J.J. McCarthy,120469-152575,QB,J.J.,J.J. McCarthy,McCarthy,23.21999931,1,11200,16800,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-112745:Drake London,120469-112745,WR,Drake,Drake London,London,9.5,1,10200,15300,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-40442:Aaron Jones Sr.,120469-40442,RB,Aaron,Aaron Jones Sr.,Jones Sr.,14.19999981,1,9600,14400,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-69777:Darnell Mooney,120469-69777,WR,Darnell,Darnell Mooney,Mooney,10.44999981,16,8200,12300,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-71706:T.J. Hockenson,120469-71706,TE,T.J.,T.J. Hockenson,Hockenson,3,1,8000,12000,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-12540:Minnesota Vikings,120469-12540,D,Minnesota,Minnesota Vikings,Vikings,5,1,7400,11100,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-86875:Jordan Mason,120469-86875,RB,Jordan,Jordan Mason,Mason,8,1,7000,10500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-102703:Will Reichard,120469-102703,K,Will,Will Reichard,Reichard,9,1,6800,10200,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-53212:Younghoe Koo,120469-53212,K,Younghoe,Younghoe Koo,Koo,9,1,6400,9600,ATL@MIN,ATL,MIN,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-88035:John Parker Romo,120469-88035,K,John Parker,John Parker Romo,Romo,11.5,4,6400,9600,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-12525:Atlanta Falcons,120469-12525,D,Atlanta,Atlanta Falcons,Falcons,1,1,6000,9000,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-86080:Kyle Pitts Sr.,120469-86080,TE,Kyle,Kyle Pitts Sr.,Pitts Sr.,9.399999619,1,5800,8700,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-39716:Adam Thielen,120469-39716,WR,Adam,Adam Thielen,Thielen,2,1,5400,8100,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-62055:Ray-Ray McCloud III,120469-62055,WR,Ray-Ray,Ray-Ray McCloud III,McCloud III,6.599999905,1,4800,7200,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-90428:Tyler Allgeier,120469-90428,RB,Tyler,Tyler Allgeier,Allgeier,2.400000095,1,4200,6300,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-92859:Jalen Nailor,120469-92859,WR,Jalen,Jalen Nailor,Nailor,3.299999952,1,3800,5700,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-85306:KhaDarel Hodge,120469-85306,WR,KhaDarel,KhaDarel Hodge,Hodge,0,1,3400,5100,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-87371:Ty Chandler,120469-87371,RB,Ty,Ty Chandler,Chandler,0,1,2800,4200,ATL@MIN,MIN,ATL,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-112037:Casey Washington,120469-112037,WR,Casey,Casey Washington,Washington,4.800000191,1,2400,3600,ATL@MIN,ATL,MIN,NA,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-63907:Josh Oliver,120469-63907,TE,Josh,Josh Oliver,Oliver,1,1,2000,3000,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-92677:Zavier Scott,120469-92677,WR,Zavier,Zavier Scott,Scott,,0,1800,2700,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-79979:Jamal Agnew,120469-79979,WR,Jamal,Jamal Agnew,Agnew,0,1,1600,2400,ATL@MIN,ATL,MIN,NA,Groin,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-71351:Charlie Woerner,120469-71351,TE,Charlie,Charlie Woerner,Woerner,0,1,1400,2100,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-133180:Ben Yurosek,120469-133180,TE,Ben,Ben Yurosek,Yurosek,,0,1200,1800,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-23435:Andrew DePaola,120469-23435,TE,Andrew,Andrew DePaola,DePaola,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-103824:Easton Stick,120469-103824,QB,Easton,Easton Stick,Stick,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-22038:Kirk Cousins,120469-22038,QB,Kirk,Kirk Cousins,Cousins,14.38000052,14,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-28570:Nick Vannett,120469-28570,TE,Nick,Nick Vannett,Vannett,3.333333333,12,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-103844:Nick Nash,120469-103844,WR,Nick,Nick Nash,Nash,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-156197:Bryson Nesbit,120469-156197,TE,Bryson,Bryson Nesbit,Nesbit,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-222889:Lenny Krieg,120469-222889,K,Lenny,Lenny Krieg,Krieg,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-137139:Myles Price,120469-137139,WR,Myles,Myles Price,Price,0,1,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-104117:Joshua Simon,120469-104117,TE,Joshua,Joshua Simon,Simon,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-70324:Carson Wentz,120469-70324,QB,Carson,Carson Wentz,Wentz,1.179999948,4,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-69302:Feleipe Franks,120469-69302,TE,Feleipe,Feleipe Franks,Franks,0.425000012,4,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-86081:Emory Jones,120469-86081,QB,Emory,Emory Jones,Jones,,0,1000,1500,ATL@MIN,ATL,MIN,IR,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-86341:Xazavian Valladay,120469-86341,RB,Xazavian,Xazavian Valladay,Valladay,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-174148:Carlos Washington Jr.,120469-174148,RB,Carlos,Carlos Washington Jr.,Washington Jr.,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-200653:Max Brosmer,120469-200653,QB,Max,Max Brosmer,Brosmer,,0,1000,1500,ATL@MIN,MIN,ATL,NA,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-86747:Dylan Drummond,120469-86747,WR,Dylan,Dylan Drummond,Drummond,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-152537:Tai Felton,120469-152537,WR,Tai,Tai Felton,Felton,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-89437:Tim Jones,120469-89437,WR,Tim,Tim Jones,Jones,1.119999981,5,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-63967:Lucky Jackson,120469-63967,WR,Lucky,Lucky Jackson,Jackson,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-93408:Rondale Moore,120469-93408,WR,Rondale,Rondale Moore,Moore,,0,1000,1500,ATL@MIN,MIN,ATL,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-147168:Chris Blair,120469-147168,WR,Chris,Chris Blair,Blair,1.100000024,2,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-88290:Jeshaun Jones,120469-88290,WR,Jeshaun,Jeshaun Jones,Jones,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-93026:Teagan Quitoriano,120469-93026,TE,Teagan,Teagan Quitoriano,Quitoriano,0,2,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-70501:C.J. Ham,120469-70501,RB,C.J.,C.J. Ham,Ham,2.050000032,6,1000,1500,ATL@MIN,MIN,ATL,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-133615:Dontae Fleming,120469-133615,WR,Dontae,Dontae Fleming,Fleming,,0,1000,1500,ATL@MIN,MIN,ATL,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-61555:David Sills V,120469-61555,WR,David,David Sills V,Sills V,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120469-128765:Nathan Carter,120469-128765,RB,Nathan,Nathan Carter,Carter,,0,1000,1500,ATL@MIN,ATL,MIN,,,,,,MVP - 1.5X Points/AnyFLEX

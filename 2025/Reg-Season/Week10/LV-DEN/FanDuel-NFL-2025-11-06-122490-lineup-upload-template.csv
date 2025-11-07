@@ -1,0 +1,60 @@
+MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+122490-102965:Bo Nix,122490-87787:J.K. Dobbins,122490-57403:Courtland Sutton,122490-103619:Tre Tucker,122490-151903:Troy Franklin,122490-130270:Adam Trautman,,1) Create a lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+122490-102965:Bo Nix,122490-151794:Brock Bowers,122490-26483:Geno Smith,122490-87787:J.K. Dobbins,122490-151741:Jack Bech,122490-130270:Adam Trautman,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+122490-87787:J.K. Dobbins,122490-102965:Bo Nix,122490-167031:Ashton Jeanty,122490-103619:Tre Tucker,122490-41872:Evan Engram,122490-155551:Pat Bryant,,3) Any information to the right of the last position column will be ignored in the upload,,,,,,,,,,,,,,,,,,
+122490-87787:J.K. Dobbins,122490-102965:Bo Nix,122490-26483:Geno Smith,122490-103619:Tre Tucker,122490-151903:Troy Franklin,122490-130270:Adam Trautman,,4) Maximum of 250 lineups per upload,,,,,,,,,,,,,,,,,,
+122490-26483:Geno Smith,122490-102965:Bo Nix,122490-151794:Brock Bowers,122490-103619:Tre Tucker,122490-40856:Daniel Carlson,122490-130270:Adam Trautman,,,,,,,,,,,,,,,,,,,,
+122490-26483:Geno Smith,122490-102965:Bo Nix,122490-57403:Courtland Sutton,122490-103619:Tre Tucker,122490-110484:RJ Harvey,122490-151741:Jack Bech,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+122490-167031:Ashton Jeanty,122490-102965:Bo Nix,122490-87787:J.K. Dobbins,122490-103619:Tre Tucker,122490-41872:Evan Engram,122490-151741:Jack Bech,,122490-102965:Bo Nix,122490-102965,QB,Bo,Bo Nix,Nix,20.971111721462673,9,13800,20700,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+122490-167031:Ashton Jeanty,122490-102965:Bo Nix,122490-103619:Tre Tucker,122490-110484:RJ Harvey,122490-40856:Daniel Carlson,122490-41872:Evan Engram,,122490-167031:Ashton Jeanty,122490-167031,RB,Ashton,Ashton Jeanty,Jeanty,13.625,8,12200,18300,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+122490-151794:Brock Bowers,122490-102965:Bo Nix,122490-103619:Tre Tucker,122490-151903:Troy Franklin,122490-12531:Denver Broncos,122490-27050:Tyler Lockett,,122490-151794:Brock Bowers,122490-151794,TE,Brock,Brock Bowers,Bowers,15.460000610351562,5,12000,18000,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+122490-151794:Brock Bowers,122490-102965:Bo Nix,122490-26483:Geno Smith,122490-103619:Tre Tucker,122490-48380:Wil Lutz,122490-130270:Adam Trautman,,122490-26483:Geno Smith,122490-26483,QB,Geno,Geno Smith,Smith,14.267499923706055,8,11400,17100,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-87787:J.K. Dobbins,122490-87787,RB,J.K.,J.K. Dobbins,Dobbins,11.944444444444445,9,10600,15900,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-57403:Courtland Sutton,122490-57403,WR,Courtland,Courtland Sutton,Sutton,11.622222052680122,9,9800,14700,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-103619:Tre Tucker,122490-103619,WR,Tre,Tre Tucker,Tucker,11.074999809265137,8,8200,12300,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-92560:Sam Ehlinger,122490-92560,QB,Sam,Sam Ehlinger,Ehlinger,0,1,8000,12000,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-60947:Jarrett Stidham,122490-60947,QB,Jarrett,Jarrett Stidham,Stidham,-0.100000001,1,8000,12000,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-151903:Troy Franklin,122490-151903,WR,Troy,Troy Franklin,Franklin,9.544444613986546,9,7800,11700,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-110484:RJ Harvey,122490-110484,RB,RJ,RJ Harvey,Harvey,9.399999830457899,9,7600,11400,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-93382:Aidan O'Connell,122490-93382,QB,Aidan,Aidan O'Connell,O'Connell,11.164444817437065,9,7000,10500,LV@DEN,LV,DEN,IR,Wrist,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-92020:Kenny Pickett,122490-92020,QB,Kenny,Kenny Pickett,Pickett,-1.679999948,1,7000,10500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-12531:Denver Broncos,122490-12531,D,Denver,Denver Broncos,Broncos,7.666666666666667,9,6800,10200,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-48380:Wil Lutz,122490-48380,K,Wil,Wil Lutz,Lutz,6.777777777777778,9,6600,9900,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-40856:Daniel Carlson,122490-40856,K,Daniel,Daniel Carlson,Carlson,7.714285714285714,7,6400,9600,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-12537:Las Vegas Raiders,122490-12537,D,Las Vegas,Las Vegas Raiders,Raiders,3.875,8,6000,9000,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-41872:Evan Engram,122490-41872,TE,Evan,Evan Engram,Engram,5.150000095367432,8,5600,8400,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-120093:Marvin Mims Jr.,122490-120093,WR,Marvin,Marvin Mims Jr.,Mims Jr.,6.224999904632568,8,5000,7500,LV@DEN,DEN,LV,O,Concussion,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-138998:Michael Mayer,122490-138998,TE,Michael,Michael Mayer,Mayer,4.466666539510091,6,4600,6900,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-27050:Tyler Lockett,122490-27050,WR,Tyler,Tyler Lockett,Lockett,1.5,8,4200,6300,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-155551:Pat Bryant,122490-155551,WR,Pat,Pat Bryant,Bryant,3.5166667302449546,6,3800,5700,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-151741:Jack Bech,122490-151741,WR,Jack,Jack Bech,Bech,2.160000038146973,5,3400,5100,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-151909:Dont'e Thornton Jr.,122490-151909,WR,Dont'e,Dont'e Thornton Jr.,Thornton Jr.,1.9833332697550456,6,3000,4500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-28744:Raheem Mostert,122490-28744,RB,Raheem,Raheem Mostert,Mostert,2.4399999618530273,5,2600,3900,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-91578:Zamir White,122490-91578,RB,Zamir,Zamir White,White,1.9666666984558105,3,2200,3300,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-94887:Tyler Badie,122490-94887,RB,Tyler,Tyler Badie,Badie,2.085714340209961,7,2000,3000,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-130270:Adam Trautman,122490-130270,TE,Adam,Adam Trautman,Trautman,3.7599998474121095,5,1800,2700,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-201230:Dylan Laube,122490-201230,RB,Dylan,Dylan Laube,Laube,0.4749999940395355,8,1600,2400,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-173626:Nate Adkins,122490-173626,TE,Nate,Nate Adkins,Adkins,2.7600000381469725,5,1400,2100,LV@DEN,DEN,LV,O,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-87668:Shedrick Jackson,122490-87668,WR,Shedrick,Shedrick Jackson,Jackson,,0,1400,2100,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-6672:Marcedes Lewis,122490-6672,TE,Marcedes,Marcedes Lewis,Lewis,0.3499999940395355,2,1200,1800,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-226878:Carter Runyon,122490-226878,TE,Carter,Carter Runyon,Runyon,0.800000012,1,1200,1800,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-185728:Patrick Murtagh,122490-185728,TE,Patrick,Patrick Murtagh,Murtagh,,0,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-143509:Caleb Lohner,122490-143509,TE,Caleb,Caleb Lohner,Lohner,,0,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-137254:Deuce Vaughn,122490-137254,RB,Deuce,Deuce Vaughn,Vaughn,1.7166666984558105,6,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-104102:Leroy Watson IV,122490-104102,TE,Leroy,Leroy Watson IV,Watson IV,0,1,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-154661:Michael Bandy,122490-154661,WR,Michael,Michael Bandy,Bandy,0.10000000149011612,1,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-114224:Kyrese Rowan,122490-114224,WR,Kyrese,Kyrese Rowan,Rowan,,0,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-86075:Lucas Krull,122490-86075,TE,Lucas,Lucas Krull,Krull,1.25,2,1000,1500,LV@DEN,DEN,LV,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-86203:Justin Shorter,122490-86203,WR,Justin,Justin Shorter,Shorter,0,1,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-72515:Ian Thomas,122490-72515,TE,Ian,Ian Thomas,Thomas,1.933333396911621,3,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-87621:A.T. Perry,122490-87621,WR,A.T.,A.T. Perry,Perry,,0,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-26057:Michael Burton,122490-26057,RB,Michael,Michael Burton,Burton,2.209090839732777,11,1000,1500,LV@DEN,DEN,LV,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-70859:Albert Okwuegbunam Jr.,122490-70859,TE,Albert,Albert Okwuegbunam Jr.,Okwuegbunam Jr.,6.099999904632568,1,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-58189:Mitchell Fraboni,122490-58189,TE,Mitchell,Mitchell Fraboni,Fraboni,0,1,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-65231:Adam Prentice,122490-65231,RB,Adam,Adam Prentice,Prentice,0.4333333174387614,6,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-25813:Phillip Dorsett II,122490-25813,WR,Phillip,Phillip Dorsett II,Dorsett II,,0,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-147051:Jaleel McLaughlin,122490-147051,RB,Jaleel,Jaleel McLaughlin,McLaughlin,0,1,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-71662:DJ Turner,122490-71662,WR,DJ,DJ Turner,Turner,3.258333206176758,12,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-64634:Alex Bachman,122490-64634,WR,Alex,Alex Bachman,Bachman,0.27999999523162844,5,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-56059:Trent Sherfield Sr.,122490-56059,WR,Trent,Trent Sherfield Sr.,Sherfield Sr.,1.1999999682108562,3,1000,1500,LV@DEN,DEN,LV,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,122490-201342:Chris Collier,122490-201342,RB,Chris,Chris Collier,Collier,0.2166666587193807,6,1000,1500,LV@DEN,LV,DEN,,,,,,MVP - 1.5X Points/AnyFLEX

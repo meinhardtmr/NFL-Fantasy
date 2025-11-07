@@ -1,0 +1,58 @@
+entry_id,contest_id,contest_name,entry_fee,MVP - 1.5X Points,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,AnyFLEX,,Instructions,,,,,,,,,,,,,,,,,,
+3563358702,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-57439:Patrick Mahomes,120114-69189:Justin Herbert,120114-29253:Keenan Allen,120114-92496:Cameron Dicker,120114-12548:Los Angeles Chargers,120114-120639:Quentin Johnston,,1) Edit your lineup by inserting any player from this list into their appropriate position columns,,,,,,,,,,,,,,,,,,
+3563358703,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-69189:Justin Herbert,120114-133472:Ladd McConkey,120114-57439:Patrick Mahomes,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,120114-55987:JuJu Smith-Schuster,,2) You can paste either the Player ID + Name OR ID from their respective columns,,,,,,,,,,,,,,,,,,
+3563358704,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-133472:Ladd McConkey,120114-57439:Patrick Mahomes,120114-69189:Justin Herbert,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,120114-55987:JuJu Smith-Schuster,,3) Any information to the right of the last position column will be ignored in the upload. Don't leave blank rows. Any entries after a blank row will not be edited,,,,,,,,,,,,,,,,,,
+3563358706,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-57439:Patrick Mahomes,120114-133472:Ladd McConkey,120114-92575:Isiah Pacheco,120114-41642:Harrison Butker,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,,4) You can not use this form to create new entries,,,,,,,,,,,,,,,,,,
+3563358707,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-69189:Justin Herbert,120114-133472:Ladd McConkey,120114-33076:Travis Kelce,120114-41642:Harrison Butker,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,,,,,,,,,,,,,,,,,,,,
+3563358709,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-33076:Travis Kelce,120114-133472:Ladd McConkey,120114-57439:Patrick Mahomes,120114-41642:Harrison Butker,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,,Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,MVP 1.5x Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+3563358711,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-158974:Xavier Worthy,120114-69189:Justin Herbert,120114-133472:Ladd McConkey,120114-92575:Isiah Pacheco,120114-174215:Omarion Hampton,120114-55987:JuJu Smith-Schuster,,120114-57439:Patrick Mahomes,120114-57439,QB,Patrick,Patrick Mahomes,Mahomes,19.46736868,19,13200,19800,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+3563358712,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-133472:Ladd McConkey,120114-57439:Patrick Mahomes,120114-92575:Isiah Pacheco,120114-41642:Harrison Butker,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,,120114-133472:Ladd McConkey,120114-133472,WR,Ladd,Ladd McConkey,McConkey,14.24117683,17,12200,18300,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+3563358714,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-92575:Isiah Pacheco,120114-69189:Justin Herbert,120114-33076:Travis Kelce,120114-133472:Ladd McConkey,120114-174215:Omarion Hampton,120114-86687:Hollywood Brown,,120114-69189:Justin Herbert,120114-69189,QB,Justin,Justin Herbert,Herbert,16.89333259,18,12000,18000,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+3563358716,120114-276333506,$5K Fri NFL Pooch Punt (150 Entries Max),0.05,120114-174215:Omarion Hampton,120114-69189:Justin Herbert,120114-158974:Xavier Worthy,120114-92575:Isiah Pacheco,120114-133472:Ladd McConkey,120114-86687:Hollywood Brown,,120114-158974:Xavier Worthy,120114-158974,WR,Xavier,Xavier Worthy,Worthy,11.45789458,19,11600,17400,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-33076:Travis Kelce,120114-33076,TE,Travis,Travis Kelce,Kelce,9.626315468,19,10600,15900,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-92575:Isiah Pacheco,120114-92575,RB,Isiah,Isiah Pacheco,Pacheco,5.779999924,10,9000,13500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-29253:Keenan Allen,120114-29253,WR,Keenan,Keenan Allen,Allen,10.22666626,15,8400,12600,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-90575:Najee Harris,120114-90575,RB,Najee,Najee Harris,Harris,11.27222188,18,8000,12000,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-92496:Cameron Dicker,120114-92496,K,Cameron,Cameron Dicker,Dicker,10.27777778,18,7800,11700,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-12536:Kansas City Chiefs,120114-12536,D,Kansas City,Kansas City Chiefs,Chiefs,6.2,20,7200,10800,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-41642:Harrison Butker,120114-41642,K,Harrison,Harrison Butker,Butker,7.3125,16,7000,10500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-45229:Kareem Hunt,120114-45229,RB,Kareem,Kareem Hunt,Hunt,11.02499962,16,6800,10200,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-174215:Omarion Hampton,120114-174215,RB,Omarion,Omarion Hampton,Hampton,,0,6400,9600,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-12548:Los Angeles Chargers,120114-12548,D,Los Angeles,Los Angeles Chargers,Chargers,7.611111111,18,6000,9000,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-120639:Quentin Johnston,120114-120639,WR,Quentin,Quentin Johnston,Johnston,9.574999809,16,5800,8700,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-86687:Hollywood Brown,120114-86687,WR,Hollywood,Hollywood Brown,Brown,4.220000076,5,5200,7800,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-56708:Will Dissly,120114-56708,TE,Will,Will Dissly,Dissly,5.481249809,16,4600,6900,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-129546:Tre' Harris,120114-129546,WR,Tre',Tre' Harris,Harris,,0,4200,6300,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-92413:Elijah Mitchell,120114-92413,RB,Elijah,Elijah Mitchell,Mitchell,,0,3800,5700,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-93143:Noah Gray,120114-93143,TE,Noah,Noah Gray,Gray,5.377777947,18,3400,5100,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-55987:JuJu Smith-Schuster,120114-55987,WR,JuJu,JuJu Smith-Schuster,Smith-Schuster,4.050000054,14,3000,4500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-60451:Tyler Conklin,120114-60451,TE,Tyler,Tyler Conklin,Conklin,6.025000095,16,2400,3600,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-91361:Hassan Haskins,120114-91361,RB,Hassan,Hassan Haskins,Haskins,2.649999936,12,2200,3300,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-94621:Derius Davis,120114-94621,WR,Derius,Derius Davis,Davis,2.280000051,15,1800,2700,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-155775:Brashard Smith,120114-155775,RB,Brashard,Brashard Smith,Smith,,0,1600,2400,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-128805:KeAndre Lambert-Smith,120114-128805,WR,KeAndre,KeAndre Lambert-Smith,Lambert-Smith,,0,1400,2100,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-63625:Nyheim Miller-Hines,120114-63625,RB,Nyheim,Nyheim Miller-Hines,Miller-Hines,,0,1200,1800,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-92545:Keaontay Ingram,120114-92545,RB,Keaontay,Keaontay Ingram,Ingram,0,1,1000,1500,KC@LAC,KC,LAC,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-89220:Tyquan Thornton,120114-89220,WR,Tyquan,Tyquan Thornton,Thornton,1.339999962,5,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-87179:Thomas Yassmin,120114-87179,TE,Thomas,Thomas Yassmin,Yassmin,,0,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-138643:Jason Brownlee,120114-138643,WR,Jason,Jason Brownlee,Brownlee,0,1,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-135824:Luke Grimm,120114-135824,WR,Luke,Luke Grimm,Grimm,,0,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-103192:Jared Wiley,120114-103192,TE,Jared,Jared Wiley,Wiley,0.600000024,2,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-160287:Amar Johnson,120114-160287,RB,Amar,Amar Johnson,Johnson,,0,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-119730:Jimmy Holiday,120114-119730,WR,Jimmy,Jimmy Holiday,Holiday,,0,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-73398:Chris Oladokun,120114-73398,QB,Chris,Chris Oladokun,Oladokun,0.25,2,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-149696:Trey Lance,120114-149696,QB,Trey,Trey Lance,Lance,2.747999954,5,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-152526:Jake Briningstool,120114-152526,TE,Jake,Jake Briningstool,Briningstool,,0,1000,1500,KC@LAC,KC,LAC,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-176467:Jalen Royals,120114-176467,WR,Jalen,Jalen Royals,Royals,,0,1000,1500,KC@LAC,KC,LAC,O,Knee,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-156374:Tre Watson,120114-156374,TE,Tre,Tre Watson,Watson,,0,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-91481:Nikko Remigio,120114-91481,WR,Nikko,Nikko Remigio,Remigio,0.725000024,8,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-42077:James Winchester,120114-42077,TE,James,James Winchester,Winchester,0,2,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-80353:Robert Tonyan,120114-80353,TE,Robert,Robert Tonyan,Tonyan,,0,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-158438:Oronde Gadsden II,120114-158438,TE,Oronde,Oronde Gadsden II,Gadsden II,,0,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-192359:JaQuae Jackson,120114-192359,WR,JaQuae,JaQuae Jackson,Jackson,,0,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-61798:Gardner Minshew II,120114-61798,QB,Gardner,Gardner Minshew II,Minshew II,10.63199997,10,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-156523:Carson Steele,120114-156523,RB,Carson,Carson Steele,Steele,1.56923074,13,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-85741:Clyde Edwards-Helaire,120114-85741,RB,Clyde,Clyde Edwards-Helaire,Edwards-Helaire,2.833333333,3,1000,1500,KC@LAC,KC,LAC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-89586:Tucker Fisk,120114-89586,TE,Tucker,Tucker Fisk,Fisk,1.174999952,8,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-129010:DJ Uiagalelei,120114-129010,QB,DJ,DJ Uiagalelei,Uiagalelei,,0,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
+,,,,,,,,,,,120114-128633:Kimani Vidal,120114-128633,RB,Kimani,Kimani Vidal,Vidal,3.35555564,9,1000,1500,KC@LAC,LAC,KC,,,,,,MVP - 1.5X Points/AnyFLEX
