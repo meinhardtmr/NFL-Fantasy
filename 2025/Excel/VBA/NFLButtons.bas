@@ -84,7 +84,7 @@ Loop
 
 rs.Close
 
-'Query Tier Database
+'Query Tier Worksheet
 SQL = "SELECT F1, F2 " & _
              ",[key]" & _
              ",[mvp_key]" & _
@@ -126,7 +126,7 @@ If Len(include) > 0 Then
                      "iif(instr(" & include & ",[p5_pos])>0,1,0) + " & _
                      "iif(instr(" & include & ",[p6_pos])>0,1,0) = " & includeNum
 End If
-Debug.Print SQL
+
 If Len(exclude) > 0 Then
     SQL = SQL & " AND iif(instr(" & exclude & ",[mvp_pos])>0,1,0) + " & _
                      "iif(instr(" & exclude & ",[p2_pos])>0,1,0) + " & _
@@ -136,7 +136,6 @@ If Len(exclude) > 0 Then
                      "iif(instr(" & exclude & ",[p6_pos])>0,1,0) = 0"
 End If
 
-'rs.CursorLocation = adUseClient
 rs.Open SQL, conn
 
 If Not rs.EOF Then
@@ -159,12 +158,6 @@ If Not rs.EOF Then
             .Range("A1").CurrentRegion.EntireColumn.AutoFit
             freezeTopPane activeWindow
             If .AutoFilterMode = False Then Sheets("Search").Range("C1").AutoFilter
-                
-            'Sort Worksheet
-            '.Sort.SortFields.Clear
-            '.Range("F2:AB" & UBound(arrPrint) + 2).Sort Key1:=.Cells(1, 21), _
-                                                    Order1:=xlDescending, _
-                                                    header:=xlNo '
         End With
     End If
 Else
