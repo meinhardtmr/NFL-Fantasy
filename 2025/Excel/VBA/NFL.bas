@@ -79,19 +79,19 @@ Else
     Workbooks.Open (ActiveWorkbook.path & "\" & fileName)
 End If
 
-'attachModule
+attachModule
 createFanduel
-'createStats
-'createTier
-'createSearch
-'createMatrix
-'createRandomLineup
-'createEventProcedure
+createStats
+createTier
+createSearch
+createMatrix
+createRandomLineup
+createEventProcedure
 
-'With Worksheets("Search")
-'    .Activate
-'    .Range("C2").Activate
-'End With
+With Worksheets("Search")
+    .Activate
+    .Range("C2").Activate
+End With
 
 ActiveWorkbook.Save
 
@@ -126,7 +126,7 @@ Dim rs As New ADODB.Recordset
 Dim arr
 Dim data
 Dim i As Long
-Dim maxRows As Long: maxRows = 75000
+Dim maxRows As Long: maxRows = 150000
 
 Set wb = Workbooks.Open(ActiveWorkbook.path & "\" & fileName)
 
@@ -139,6 +139,8 @@ With ws
     .UsedRange.ClearContents
     createHeaders .Name
 End With
+
+createFanduel
 
 'getPlayerArray
 SQL = "SELECT * " & _
@@ -155,7 +157,7 @@ End If
 
 'Process Data
 ReDim arr(1 To maxRows, 22)
-Call getCollection(data, arr, maxRows, 5)
+Call getCollection(data, arr, maxRows, 6)
 
 With ws
     .Activate
@@ -189,7 +191,6 @@ Set conn = Nothing
 
 End Sub
 Private Sub createMatrix()
-'Dim wb As Workbook
 Dim ws As Worksheet
 Dim rs As New Recordset
 Dim SQL As String
@@ -207,23 +208,20 @@ With ws
 End With
 
 createHeaders ws.Name
-ws.Range("A2:L" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
 getConnection
 
-SQL = "SELECT [Nickname], [Position]&':'&[Team] &iif(not isnull([Injury Indicator]),' '&[Injury Indicator],'') " & _
+SQL = "SELECT [Nickname], [Player] " & _
       "FROM [FanDuel$] " & _
-      "WHERE [Tier] = 1 " & _
+      "WHERE [Tier] > 0 " & _
       "ORDER BY [Salary] DESC"
 
 rs.Open SQL, conn
-'arr = wb.Worksheets("Search").Range("B1:B" & wb.Worksheets("Search").Cells(Rows.Count, 1).End(xlUp).row).Value
 arr = Application.Transpose(rs.GetRows)
 ReDim Preserve arr(1 To UBound(arr), 1 To 9)
 
 With ws
     'Set player matrix
-    'createHeaders wb, ws.Name
     For i = 1 To UBound(arr)
         arr(i, 3) = "=COUNTIFS(Tier!F:F,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
         arr(i, 4) = "=COUNTIFS(Tier!G:G,$B$" & i + 1 & ",Tier!$L:$L,"">0"")"
@@ -244,11 +242,11 @@ With ws
     .Cells(4, 11).Value = 14
     .Cells(5, 11).Value = 23
     .Cells(6, 11).Value = 24
-    .Cells(2, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$2" & ",Tier!$L:$L,1)"
-    .Cells(3, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$3" & ",Tier!$L:$L,1)"
-    .Cells(4, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$4" & ",Tier!$L:$L,1)"
-    .Cells(5, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$5" & ",Tier!$L:$L,1)"
-    .Cells(6, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$J$6" & ",Tier!$L:$L,1)"
+    .Cells(2, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$K$2" & ",Tier!$L:$L,"">0"")"
+    .Cells(3, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$K$3" & ",Tier!$L:$L,"">0"")"
+    .Cells(4, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$K$4" & ",Tier!$L:$L,"">0"")"
+    .Cells(5, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$K$5" & ",Tier!$L:$L,"">0"")"
+    .Cells(6, 12).FormulaArray = "=COUNTIFS(Tier!C:C,$K$6" & ",Tier!$L:$L,"">0"")"
 End With
 
 freezeTopPane activeWindow
@@ -259,12 +257,9 @@ Set rs = Nothing
 conn.Close
 Set conn = Nothing
 
-
 End Sub
 Private Sub createStats()
-'Dim wb As Workbook
 Dim ws As Worksheet
-'Dim conn As New ADODB.Connection '
 Dim SQL As String
 Dim rs As New ADODB.Recordset
 Dim dict As New Scripting.Dictionary
@@ -282,17 +277,14 @@ With ws
     .Name = "Stats"
     .Range("A1").Activate
     If .FilterMode Then .ShowAllData
-    .UsedRange.ClearContents
+    .UsedRange.Clear
 End With
 
 'Import Player Positions for Dictionary
-SQL = "SELECT [Nickname], [Position] & ':' & [Team] & iif([Injury Indicator],' ' & [Injury Indicator],'') " & _
+SQL = "SELECT [Nickname], [Player] " & _
       "FROM [FanDuel$] " & _
-      "WHERE [Tier] = 1"
+      "WHERE [Tier] > 0"
 
-'conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-'          "Data Source=" & wb.FullName & ";" & _
-'          "Extended Properties=""Excel 12.0 Xml;HDR=YES;"";"
 getConnection
 rs.Open SQL, conn
 
@@ -318,7 +310,7 @@ conn.Close
 
 'Import player stats
 conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
-          "Data Source=C:\UCF_Challenges\NFL-Fantasy\2025\;" & _
+          "Data Source=C:\NFL-Fantasy\2025\;" & _
           "Extended Properties=""text;HDR=YES;FMT=Delimited"";"
 
 Set cmd.ActiveConnection = conn
@@ -335,15 +327,14 @@ cmd.Parameters.Append param
 'Set rs = cmd.Execute
 rs.Open cmd
 
-'Populate Stats Sheet - Headers
+'Populate Stats Headers
 For i = 0 To rs.fields.Count - 1
     Sheets("Stats").Cells(1, i + 1).Value = rs.fields(i).Name
 Next
 
-'Populate Stats Sheet - Data
+'Populate Stats Data
 data = rs.GetRows()
-With Sheets("Stats")
-'    .Range("A2").CopyFromRecordset rs '-- Pasted numerics as text
+With ws
     For i = 0 To UBound(data, 2)
         For j = 0 To UBound(data, 1)
             If Not data(j, i) = "-" Then .Cells(i + 2, j + 1).Value = data(j, i)
@@ -353,7 +344,6 @@ With Sheets("Stats")
     For i = LBound(arr) To UBound(arr)
         If dict.Exists(arr(i, 1)) Then .Range("C" & i + 1).Value = dict.Item(arr(i, 1))
     Next
-'    .Range("A1").CurrentRegion.EntireColumn.AutoFit
     
     If .AutoFilterMode = False Then .Range("B1:D" & .Cells(Rows.Count, 1).End(xlUp).row).AutoFilter
     .Range("A1").CurrentRegion.EntireColumn.AutoFit
@@ -361,7 +351,6 @@ With Sheets("Stats")
 End With
 
 freezeTopPane activeWindow
-'ActiveWorkbook.Save
 
 rs.Close
 Set rs = Nothing
@@ -377,7 +366,7 @@ Dim rs As New ADODB.Recordset
 Dim data
 Dim arr
 Dim i As Long
-Dim maxRows As Long: maxRows = 100000
+Dim maxRows As Long: maxRows = 125000
 
 Set ws = Worksheets(3)
 With ws
@@ -392,7 +381,7 @@ createHeaders ws.Name
 
 SQL = "SELECT * " & _
       "FROM [FanDuel$]" & _
-      "WHERE [Tier] = 1 " & _
+      "WHERE [Tier] >= 1 " & _
       "ORDER BY [Salary] DESC"
 
 getConnection
@@ -435,7 +424,7 @@ conn.Close
 Set conn = Nothing
 
 End Sub
-Private Sub createSearch()
+Sub createSearch()
 Dim ws As Worksheet
 Dim SQL As String
 Dim rs As New ADODB.Recordset
@@ -454,12 +443,11 @@ With ws
 End With
 
 createHeaders ws.Name
-'ws.Range("A2:AA" & ws.Cells(Rows.Count, 1).End(xlDown).row).ClearContents
 
 'getPlayerArray
 SQL = "SELECT * " & _
       "FROM [FanDuel$]" & _
-      "WHERE [Tier] = 1 " & _
+      "WHERE [Tier] >= 1 " & _
       "ORDER BY [Salary] DESC"
 
 getConnection
@@ -469,9 +457,9 @@ If Not rs.EOF Then
     arr = rs.GetRows
     If ActiveSheet.FilterMode Then ActiveSheet.ShowAllData
     For i = 0 To UBound(arr, 2)
-        Range("A" & i + 2).Value = arr(16, i) 'Projected Points
-        Range("A" & i + 2).NumberFormat = "##.0"
-        Range("B" & i + 2).Value = arr(1, i) & ":" & arr(10, i) & IIf(Not IsNull(arr(12, i)), " " & arr(12, i), "") 'Position:Team inj ind
+        Cells(i + 2, 1).Value = arr(16, i) 'Projected Points
+        Cells(i + 2, 1).NumberFormat = "##.0"
+        Cells(i + 2, 2).Value = arr(19, i) 'Player
         
         For j = 3 To 5
             With Cells(i + 2, j).Validation
@@ -529,9 +517,9 @@ End With
 createHeaders ws.Name
 
 'getPlayerArray
-SQL = "SELECT [Nickname], [Position] & ':' & [Team] & iif(not isnull([Injury Indicator]),' '&[Injury Indicator],'') " & _
+SQL = "SELECT [Nickname], [Player] " & _
       "FROM [FanDuel$]" & _
-      "WHERE [Tier] = 1 " & _
+      "WHERE [Tier] > 0 " & _
       "ORDER BY [Salary] DESC"
           
 getConnection
@@ -540,8 +528,8 @@ rs.Open SQL, conn
 If Not rs.EOF Then
     arr = rs.GetRows
     For i = 0 To UBound(arr, 2)
-        Range("A" & i + 2).Value = arr(0, i)
-        Range("B" & i + 2).Value = arr(1, i)
+        Cells(i + 2, 1).Value = arr(0, i)
+        Cells(i + 2, 2).Value = arr(1, i)
         
         For j = 3 To 5
             With Cells(i + 2, j).Validation
@@ -600,7 +588,9 @@ Dim rs As New ADODB.Recordset
 Dim i As Long
 Dim data As Variant
 Dim j As Long
+Dim lSalary As Integer
 Dim arr
+'Dim rankResult As Integer
 
 Set ws = Worksheets(5)
 With ws
@@ -644,11 +634,23 @@ Next
 'Populate Data
 With ws
     .Range("A2").CopyFromRecordset rs
-    .Cells(1, 19).Value = "FPPG Rank"
+    
+    'Create Player List
     .Range("A1").CurrentRegion.Sort Key1:=.Cells(1, 15), _
                                     Order1:=xlAscending, _
-                                    key2:=.Cells(1, 6), _
-                                    Order2:=xlDescending, _
+                                    header:=xlYes
+
+    .Cells(1, 20).Value = "Player"
+    .Cells(1, 21).Value = "Select"
+    For i = 2 To .Cells(Rows.Count, 15).End(xlUp).row
+        .Cells(i, 20).Value = .Cells(i, 2) & IIf(.Cells(i, 15) > 1 Or .Cells(i, 2) = "WR", .Cells(i, 15), "") & ":" & .Cells(i, 11) & IIf(.Cells(i, 13) <> "", " " & .Cells(i, 13), "")
+        .Cells(i, 21).Value = 1
+    Next i
+    
+    'Rank FPPG
+    .Cells(1, 19).Value = "FPPG Rank"
+    .Range("A1").CurrentRegion.Sort Key1:=.Cells(1, 6), _
+                                    Order1:=xlDescending, _
                                     header:=xlYes
     For i = 2 To .Cells(Rows.Count, 1).End(xlUp).row
         .Cells(i, 19).Value = i - 1
@@ -656,18 +658,30 @@ With ws
 
     'Rank Salary
     .Cells(1, 18).Value = "Salary Rank"
-    .Range("A1").CurrentRegion.Sort Key1:=.Cells(1, 15), _
+    .Range("A1").CurrentRegion.Sort Key1:=.Cells(1, 21), _
                                     Order1:=xlDescending, _
-                                    key2:=.Cells(1, 8), _
+                                    Key2:=.Cells(1, 8), _
                                     Order2:=xlDescending, _
                                     header:=xlYes
-    For i = 2 To .Cells(Rows.Count, 1).End(xlUp).row
-        .Cells(i, 18).Value = i - 1
+     
+    lSalary = .Cells(.Cells(Rows.Count, 1).End(xlUp).row, 8).Value
+    'rankResult = Application.Rank_Eq(lSalary, Range(.Cells(2, 8), .Cells(.Cells(Rows.Count, 1).End(xlUp).row, 8)), 0) ' Descending order
+
+    For i = 2 To .Cells(Rows.Count, 18).End(xlUp).row
+        If .Cells(i, 8) <> lSalary Then
+            .Cells(i, 18).Value = i - 1
+        Else
+            .Cells(i, 18).Value = Application.Rank_Eq(lSalary, Range(.Cells(2, 8), .Cells(.Cells(Rows.Count, 1).End(xlUp).row, 8)), 0)
+        End If
     Next i
         
-    For i = 2 To .Cells(Rows.Count, 15).End(xlUp).row
-        .Cells(i, 20).Value = .Cells(i, 2) & ":" & .Cells(i, 11) & " " & .Cells(i, 13)
-    Next i
+    
+    'Sort Data
+    .Range("A1").CurrentRegion.Sort Key1:=.Cells(1, 21), _
+                                    Order1:=xlDescending, _
+                                    Key2:=.Cells(1, 8), _
+                                    Order2:=xlDescending, _
+                                    header:=xlYes
     
     .Range("A1").CurrentRegion.EntireColumn.AutoFit
     
@@ -990,7 +1004,7 @@ For i = 0 To 4
     fppg(0) = IIf(IsNull(pData(5, i)), 0, pData(5, i))
     If Not IsNull(pData(15, i)) Then points(0) = pData(15, i)
     ppts(0) = IIf(IsNull(pData(16, i)), 0, pData(16, i))
-    pos(0) = pData(1, i) & ":" & pData(10, i) & IIf(Not IsNull(pData(12, i)), " " & pData(12, i), "")
+    pos(0) = pData(19, i)
     sKey(0) = pData(17, i)
     fKey(0) = pData(18, i)
     If pData(10, i) = team Then teamCnt(0) = teamCnt(0) + 1
@@ -1003,7 +1017,7 @@ For i = 0 To 4
         fppg(1) = IIf(IsNull(pData(5, j)), 0, pData(5, j))
         If Not IsNull(pData(15, j)) Then points(1) = pData(15, j)
         ppts(1) = IIf(IsNull(pData(16, j)), 0, pData(16, j))
-        pos(1) = pData(1, j) & ":" & pData(10, j) & IIf(Not IsNull(pData(12, j)), " " & pData(12, j), "")
+        pos(1) = pData(19, j)
         sKey(1) = pData(17, j)
         fKey(1) = pData(18, j)
         If pData(10, j) = team Then teamCnt(1) = teamCnt(1) + 1
@@ -1016,7 +1030,7 @@ For i = 0 To 4
             fppg(2) = IIf(IsNull(pData(5, k)), 0, pData(5, k))
             If Not IsNull(pData(15, k)) Then points(2) = pData(15, k)
             ppts(2) = IIf(IsNull(pData(16, k)), 0, pData(16, k))
-            pos(2) = pData(1, k) & ":" & pData(10, k) & IIf(Not IsNull(pData(12, k)), " " & pData(12, k), "")
+            pos(2) = pData(19, k)
             sKey(2) = pData(17, k)
             fKey(2) = pData(18, k)
             If pData(10, k) = team Then teamCnt(2) = teamCnt(2) + 1
@@ -1029,7 +1043,7 @@ For i = 0 To 4
                 fppg(3) = IIf(IsNull(pData(5, l)), 0, pData(5, l))
                 If Not IsNull(pData(15, l)) Then points(3) = pData(15, l)
                 ppts(3) = IIf(IsNull(pData(16, l)), 0, pData(16, l))
-                pos(3) = pData(1, l) & ":" & pData(10, l) & IIf(Not IsNull(pData(12, l)), " " & pData(12, l), "")
+                pos(3) = pData(19, l)
                 sKey(3) = pData(17, l)
                 fKey(3) = pData(18, l)
                 If pData(10, l) = team Then teamCnt(3) = teamCnt(3) + 1
@@ -1042,28 +1056,27 @@ For i = 0 To 4
                     fppg(4) = IIf(IsNull(pData(5, m)), 0, pData(5, m))
                     If Not IsNull(pData(15, m)) Then points(4) = pData(15, m)
                     ppts(4) = IIf(IsNull(pData(16, m)), 0, pData(16, m))
-                    pos(4) = pData(1, m) & ":" & pData(10, m) & IIf(Not IsNull(pData(12, m)), " " & pData(12, m), "")
+                    pos(4) = pData(19, m)
                     sKey(4) = pData(17, m)
                     fKey(4) = pData(18, m)
                     If pData(10, m) = team Then teamCnt(4) = teamCnt(4) + 1
 
-                    'For o = m + 1 To UBound(pData, 2)
-                    '    teamCnt(5) = 0
-                    '    id(5) = pData(0, o) & ":" & pData(3, o)
-                    '    salary(5) = pData(7, o)
-                    '    mvpSalary(5) = pData(8, o)
-                    '    fppg(5) = IIf(IsNull(pData(5, o)), 0, pData(5, o))
-                    '    If Not IsNull(pData(15, o)) Then points(5) = pData(15, o)
-                    '    ppts(5) = IIf(IsNull(pData(16, o)), 0, pData(16, o))
-                    '    pos(5) = pData(1, o) & ":" & pData(10, o) & IIf(Not IsNull(pData(12, o)), " " & pData(12, o), "")
-                    '    sKey(5) = pData(17, o)
-                    '    fKey(5) = pData(18, o)
-                    '    If pData(10, o) = team Then teamCnt(5) = teamCnt(5) + 1
+                    For o = m + 1 To UBound(pData, 2)
+                        teamCnt(5) = 0
+                        id(5) = pData(0, o) & ":" & pData(3, o)
+                        salary(5) = pData(7, o)
+                        mvpSalary(5) = pData(8, o)
+                        fppg(5) = IIf(IsNull(pData(5, o)), 0, pData(5, o))
+                        If Not IsNull(pData(15, o)) Then points(5) = pData(15, o)
+                        ppts(5) = IIf(IsNull(pData(16, o)), 0, pData(16, o))
+                        pos(5) = pData(19, o)
+                        sKey(5) = pData(17, o)
+                        fKey(5) = pData(18, o)
+                        If pData(10, o) = team Then teamCnt(5) = teamCnt(5) + 1
                     
-                    '    If salary(0) + salary(1) + salary(2) + salary(3) + salary(4) + mvpSalary(5) <= 60000 And
-                        If salary(0) + salary(1) + salary(2) + salary(3) + salary(4) <= 60000 And _
+                        If salary(0) + salary(1) + salary(2) + salary(3) + salary(4) + mvpSalary(5) <= 60000 And _
                             WorksheetFunction.Sum(teamCnt) > 0 And _
-                            WorksheetFunction.Sum(teamCnt) < 5 Then
+                            WorksheetFunction.Sum(teamCnt) < 6 Then
                                 For n = 1 To pnum
                                     Select Case n
                                         Case 1
@@ -1083,9 +1096,9 @@ For i = 0 To 4
                                     If mvpSalary(nArr(0)) + salary(nArr(1)) + salary(nArr(2)) + salary(nArr(3)) + salary(nArr(4)) + salary(nArr(5)) <= 60000 Then
                                         arr(row, 0) = row
                                         arr(row, 1) = groupRow
-                                        arr(row, 2) = WorksheetFunction.Small(sKey, 2) & WorksheetFunction.Small(sKey, 3)
+                                        arr(row, 2) = Application.Small(sKey, 1) & Application.Small(sKey, 2)
                                         arr(row, 3) = sKey(nArr(0))
-                                        arr(row, 4) = WorksheetFunction.Small(sKey, 6)
+                                        arr(row, 4) = Application.Small(sKey, 5) & Application.Small(sKey, 6)
                                         arr(row, 5) = pos(nArr(0))
                                         arr(row, 6) = pos(nArr(1))
                                         arr(row, 7) = pos(nArr(2))
@@ -1096,7 +1109,7 @@ For i = 0 To 4
                                         arr(row, 12) = teamCnt(nArr(0)) + teamCnt(nArr(1)) + teamCnt(nArr(2)) + teamCnt(nArr(3)) + teamCnt(nArr(4)) + teamCnt(nArr(5))
                                         arr(row, 13) = mvpSalary(nArr(0)) + salary(nArr(1)) + salary(nArr(2)) + salary(nArr(3)) + salary(nArr(4)) + salary(nArr(5))
                                         arr(row, 14) = Round(fppg(nArr(0)) + fppg(nArr(1)) + fppg(nArr(2)) + fppg(nArr(3)) + fppg(nArr(4)) + fppg(nArr(5)), 2)
-                                        arr(row, 15) = Round(ppts(nArr(0)) + ppts(nArr(1)) + ppts(nArr(2)) + ppts(nArr(3)) + ppts(nArr(4)) + ppts(nArr(5)), 2)
+                                        arr(row, 15) = Round(1.5 * ppts(nArr(0)) + ppts(nArr(1)) + ppts(nArr(2)) + ppts(nArr(3)) + ppts(nArr(4)) + ppts(nArr(5)), 2)
                                         arr(row, 16) = Round(1.5 * points(nArr(0)) + points(nArr(1)) + points(nArr(2)) + points(nArr(3)) + points(nArr(4)) + points(nArr(5)), 2)
                                         arr(row, 17) = id(nArr(0))
                                         arr(row, 18) = id(nArr(1))
@@ -1112,8 +1125,8 @@ For i = 0 To 4
                             groupRow = groupRow + 1
                         End If
                         If row = pMaxRows Then Exit For
-                    'Next o
-                    'If row = pMaxRows Then Exit For
+                    Next o
+                    If row = pMaxRows Then Exit For
                 Next m
                 If row = pMaxRows Then Exit For
             Next l
